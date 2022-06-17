@@ -2,4 +2,4 @@
 
 A modding guide for Tale of Two Wastelands v3.3.1
 
-https://wastelandsurvivalguide.github.io
+https://wastelandsurvivalguide.com
