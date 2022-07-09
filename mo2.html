@@ -33,17 +33,17 @@ SOFTWARE.
 <body>
     <div class="sidebar">
         <a href="./index.html">Intro</a>
-        <a href="./setup.html">Game Setup</a>
-        <a href="./mo2.html" class="active">MO2 Setup</a>
-        <a href="./ttw.html">TTW Setup</a>
-        <a href="./utilities.html">Utilities</a>
+        <a style="color:white" href="./setup.html">Game Setup</a>
+        <a style="color:white" href="./mo2.html" class="active">MO2 Setup</a>
+        <a style="color:white" href="./ttw.html">TTW Setup</a>
+        <a style="color:white" href="./utilities.html">Utilities</a>
         <a href="./ui.html">UI/HUD</a>
         <a href="./gameplay.html">Gameplay</a>
         <a href="./content.html">Content</a>
         <a href="./homes.html">Homes</a>
         <a href="./overhauls.html">Overhauls</a>
-        <a href="./aesthetics.html">Aesthetics</a>
-        <a href="./finish.html">Finish</a>
+        <a href="./visuals.html">Visuals</a>
+        <a style="color:white" href="./finish.html">Finish</a>
         <a href="./appendix.html">Appendix</a>
     </div>
     <header>
@@ -88,10 +88,9 @@ SOFTWARE.
             again anyway - the following steps apply to absolutely <strong>everyone</strong>. While it may seem counter-intuitive, you need to <strong>download the installer again</strong> and make a new <strong>portable
                 instance</strong>. This is the case no matter how many other MO2 setups you may already have - this guide will completely ignore those setups by design</blockquote>
         <ol>
-            <li>Download the <strong>Mod Organizer 2</strong> main file from <a href="https://www.nexusmods.com/skyrimspecialedition/mods/6194?tab=files" target="_blank">here</a>
+            <li>Download <a href="https://www.nexusmods.com/skyrimspecialedition/mods/6194?tab=files" target="_blank"><strong>Main File - Mod Organizer 2</strong></a> using the <strong>Manual Download</strong> link and run the installer
             </li>
-            <li>Once the download has finished, run the installer</li>
-            <li>When prompted to choose an install location, pick any unoccupied location outside of any default Window folders and outside of the game's <strong>Root</strong> folder (e.g.
+            <li>Choose any unoccupied install location outside of any default Window folders and outside of the game's <strong>Root</strong> folder (e.g.
                 <code>C:/Modding/Mod Organizer 2/</code>)
             </li>
             <li>Although it doesn't technically have to be installed on the same drive as the game, it is still recommended to install on an SSD if possible</li>
@@ -109,7 +108,7 @@ SOFTWARE.
             <li>On the next page, keep the <strong>Location</strong> file path default</li>
         </ol>
 
-        <blockquote><i class="fas fa-hdd"></i> If you have MO2 installed on an SSD or a HDD with little space, you can check the <strong>Show advanced
+        <blockquote><i class="fas fa-hdd"></i> If you have MO2 installed on a drive with little space, you can check the <strong>Show advanced
                 options</strong> box and change the <strong>Downloads</strong> file path to a different drive with more space. This will not affect download/game performance, and the downloads can be deleted after the mods have been installed.
         </blockquote>
 
@@ -121,16 +120,18 @@ SOFTWARE.
                 <li>This pop-up will not show up if you have already registered a different instance of MO2</li>
             </ul>
         </ol>
+        <blockquote>If at any point you get a pop-up called <strong>INI file is read-only</strong>, select <strong>Remember
+            my choice</strong> from the drop-down at the bottom then click <strong>Clear the read-only flag</strong></blockquote>
 
         <h3>Root Builder Setup</h3>
-        If you want to know how Root Builder works, read <a href="./rootbuilder.html">here.</a> Steps will be provided anyway in case you only want to follow along without understanding the plugin.
+        If you would like to learn how Root Builder works, read <a href="./rootbuilder.html">here.</a> The following are just the basic steps for installation:
         <ol>
-            <li>Download the <strong>Root Builder</strong> main file from <a href="https://www.nexusmods.com/skyrimspecialedition/mods/31720?tab=files" target="_blank">here</a>
+            <li>Download <a href="https://www.nexusmods.com/skyrimspecialedition/mods/31720?tab=files" target="_blank"><strong>Root Builder - Main File</strong></a> using the <strong>Manual Download</strong> option
             </li>
-            <li>Once the download has finished, click the <img src="./img/mo2 folders.png" alt="mo2 folders"> button at the top of MO2 and select <strong>Open MO2 Plugins Folder</strong></li>
+            <li>Click the <img src="./img/mo2 folders.png" alt="mo2 folders"> button at the top of MO2 and select <strong>Open MO2 Plugins Folder</strong></li>
             <li>Place the <strong>rootbuilder</strong> folder from the extracted archive into the opened folder</li>
             <img src="./img/rootbuilderlocation.png" alt="Root Builder Location">
-            <li><strong>Close Mod Organizer 2</strong> and open it again so the plugin can be detected before moving onto the next section</li>
+            <li><strong>Close MO2 then open it again</strong> and you should now see Root Builder in the <img src="./img/mo2 ini.png" alt="mo2 ini"> menu at the top of MO2</li>
         </ol>
 
         <h3>Configuring Settings</h3>
@@ -165,8 +166,6 @@ SOFTWARE.
             <li>MO2 will open your browser and prompt you to authorize the connection</li>
             <li>Once you authorize it, you can close out of your browser and of the MO2 settings</li>
             <li>Allow MO2 to restart if it asks</li>
-            <blockquote>If at any point you get a pop-up called <strong>INI file is read-only</strong>, select <strong>Remember
-            my choice</strong> from the drop-down at the bottom then click <strong>Clear the read-only flag</strong></blockquote>
             <li>Select the <img src="./img/mo2 profiles.png" alt="mo2 profiles"> button at the top of MO2 to open the profiles menu</li>
             <li>Select the <strong>Default</strong> profile and make sure both <i class="far fa-check-square"></i> <b>Use profile-specific Game INI
                     Files</b> and <i class="far fa-check-square"></i> <b>Automatic Archive Invalidation</b> are checked at the bottom</li>
