@@ -110,9 +110,9 @@ ul {
 }
 
 ul.columns {
-    columns: 4;
-    -webkit-columns: 4;
-    -moz-columns: 4b;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3b;
 }
 
 li {
