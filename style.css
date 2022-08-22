@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @font-face {
     font-family: 'monofontoregular';
     src: url('./css/monofonto-webfont.woff2') format('woff2'), url('./css/monofonto-webfont.woff') format('woff');
@@ -12,11 +13,10 @@ html {
 }
 
 body {
-    max-width: 80%;
+    max-width: 70%;
     font-size: 1.8rem;
     line-height: 1.618;
-    margin-left: auto;
-    margin-right: 5%;
+    margin: auto;
     color: #d6dbd8;
     background-color: #0d110b;
     padding: 13px;
@@ -53,28 +53,27 @@ h6 {
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     font-family: 'Special Elite', cursive;
-    text-transform: uppercase;
 }
 
 h2 {
     font-family: 'Roboto Condensed';
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 h3 {
     font-family: 'Roboto Condensed';
     font-weight: 400;
-    font-size: 4rem;
-}
-
-h4 {
     font-size: 3rem;
 }
 
-h5 {
+h4 {
     font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.8rem;
 }
 
 h6 {
@@ -320,7 +319,7 @@ abbr {
 
 .sidebar a {
     display: block;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 0 1rem 0 1rem;
     line-height: 1.6;
     color: #A0EA98;
@@ -388,12 +387,12 @@ span.continue {
     padding-bottom: 2rem;
     display: table;
     max-width: 100%;
-    font-size: 4.5rem;
+    font-size: 3rem;
     line-height: 1.3;
     color: #A0EA98;
     text-decoration: none;
     font-family: 'monofontoregular';
-    font-weight: 1000;
+    font-weight: 500;
     overflow-wrap: break-word;
     word-wrap: break-word;
     -ms-word-break: break-all;
@@ -406,7 +405,7 @@ span.continue {
 
 .continue a {
     display: block;
-    font-size: 5rem;
+    font-size: 3rem;
     padding: 0 1rem 0 1rem;
     line-height: 1.6;
     color: #A0EA98;
