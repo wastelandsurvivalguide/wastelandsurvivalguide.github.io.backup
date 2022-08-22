@@ -14,6 +14,7 @@ html {
 
 body {
     max-width: 80%;
+    font-size: 1.6rem;
     line-height: 1.618;
     margin: auto;
     color: #d6dbd8;
