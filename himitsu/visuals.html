@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Wasteland Survival Guide</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="./style.css" type="text/css">
+<link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+<script src="https://kit.fontawesome.com/a83e24dd8d.js" crossorigin="anonymous"></script>
+
+<body>
+    <div class="sidebar">
+        <a href="./index.html">Intro</a>
+        <a href="./setup.html">Game Setup</a>
+        <a href="./mo2.html">MO2 Setup</a>
+        <a href="./ttw.html">TTW Setup</a>
+        <a href="./utilities.html">Utilities</a>
+        <a href="./ui.html">UI/HUD</a>
+        <a href="./gameplay.html">Gameplay</a>
+        <a href="./content.html">Content</a>
+        <a href="./homes.html">Homes</a>
+        <a href="./overhauls.html">Overhauls</a>
+        <a href="./visuals.html" class="active">Visuals</a>
+        <a href="./finish.html">Finish</a>
+        <a href="./appendix.html">Appendix</a>
+    </div>
+    <header>
+        <a href="./index.html">
+            <h1>
+                <i class="fas fa-book-dead"></i> Wasteland Survival Guide
+            </h1>
+        </a>
+    </header>
+    <h2>
+        <i class="fas fa-paint-roller"></i> Visuals
+    </h2>
+    <hr>
+    <h3>First, create a "Visuals" <a href="./img/mo2%20separator.png" target="new">separator</a> in MO2. </h3>
+    <h5>As you install the mods from this section, organize them underneath this separator.</h5>
+    <blockquote><i class="fab fa-delicious"></i> If you are curious about/disappointed by the lack of texture mods in this section, the WSG team doesn't really use texture mods & they are generally compatible with everything, so for that reason they are considered
+        outside of the scope of the guide. If you are interested in texture packs, <a target="_blank" href="https://salamand3r.fail/texture-guide">here is a texture guide</a> contributed by <b>Salamand3r</b> to help you get started. No support is provided
+        for these textures, but do enjoy.</blockquote>
+    <table>
+        <tr>
+            <th colspan="3">
+                <h4><i class="fas fa-gun"></i> Animations - Guns & Energy Weapons</h4>
+                <blockquote>In case you are new to kNVSE, yes: you can use these all together</blockquote>
+            </th>
+        </tr>
+        <tr>
+            <th>Mod Name</th>
+            <th>Description</th>
+            <th>Instructions</th>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/75417">ISControl Enabler</a></td>
+            <td><strong>REQUIRED</strong> for the following animations - automatically creates ##ISControl nodes for weapons with sighting nodes</td>
+            <td><strong>Main File - ISControl</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/64335">B42 Weapon Inertia</a></td>
+            <td>Makes weapon movement feel more natural and realistic, watch the provided video</td>
+            <td><strong>Main File - B42 Inertia</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/68776">NV Compatibility Skeleton</a></td>
+            <td> A skeleton with compatibility for the latest mods, required for B42 Inertia above
+                <blockquote class="yellow">
+                    <i class="fas fa-exclamation-triangle"></i> If you install any other mods which require this mod, <strong>allow Compatibility Skeleton to overwrite them</strong> by dragging it below them in MO2's left pane!</blockquote>
+            </td>
+            <td>
+                <ul>
+                    <li><strong>Main File - NVCS Installer</strong></li>
+                    <ul>
+                        <li>In the prompt just click
+                            <button>Install</button>
+                        </li>
+                    </ul>
+                </ul>
+
+            </td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/70158">Anniversary Anim Pack</a></td>
+            <td>Includes three of Hitman's previous animation/bugfix mods, Subtle Camera Motion, Iron Sights Recoil Animations, and Fire Animation Variants. Also includes some new previously unreleased animations</td>
+            <td><strong>Main File - Anniversary Anim Pack</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/72320">Anniversary Anim Pack - General Bugfix</a></td>
+            <td>Fixed camera jumps, animation snapping, movement lock, broken aim in 3rd person</td>
+            <td>
+                <ul>
+                    <li><strong>Main File - AnniAnimPack_BugFix</strong></li>
+                    <li><strong>Main File - Bonus Patch</strong></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/70599">FNV Clean Animations</a></td>
+            <td>Clean first person animations for New Vegas from <b>rockbiter</b>. A solid base for adding other animations on top</td>
+            <td>
+                <ul>
+                    <li><strong>Main File - FNV Clean Animations</strong></li>
+                    <li><strong>Update File - FNV Clean Animations - Update</strong></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/75208">Hit's Anims - Season 2</a></td>
+            <td>Animations from <b>Hitman</b> for (mostly) energy weapons</td>
+            <td><strong>Main File - Hit's Anims - Season 2</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/76843">Hit's Anims - Season 3</a></td>
+            <td>Animations from <b>Hitman</b> for many different weapons</td>
+            <td><strong>Main File - Hit's Anims - Season 3</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/76457">Hit's Anims - Animation Fixes</a></td>
+            <td>Adds Hitman's animations to some left-out weapons, restores vanilla pistol RoF & other fixes</td>
+            <td><strong>Main File - Hit's Anims - Animation Fixes</strong></td>
+        </tr>
+        <tr>
+            <th colspan="3">
+                <h4><i class="fas fa-fist"></i> Animations - Melee & Unarmed</h4>
+            </th>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/76055">Butcher Pete - Part 1</a></td>
+            <td>Animations from <b>rockbiter</b> for cleaver and machete-based weapons</td>
+            <td><strong>Main File - Butcher Pete - A Melee Animation Overhaul (Part 1)</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/77177">Butcher Pete - Part 2</a></td>
+            <td>Animations from <b>rockbiter</b> for knives and blades</td>
+            <td><strong>Main File - Butcher Pete - A Melee Animation Overhaul (Part 2)</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/75981">Melee Hitstop Effects</a></td>
+            <td>Adds hitstop (a very short pause of game time) to melee attacks, giving them a feeling of weight & impact</td>
+            <td><strong>Main File - Melee Hitstop Effects</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/73480">Melee VATS Animation Restoration</a></td>
+            <td>Restores melee VATS animations that were present in FO3 but not FNV</td>
+            <td><strong>Main File - Melee VATS Animation Restoration</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/77405">SIGMA Melee Animations Chapter 1</a></td>
+            <td>Animations from <b>Sigerious</b> for a wide array of melee weapons</td>
+            <td><strong>Main File - SIGMA - Melee animations - Chapter 1</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/77517">SIGMA Baseball Bat and Golf Club Animations</a></td>
+            <td>More lovely melee animations from <b>Sigerious</b></td>
+            <td><strong>Main File - SIGMA - Baseball</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/75909">Unarmed Animations</a></td>
+            <td>Animations from <b>Johnson</b> for unarmed weapons</td>
+            <td>
+                <ul>
+                    <li>
+                        <strong>Main File - Unarmed Animations</strong>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <strong>Patch - </strong><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/76287">Johnsons Unarmed Animations for Bare Fists</a>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th colspan="3">
+                <h4><i class="fas fa-palette"></i> Visuals</h4>
+            </th>
+        </tr>
+        <tr>
+            <th>Mod Name</th>
+            <th>Description</th>
+            <th>Instructions</th>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/46451">Improved LOD Noise Texture</a></td>
+            <td>Makes distant land textures less ugly</td>
+            <td><strong>Main File - Improved LOD noise Texture</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/71577">Mostly Fixed Facegen Tints TTW</a></td>
+            <td>Removes unsightly green tint from NPC face textures</td>
+            <td><strong>Main File - FaceGen Tint Fixes for TTW</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/74786">Power Armor Visual Enhancement</a></td>
+            <td>PAVE is a retexture pack for all power armors in FNV and F3/TTW</td>
+            <td>
+                <ul>
+                    <li><strong>Main File - Power Armor Visual Enhancement 2K</strong></li>
+                    <ul>
+                        <li>Double-click the mod in the left pane & use the <strong>Optional ESPs</strong> menu to hide <b>PAVE_NV.esp</b></li>
+                    </ul>
+                    <li><strong>Patch - </strong><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/77758">sawyerbattyPAVE</a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/75968">Real Unique Gehenna</a></td>
+            <td>Gives Gehenna (unique Shishkebab) a stylish blue flame to set it apart from the normal variety</td>
+            <td><strong>Main File - Real Unique Gehenna ENG</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://www.nexusmods.com/newvegas/mods/69245">Securitrons on Alert</a>
+            </td>
+            <td>
+                Securitrons' faces will change when they enter combat mode
+            </td>
+            <td>
+                <strong>Main File - Securitrons On Alert</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://www.nexusmods.com/newvegas/mods/65046">CPI - Mod Patches</a>
+            </td>
+            <td>
+                Gives the "Consistent Pip Boy Icons" treatment to modded content such as Cyberware
+                <blockquote class="blue"><i class="fas fa-question-circle"></i> We install this file very late in the guide to ensure it overwrites all the other mods in the guide and we can see all of its icons</blockquote>
+            </td>
+            <td>
+                <ul>
+                    <li><strong>Main File - 3. CPI - Mod Patches</strong></li>
+                    <ul>
+                        <li>In the Installer just click <button>Install</button></li>
+                    </ul>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th colspan="3">
+                <h4><i class="fas fa-cloud-sun-rain"></i> Lighting & Weather</h4>
+            </th>
+        </tr>
+        <tr>
+            <th>Mod Name</th>
+            <th>Description</th>
+            <th>Instructions</th>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/75183">Dusty Distance Redone</a></td>
+            <td>Applies a subtle "distant fog" effect that looks nice and can hide ugly LOD, z-fighting and other engine bugs without feeling intrusive</td>
+            <td>
+                <ul>
+                    <li><strong>Main File - Dusty Distance Redone</strong></li>
+                    <li><strong>Optional File - Dusty Distance Redone - 39k (no nights tweaks)</strong></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/77455/">Improved Lighting Shaders</a></td>
+            <td>Fixes exterior lighting bugs & allows up to 4x the number of active lights</td>
+            <td><strong>Main File - Improved Lighting Shaders Preconfigured</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/77683">MoonlightNVSE</a></td>
+            <td>Fixes moonlight, making the moon the light caster instead of the sun</td>
+            <td><strong>Main File - MoonlightNVSE</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/73742">No More Muzzle Flash Lights</a></td>
+            <td><strong>Improves game performance</strong> in combat by disabling lights cast on the environment by muzzle flashes. Only the radiant light cast <i>by</i> the flashes is disabled - not the muzzle flashes themselves</td>
+            <td><strong>Main File - No More Muzzle Flash Lights</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/71390">Simple Interior Lighting Overhaul</a></td>
+            <td>Scripted simple solution for more immersive interiors. No FPS loss, no bloat. Automatic support for all interiors, including ones added by mods - including TTW</td>
+            <td>
+                <ul>
+                    <li> <strong>Main File - Simple Interior Lighting Overhaul</strong>
+                    </li>
+                    <li><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/75958">Simple Interior Lighting Overhaul - TTW Patch</a> - <strong>SILO TTW Patch</strong></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/75437">Desert Natural Weathers</a></td>
+            <td>An overhaul of the weathers in New Vegas with 360 degree panoramic cloud textures, improved lighting, and DLC support</td>
+            <td>
+                <strong>Main File - Desert Natural Weathers TTW</strong>
+            </td>
+        </tr>
+    </table>
+    <span class="continue">
+    <a href="./finish.html">Continue to Final Steps <i class="fas fa-angle-double-right"></i>
+    </a>
+  </span>
+    <hr>
+    <footer> Guide created by <a href="./contributors.html">WSG contributors</a>, do not reproduce without permission. </footer>
+</body>
+
+</html>
