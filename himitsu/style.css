@@ -128,7 +128,7 @@ blockquote {
     border-left: 5px solid #bd93f9;
     border-radius: 0.5rem;
     margin-bottom: 2.5rem;
-    background-color: #393f35;
+    background-color: #3a353f;
 }
 
 blockquote.blue {
@@ -332,9 +332,9 @@ abbr {
 
 .sidebar a.active {
     background-color: #bd93f988;
-    outline: rgb(190, 255, 190) solid 2px;
+    outline: rgb(225, 190, 255) solid 2px;
     outline-offset: -2px;
-    color: rgb(190, 255, 190);
+    color: rgb(225, 190, 255);
 }
 
 
@@ -342,7 +342,7 @@ abbr {
 
 .sidebar a:hover:not(.active) {
     background-color: rgb(37, 49, 37);
-    outline: rgb(190, 255, 190) solid 2px;
+    outline: rgb(225, 190, 255) solid 2px;
     outline-offset: -2px;
 }
 
