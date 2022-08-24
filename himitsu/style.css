@@ -87,7 +87,7 @@ sup {
 }
 
 hr {
-    border-color: #bd93f9;
+    border-color: #ff79c6;
 }
 
 a {
@@ -125,25 +125,10 @@ blockquote {
     padding-top: 0.8em;
     padding-bottom: 0.8em;
     padding-right: 0.8em;
-    border-left: 5px solid #bd93f9;
+    border-left: 5px solid #ff79c6;
     border-radius: 0.5rem;
     margin-bottom: 2.5rem;
-    background-color: #6272a4;
-}
-
-blockquote.blue {
-    border-left: 5px solid #98a0ea;
-    background-color: #35393f;
-}
-
-blockquote.red {
-    border-left: 5px solid #ea98a0;
-    background-color: #3f3539;
-}
-
-blockquote.yellow {
-    border-left: 5px solid #e5ea98;
-    background-color: #3f3b35;
+    background-color: #44475a;
 }
 
 blockquote p {
@@ -418,9 +403,9 @@ span.continue {
 
 .continue a:hover {
     background-color: rgb(45, 37, 49);
-    outline: rgb(225, 190, 255) solid 4px;
+    outline: #ff79c6 solid 4px;
 }
 
 strong {
-    color: #ff79c6;
+    color: #f8f8f2;
 }
