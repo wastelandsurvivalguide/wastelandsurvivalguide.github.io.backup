@@ -418,9 +418,9 @@ span.continue {
 
 .continue a:hover {
     background-color: rgb(37, 49, 37);
-    outline: rgb(190, 255, 190) solid 4px;
+    outline: rgb(225, 190, 255) solid 4px;
 }
 
 strong {
-    color: rgb(190, 255, 190);
+    color: rgb(235, 200, 255);
 }
