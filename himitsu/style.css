@@ -282,7 +282,7 @@ input[type] {
 textarea:focus,
 select:focus,
 input[type]:focus {
-    border: 1px dashed #393F35;
+    border: 1px dashed #3b353f;
     outline: 0;
 }
 
@@ -341,7 +341,7 @@ abbr {
 /* Links on mouse-over */
 
 .sidebar a:hover:not(.active) {
-    background-color: rgb(37, 49, 37);
+    background-color: rgb(45, 37, 49);
     outline: rgb(225, 190, 255) solid 2px;
     outline-offset: -2px;
 }
@@ -417,7 +417,7 @@ span.continue {
 /* Active/current link */
 
 .continue a:hover {
-    background-color: rgb(37, 49, 37);
+    background-color: rgb(45, 37, 49);
     outline: rgb(225, 190, 255) solid 4px;
 }
 
