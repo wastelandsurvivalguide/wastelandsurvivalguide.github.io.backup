@@ -131,6 +131,7 @@ blockquote {
     border-radius: 0.5rem;
     margin-bottom: 2.5rem;
     background-color: #393f35;
+    background-opacity: 90%;
 }
 
 blockquote.blue {
