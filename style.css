@@ -135,7 +135,7 @@ blockquote {
 
 blockquote.blue {
     border-left: 8px solid #98a0ea;
-    background-color: rgbrgb(139, 233, 253,0.3);
+    background-color: rgb(139, 233, 253,0.3);
 }
 
 blockquote.red {
