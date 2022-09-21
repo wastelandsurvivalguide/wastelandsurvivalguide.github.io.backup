@@ -130,22 +130,22 @@ blockquote {
     border-left: 8px solid rgb(80, 250, 123);
     border-radius: 0.5rem;
     margin-bottom: 2.5rem;
-    background-color: rgb(80, 250, 123,0.3)
+    background-color: rgb(80, 250, 123,0.1)
 }
 
 blockquote.blue {
     border-left: 8px solid rgb(139, 233, 253);
-    background-color: rgb(139, 233, 253,0.3);
+    background-color: rgb(139, 233, 253,0.1);
 }
 
 blockquote.red {
     border-left: 8px solid rgb(255, 85, 85);
-    background-color: rgb(255, 85, 85,0.3);
+    background-color: rgb(255, 85, 85,0.1);
 }
 
 blockquote.yellow {
     border-left: 8px solid rgb(241, 250, 140);
-    background-color: rgb(241, 250, 140,0.3);
+    background-color: rgb(241, 250, 140,0.1);
 }
 
 blockquote p {
