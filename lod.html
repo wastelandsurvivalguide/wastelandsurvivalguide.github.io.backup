@@ -45,12 +45,12 @@
         <hr>
         <h2 class="subheader" id="installing_lodgen">Installing xLODGen</h2>
             <ol class="standard_ol">
-                <li>Download the latest <strong>xLODGen</strong> file from <a href="https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-94-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/" target="_blank">here</a></li>
-                <li>Once the download has finished, extract the contents of the archive to any location of your choice</li>
-                <li>In MO2, select the <img src="./img/mo2 executabes.png" alt="mo2 executables"> button at the top of MO2 to open the executables menu</li>
+                <li>Download the latest <strong>xLODGen</strong> file from <a href="https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-94-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/" target="_blank">here</a>.</li>
+                <li>Once the download has finished, extract the contents of the archive to any location of your choice.</li>
+                <li>In MO2, select the <img src="./img/mo2 executabes.png" alt="mo2 executables"> button at the top of MO2 to open the executables menu.</li>
                 <li>Click the <strong style="color:rgb(20, 162, 228)">+</strong> at the top of the window and the select <strong>Add from file...</strong></li>
-                <li>From the pop-up, navigate to where xLODGen is installed and select <strong>xLODGen.exe</strong></li>
-                <li>In the <b>Arguments</b> box in the right pane, enter <code>-FNV -O:"C:\Output\"</code></li>
+                <li>From the pop-up, navigate to where xLODGen is installed and select <strong>xLODGen.exe</strong>.</li>
+                <li>In the <b>Arguments</b> box in the right pane, enter: <code>-FNV -O:"C:\Output\"</code></li>
             </ol>
             <blockquote class="blockquote">
                 This argument will make the files generated through xLODGen appear in a folder called <b>Output</b> on your <b>C:\</b> drive (the drive Windows is installed on).
@@ -68,27 +68,27 @@
             </ul>
         <h2 class="subheader" id="running_lodgen">Running xLODGen</h2>
             <ol class="standard_ol">
-                <li>Select xLODGen from the executables drop-down in the top right of MO2 and click <strong>Run</strong></li>
-                <li>Once the program has loaded, right-click in the left pane and click <strong>Select All</strong></li>
-                <li>In the right pane, check <strong>Objects LOD</strong> but leave <strong>Trees LOD</strong> unchecked</li>
+                <li>Select xLODGen from the executables drop-down in the top right of MO2 and click <strong>Run</strong>.</li>
+                <li>Once the program has loaded, right-click in the left pane and click <strong>Select All</strong>.</li>
+                <li>In the right pane, check <strong>Objects LOD</strong> but leave <strong>Trees LOD</strong> unchecked.</li>
             </ol>
             <blockquote class="blockquote">
                 Tree LOD is not functional in New Vegas. LOD for trees is covered in Object LOD.
             </blockquote>
             <ol class="standard_ol" start="4">
-                <li>Under the <strong>Objects LOD</strong> section, change the <strong>Atlas size</strong> option to <strong>8192 </strong> x <strong>8192</strong></li>
-                <li>Select <strong>Generate</strong></li>
-                <li>Wait for the message <strong>LOD Generator: finished (you can close this application now)</strong> to appear (Generation time depends on your CPU performance), then close out of the program</li>
-                <li>In MO2, right-click on the <i>Overwrite</i> folder at the bottom of the left pane and select <strong>All Mods -> Create empty mod above</strong></li>
-                <li>Title the mod <strong>FNVLODGen Output</strong></li>
-                <li>Navigate to where the LOD files were generated and select both the <code>textures</code> and <code>meshes</code> folders</li>
-                <li>Cut them to the <strong>FNVLODGen Output</strong> mod you just created (right-click on the mod and select <b>Open in Explorer)</b></li>
-                <li>Download and install the <a target="_blank" href="./dl/Destroyed Megaton LOD.7z">Destroyed Megaton LOD</a> plugin (Make sure the plugin is enabled)</li>
-                <li>Run xLODGen again like in step 1, but this time only select <strong>Capital Wasteland</strong> on the left pane</li>
-                <li>Go in the <strong>Output</strong> folder you made at the beginning, you will see the meshes and textures folder. Download <a target="_blank" href="./dl/Megaton Files Renamer.7z">this BAT file</a> and place it there</li>
+                <li>Under the <strong>Objects LOD</strong> section, change the <strong>Atlas size</strong> option to <strong>8192 </strong> x <strong>8192</strong>.</li>
+                <li>Select <strong>Generate</strong>.</li>
+                <li>Wait for the message <strong>LOD Generator: finished (you can close this application now)</strong> to appear (Generation time depends on your CPU performance), then close out of the program.</li>
+                <li>In MO2, right-click on the <i>Overwrite</i> folder at the bottom of the left pane and select <strong>All Mods -> Create empty mod above.</strong></li>
+                <li>Title the mod <strong>FNVLODGen Output.</strong></li>
+                <li>Navigate to where the LOD files were generated and select both the <code>textures</code> and <code>meshes</code> folders.</li>
+                <li>Cut them to the <strong>FNVLODGen Output</strong> mod you just created (right-click on the mod and select <b>Open in Explorer).</b></li>
+                <li>Download and install the <a target="_blank" href="./dl/Destroyed Megaton LOD.7z">Destroyed Megaton LOD</a> plugin (Make sure the plugin is enabled).</li>
+                <li>Run xLODGen again like in step 1, but this time only select <strong>Capital Wasteland</strong> on the left pane.</li>
+                <li>Go in the <strong>Output</strong> folder you made at the beginning, you will see the meshes and textures folder. Download <a target="_blank" href="./dl/Megaton Files Renamer.7z">this BAT file</a> and place it there.</li>
                 <img src="./img/megatonbat.png" alt="bat file location">
-                <li>Run the BAT file and then cut your new generated Output like you did in step 9/10. When pasting the files into your mod in MO2 you will be asked to overwrite files, click <strong>Replace</strong></li>
-                <li>Remove/Disable the Destroyed Megaton LOD mod you installed in step 11</li>
+                <li>Run the BAT file and then cut your new generated Output like you did in step 9/10. When pasting the files into your mod in MO2 you will be asked to overwrite files, click <strong>Replace</strong>.</li>
+                <li>Remove/Disable the Destroyed Megaton LOD mod you installed in step 11.</li>
             </ol>
     </div>
 </body>
