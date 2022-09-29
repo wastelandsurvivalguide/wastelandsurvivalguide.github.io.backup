@@ -56,10 +56,9 @@
                 </p>
                 <h2 class="subheader" id="pluginstructure">Plugin Structure</h2>
                     <p class="subparagraph">
-                        Any plugin will be loaded by the game as long as it is properly structured (Created by tools such as xEdit or GECK) and if its extension is "ESP" or "ESM" (Also "ESL" for Fallout 4 and Skyrim Special Edition).
+                        Any plugin will be loaded by the game as long as it is properly structured (Created by tools such as xEdit or GECK) and if its extension is "ESP" or "ESM".
                         The basic content of a plugin is its own header, which defines info such as the version of that plugin (Has to match what the game uses for proper functionality, this is especially important if you want to port a mod from Fallout 3 to FNV/TTW). There is also information more important to an editor such as the author, description of that plugin, the number of records it contains (Any record, even overrides) and the flags assigned to the plugin (You'll mostly see "ESM" here).
-                        <blockquote class="blue"><i class="fas fa-question-circle"></i> If the plugin lacks an ESM flag but it has ESM as extension, the game will automatically load it as ESM during runtime, the same happens for ESL, which forces both the ESL and ESM flags
-                        </blockquote>
+                        <blockquote class="blue"><i class="fas fa-question-circle"></i> If the plugin lacks an ESM flag but it has ESM as extension, the game will automatically load it as ESM during runtime.</blockquote>
                         You can view plugins as a list of objects in unique containers that specify which type of content is inside. For example a weapon record will be contained under the Weapons category.
                         Each of these objects has it's own ID called FormID written in <a href="https://en.wikipedia.org/wiki/Hexadecimal" target="_blank">HEX</a> which makes it unique, but there is also an Editor ID which the game ignores and you can use for easier identification or filtering.
                         Going back to the weapon example, you can have the weapon itself (Base ID) or you can have instances of that weapon placed in the game world (Reference/Ref ID).
@@ -84,7 +83,7 @@
                             Now you can just edit that number (Right-click, edit) in your plugin. The plugin that are you changing is dictated by the column you choose to edit values in. Once you are done, just close xEdit and it will ask you to save. When you are back in Mod Organizer 2, you will find a new plugin in your overwrite folder, which is the plugin you just created.
                         </ol>
                     </p>
-    </div>
+        </div>
 
     <hr>
 
