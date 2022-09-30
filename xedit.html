@@ -32,9 +32,11 @@
         </a>
     </header>
 
-        <div>
-            <h2 class="fullheader">xEdit Basics</h2>
+    <h2 class="fullheader">xEdit Basics</h2>
 
+    <hr>
+
+        <div>
             <h2 class="subheader" id="requirements">Requirements</h2>
                 <p class="subparagraph">
                     <ul>
@@ -48,9 +50,7 @@
                     <ul>
                         <li>Override: Taking an existing record in a plugin and then editing it in another plugin.</li>
                         <li>Conflict: These happen once you start adding more than 1 plugin editing that record and if the plugins try changing the content into their own thing, which makes them conflict so the user has to decide what needs to be done. xEdit will represent these conflicts based on their type and with different colors both for the background of that record and for the text (Theres a legend for this).</li>
-                        <blockquote class="red">
-                            The <strong>Red or Green</strong> color of a record does not indicate whether you need to act or not, it's simply a classification of the type of conflict.
-                        </blockquote>
+                        <blockquote class="red">The <strong>Red or Green</strong> color of a record does not indicate whether you need to act or not, it's simply a classification of the type of conflict.</blockquote>
                         <li>Forwarding: If you want a change in a specific plugin to also be contained in another plugin, then you can drag that value or container of values into the other plugin. For example if a mod does not include a fix from the unofficial patch but it edits that record elsewhere, you can forward the fix and have both changes at once. Generally it is not recommended to forward or edit things directly in the mod plugins, you should always override into a new plugin that acts as a patch.</li>
                     </ul>
                 </p>
