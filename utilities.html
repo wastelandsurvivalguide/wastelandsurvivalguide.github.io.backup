@@ -66,105 +66,57 @@ SOFTWARE.
         all hard requirements.</blockquote>
 
     <h3>Mods installed manually</h3>
+    <h4><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/62552">FNV 4GB Patcher</a></h4>
+    <p>Makes Fallout New Vegas 4GB aware and automatically loads NVSE if present.</p>
+    <ol>
+        <li>Download the <strong>Main File - 4GB Patcher</strong> using the <strong>Manual Download</strong> button</li>
+        <li>From the downloaded archive, extract the <strong>.exe</strong> file to the game's <strong>Root</strong> folder</li>
+        <ul>
+            <li>If you do not know what the game's <strong>Root</strong> folder is, read the <a class="sublink" href="./setup.html#terms" target="_blank">Key Terminology</a> section from the <strong>Initial Setup</strong> page</li>
+        </ul>
+        <li>Right-click on <strong>FNVpatch.exe</strong> and select <strong>Run as administrator</strong></li>
+        <li>A command prompt window will open and should say <b>FalloutNV.exe patched!</b></li>
+        <li>Close the command prompt and a file named <strong>FalloutNV_backup.exe</strong> should appear in the game's <strong>Root</strong> folder</li>
+        <li>Back in MO2, press <strong>Ctrl+E</strong> to bring up the <b>Modify Executables</b> interface</li>
+        <li>Select <strong>NVSE</strong> on the left; enable &nbsp;<i class="fas fa-check-square"></i> <b>Hide in user interface</b> and click Okay</li>
+    </ol>
+    <blockquote class="blue"><i class="fas fa-info-circle"></i> From now on, you should run the game through the <strong>Tale of Two Wastelands</strong> option in MO2, rather than the <strong>NVSE</strong> option. The 4GB Patch automatically load NVSE when you run the game through
+        the regular executable, which is generally the safer option.</blockquote>
+
+    <h4><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/67883">xNVSE</a></h4>
+    <p>Expands the engine and scripting capabilities of Fallout New Vegas, fixing bugs and adding hundreds of new functions.</p>
+    <ol>
+        <li>Download the <strong>Main File - New Vegas Script Extender (NVSE)</strong> using the <strong>Manual Download</strong> button</li>
+        <li>Extract the contents of the archive to the <strong>Root</strong> folder:</li>
+        <img src="./install/img/nvse install.png" alt="xNVSE Install">
+        <blockquote class="blue"><i class="fas fa-info-circle"></i> Despite the filename, <strong>nvse_steam_loader.dll</strong> <b>is still needed</b> with the GOG version of the game.</blockquote>
+    </ol>
     <h4><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/69779">New Vegas Heap Replacer</a></h4>
     <p>Replaces the in-game heap with a faster, more optimized version, reducing load times & stutter and slightly improving frame rate.</p>
     <ol>
         <li>Download <strong>Main File - NVHR</strong> using the <strong>Manual Download</strong> button</li>
-        <li>From the downloaded archive, extract the <strong>Data</strong> folder and <strong>d3dx9_38.dll</strong> file to the game's <strong>Root</strong> folder
-            <blockquote class="blue"><i class="fas fa-info-circle"></i>By default, NVHR will create a terminal window every time the game is launched. This lets you know that the heap replacer has loaded successfully. If you would like the terminal to stop appearing, create a
-                file named "d3dx9_38.tmp" in the game's <strong>Root</strong> folder. This will not affect anything in-game. If you want the terminal to appear again, you can delete "d3dx9_38.tmp".</blockquote>
+        <li>Extract the contents of the archive to the game's <strong>Root</strong> folder
+            <blockquote class="blue"><i class="fas fa-info-circle"></i> By default, NVHR will create a terminal window every time the game is launched. This lets you know that the heap replacer has loaded successfully. If you would like the terminal to stop appearing, create
+                a file named "d3dx9_38.tmp" in the <strong>Root</strong> folder. This will not affect anything in-game. If you want the terminal to appear again, you can delete "d3dx9_38.tmp".</blockquote>
         </li>
-    </ol>
-
-    <h3>Mods installed using Root Builder</h3>
-    <h4><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/62552">FNV 4GB Patcher</a></h4>
-    <p>Makes Fallout New Vegas 4GB aware and automatically loads NVSE if present.</p>
-    <ol>
-        <li>Download the <strong>Main File - 4GB Patcher</strong> using the <strong>Manual Download</strong> option</li>
-        <li>From the downloaded archive, extract the <strong>.exe</strong> file to the game's <strong>Root</strong> folder </li>
-        <li>Right-click on <strong>FNVpatch.exe</strong> and select <strong>Run as administrator</strong></li>
-        <li>A command prompt window will open and should say <b>FalloutNV.exe patched!</b></li>
-        <li>Close the command prompt and a file named <strong>FalloutNV_backup.exe</strong> should appear in the game's <strong>Root</strong> folder</li>
-        <li>In MO2, click the <button><img src="./img/mo2%20settings%20small.png"> &nbsp;<i style="color:#bbbbbb" class="fas fa-caret-down"></i></button> icon and select <strong>Create empty mod</strong>; name it "4GB Patched EXE"</li>
-        <li>Activate the <b>4GB Patched EXE</b> mod you just made then CTRL + double-click it</li>
-        <li>In the opened folder, create a new folder named "Root"</li>
-        <img src="./img/4gbroot.png" alt="4GB Patcher Root Folder">
-        <li>Back in the game's <strong>Root</strong> folder, <dfn style="text-decoration:underline dashed" title="CTRL + X on Windows">cut</dfn> <b>FalloutNV.exe</b> and then paste it inside the Root folder you created in the previous step</li>
-        <li>Still in your game root folder, rename <b>FalloutNV_backup.exe</b> back into <b>FalloutNV.exe</b>.</li>
-        <li>Right click the 4GB Patched EXE mod in the left pane and click "Ignore missing data"</li>
-    </ol>
-    <h4><a target="_blank" href="https://github.com/xNVSE/NVSE/releases/latest">xNVSE</a></h4>
-    <p>New Vegas Script Extender (xNVSE) expands the engine and scripting capabilities of Fallout New Vegas, fixing bugs and adding hundreds of new functions.</p>
-    <ol>
-        <li>Download the latest release archive and install from archive in MO2</li>
-        <blockquote class="blue"><i class="fas fa-info-circle"></i> If you don't know how to install a mod that isn't from Nexus, refer to the <strong>Mod Installation Advice</strong> at the end of the <a href="mo2.html">MO2</a> section of the guide
-        </blockquote>
-        <li>In the pop-up window, change the <b>Name</b> to reflect the current version of xNVSE that you are installing, e.g. "xNVSE 6.2.7"</li>
-        <li>Right click on <b>&lt;data&gt;</b> and click Create directory, naming this new directory "Root"</li>
-        <img src="./img/xnvse install.png" alt="xNVSE create directory">
-        <li>Drag the highlighted files into the "Root" folder</li>
-        <img src="./img/xnvse drag.png" alt="xNVSE drag highlighted files into root">
-        <li>Now expand the tree view of the "Data" folder and drag the "NVSE" folder contained within into the <b>&lt;data&gt;</b> field at the top</li>
-        <img src="./img/xnvse data.png" alt="xNVSE data folder">
-        <li>The red frame & text will change to green indicating that the data structure looks valid; ensure that your structure matches the image below and finally click <button>OK</button></li>
-        <img src="./img/xnvse valid.png" alt="xNVSE valid structure">
     </ol>
     <h4><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/68976">Discord Rich Presence</a></h4>
     <p>Shows your character info & what you're doing in-game on your Discord profile.</p>
     <blockquote class="blue"><i class="fab fa-discord"></i> Obviously, if you don't use Discord or simply aren't interested then this particular mod can be skipped</blockquote>
     <ol>
-        <li>Download the <strong>Main File - Discord Rich Presence</strong> using the <strong>Manual Download</strong> button and install from archive in MO2</li>
-        <li>Right click <b>&lt;data&gt;</b> and create a Root folder just like we did for the previous mods</li>
-        <img src="./img/drp1.png" alt="discord rich presence install pt1">
-        <li>Drag the <b>discord-rpc.dll</b> into that Root folder</li>
-        <img src="./img/drp2.png" alt="discord rich presence install pt2">
-        <li>Expand the tree view of the <b>Data</b> folder and drag the <b>nvse</b> folder within into the <b>&lt;data&gt;</b> heading</li>
-        <img src="./img/drp3.png" alt="discord rich presence install pt3">
-        <li>The frame and text should turn green; ensure you match with the image below before clicking <button>OK</button></li>
-        <img src="./img/drp4.png" alt="discord rich presence install pt4">
+        <li>Download the <strong>Main File - Discord Rich Presence</strong> using the <strong>Manual Download</strong> button</li>
+        <li>Extract the contents of the archive to the <strong>Root</strong> folder</li>
     </ol>
     <br>
 
     <h3>Mods installed using MO2</h3>
+    <blockquote class="red">If you don't know what these instructions mean, return to the <strong>Mod Installation Advice</strong> at the bottom of the
+        <a href="./mo2.html">MO2 section</a> of the guide.</blockquote>
     <table>
         <tr>
             <th>Mod Name</th>
             <th>Description</th>
             <th>Instructions</th>
-        </tr>
-        <tr>
-            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/77415">TTW NVSE</a></td>
-            <td>Additional NVSE plugin required for TTW to function properly.</td>
-            <td><strong>Main File - TTW NVSE</strong></td>
-        </tr>
-        <tr>
-            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/58277">JIP LN NVSE</a></td>
-            <td>An extension of NVSE adding 1000+ new functions, numerous engine bug fixes/tweaks, and restoreing several broken game features.</td>
-            <td><strong>Main File - JIP LN NVSE</strong></td>
-        </tr>
-        <tr>
-            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/66927">JohnnyGuitar NVSE</a></td>
-            <td>xNVSE extender that adds new script functions, features and engine bug fixes.</td>
-            <td><strong>Main File - JohnnyGuitar NVSE</strong></td>
-        </tr>
-        <tr>
-            <td>
-                <a target="_blank" href="https://www.nexusmods.com/newvegas/mods/66347">lStewieAl's Tweaks</a>
-            </td>
-            <td>Plugin with engine bugfixes, optional tweaks and new features with no performance impact. Fully customisable via in-game menu and INIs.
-                <blockquote class="blue"><i class="fas fa-info-circle"></i>It cannot be overstated just how many different things this mod does & how many <a target="_blank" href="https://forums.nexusmods.com/index.php?/topic/10248968-mods-that-are-redundant-with-stewies-tweaks-list/">mods it replaces/obsoletes</a>.
-                    Always <strong>check the Tweaks menu</strong> before installing additional mods.</blockquote>
-            </td>
-            <td>
-                <ul>
-                    <li><strong>Main File - Stewie Tweaks</strong></li>
-                    <li><strong>Main File - </strong><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/76522">Stewie Tweaks Essentials INI</a></li>
-                    <li>Configured via <strong>Settings/Tweaks</strong> in the title/pause menu </li>
-                    <ul>
-                        <li>Changes made from this in-game menu require a game restart to take effect</li>
-                    </ul>
-                </ul>
-            </td>
         </tr>
         <tr>
             <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/74012">AnhNVSE</a></td>
@@ -182,9 +134,39 @@ SOFTWARE.
             <td><strong>Main File - Improved Console</strong></td>
         </tr>
         <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/58277">JIP LN NVSE</a></td>
+            <td>An extension of NVSE adding 1000+ new functions, numerous engine bug fixes/tweaks, and restoreing several broken game features.</td>
+            <td><strong>Main File - JIP LN NVSE</strong></td>
+        </tr>
+        <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/66927">JohnnyGuitar NVSE</a></td>
+            <td>xNVSE extender that adds new script functions, features and engine bug fixes.</td>
+            <td><strong>Main File - JohnnyGuitar NVSE</strong></td>
+        </tr>
+        <tr>
             <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/71336">kNVSE Animation Plugin</a></td>
             <td>Allows for custom animations to be loaded without overwriting, making it possible to use animations made specifically for certain weapons without affecting the others.</td>
             <td><strong>Main File - kNVSE</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a target="_blank" href="https://www.nexusmods.com/newvegas/mods/66347">lStewieAl's Tweaks</a>
+            </td>
+            <td>Plugin with engine bugfixes, optional tweaks and new features with no performance impact. Fully customisable via in-game menu and INIs.
+                <blockquote class="blue"><i class="fas fa-info-circle"></i>It cannot be overstated just how many different things this mod does & how many <a target="_blank" href="https://forums.nexusmods.com/index.php?/topic/10248968-mods-that-are-redundant-with-stewies-tweaks-list/">mods it replaces/obsoletes</a>.
+                    Always <strong>check the Tweaks menu</strong> before installing additional mods.</blockquote>
+            </td>
+            <td>
+                <ul>
+                    <li><strong>Main File - Stewie Tweaks</strong></li>
+                    <li><strong>Main File - Stewie Tweaks Menu-Config</strong></li>
+                    <li><strong>Main File - </strong><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/76522">Stewie Tweaks Essentials INI</a></li>
+                    <li>Configured via <strong>Settings/Tweaks</strong> in the title/pause menu </li>
+                    <ul>
+                        <li>Changes made from this in-game menu require a game restart to take effect</li>
+                    </ul>
+                </ul>
+            </td>
         </tr>
         <tr>
             <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/68714">Mod Limit Fix</a></td>
@@ -221,6 +203,11 @@ SOFTWARE.
             </td>
         </tr>
         <tr>
+            <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/77415">TTW NVSE</a></td>
+            <td>Currently known as "ROOG NVSE", this NVSE plugin is required for TTW to function properly.</td>
+            <td><strong>Main File - TTW NVSE</strong></td>
+        </tr>
+        <tr>
             <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/72784">yGTM - Gameplay Tweaks and Madness</a></td>
             <td>NVSE plugin that alters, restores and changes gameplay features.
                 <blockquote>You can skip this mod if you are using Just Assorted Mods (JAM) from the Gameplay section.</blockquote>
@@ -231,8 +218,6 @@ SOFTWARE.
 
     <h3><i class="fas fa-clipboard-check"></i> Testing Utilities</h3>
     <ol class="standard_ol">
-        <li>Build the root by clicking the <img src="./img/mo2 ini.png"> icon and selecting <strong>Root Builder &nbsp; <i class="fas fa-caret-right"></i> &nbsp;</strong><i style="color:limegreen" class="fas fa-plus"></i> Build.</li>
-        <img src="./img/build.png">
         <li>Launch the game using the <strong>Tale of Two Wastelands</strong> option in MO2 (<b>NOT</b> the <strong>NVSE</strong> option).</li>
         <li>Once the game has reached the main menu, hit the <code>~</code> key (above the tab key) to open the console.</li>
         <li>Enter <code>GetNVSEVersion</code>, and the console should print <code>NVSE version: 6</code></li>
