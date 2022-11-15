@@ -5,7 +5,7 @@
 @font-face {
     font-family: 'monofontoregular';
     src: url('monofonto-webfont.woff2') format('woff2'),
-         url('monofonto-webfont.woff') format('woff');
+        url('monofonto-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
