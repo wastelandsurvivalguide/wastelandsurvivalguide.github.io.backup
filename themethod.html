@@ -59,16 +59,16 @@ SOFTWARE.
             <h2 class="subheader" id="requirements">Requirements</h2>
             <p class="subparagraph">
             <ul>
-                <li><strong>Mod Organizer 2</strong>: Preferably the Alpha 3 of version 2.4.5, which you can download in the release channel of the <a href="https://discord.gg/6GKR9jZ" target="_blank">MO2 Discord server</a>. Vortex is simply too slow and the way it handles load order just makes The Method a pain. In case you don't want to use the MO2 Alpha, keep in mind that plugins in your LO that are written in bold text (Meaning ESM flag) will often have to be pushed manually for them to appear in the correct order (Above non-ESM plugins). This issue is the main reason why the Alpha is recommended, it avoids confusion especially for new users. Basic knowledge of the tool is required since going into specific steps for everything would make this too long.</li>
-                <li><strong>xEdit</strong>: I use 4.0.4c, available in the <a href="https://discord.gg/5t8RnNQ" target="_blank">xEdit Discord server</a>. 4.0.4 on Nexus is fine. If you get crashes with this version, roll back to 4.0.3.</li>
-                <li>Plenty of time.</li>
+                <li><strong>Mod Organizer 2</strong>: Preferably the Alpha 3 of version 2.4.5, which you can download in the release channel of the <a href="https://discord.gg/6GKR9jZ" target="_blank">MO2 Discord server</a>. Vortex is simply too slow and the way it handles load order just makes The Method a pain. In case you don't want to use the MO2 Alpha, keep in mind that plugins in your LO that are written in bold text (meaning they are ESM) will often have to be pushed manually for them to appear in their correct position, which is always above non-ESM plugins. This version also fixes the bug with the loadorder.txt file being reset to alphabetical order randomly. Basic knowledge of the tool is required since going into specific steps for everything would make this guide too long.</li>
+                <li><strong>xEdit and knowing how to use it</strong>: You can find the absolute latest version in the <a href="https://discord.gg/5t8RnNQ" target="_blank">xEdit Discord server</a>. 4.0.4 on Nexus is fine for New Vegas. If you get crashes with this version then roll back to 4.0.3. To use The Method effectively you also need to know how plugins are structured and how you use xEdit to patch mods together or make other changes. A basic guide is available <a href="./xedit.html" class="active">here</a>.</li>
+                <li>Plenty of <strong>time</strong>.</li>
             </ul>
             </p>
-            <h2 class="subheader" id="intro-terminology">Introduction and Terminology</h2>
-            <p class="subparagraph"> To use The Method effectively, you first need to know how plugins are structured and how you use xEdit to patch mods together or make other changes. A guide is available <a href="./xedit.html" class="active">here</a>. The 2 basic terms you will need to know for The Method are these:
+            <h2 class="subheader" id="intro-terminology">Terminology</h2>
+            <p class="subparagraph"> The 2 basic terms you will need to know for The Method are these:
             <ul>
-                <li>VQSC: Command line argument you can use on xEdit, allows you to skip reference loading and directly load a conflict filter on all plugins enabled in your load order</li>
-                <li>ModGroup: Feature of xEdit that consists in logic statements that can hide conflicts you have already checked, allowing you to isolate new conflicts for the next mod you enable, these statements are contained in the .modgroups file xEdit will create when you go through this process, you can easily edit them even by hand.</li>
+                <li>VQSC: Command line argument you can use on xEdit to skip reference loading (which speeds up loading but will not allow you to view or jump to references) and directly load a conflict filter on all plugins enabled in your load order.</li>
+                <li>ModGrouping: Feature of xEdit that consists in logic statements that hide conflicts you have already checked, allowing you to isolate new conflicts for the next mod you enable, these statements are contained in the .modgroups file xEdit will create when you go through this process.</li>
             </ul>
             </p>
             <h2 class="subheader" id="objective-logic">Objective and logic</h2>
@@ -84,11 +84,13 @@ SOFTWARE.
                     <center><img src="./img/ttwconflicts.png" alt="TTW Conflicts"></center>
                     <li>Since the mod is obviously intended to edit the base game plugins, nothing needs patching here.</li>
                     <li>Now create a ModGroup for all these plugins by highlighting them (CTRL+A), right-clicking and then selecting the "Create ModGroup" option.</li>
-                    <li>Remember that this method of selecting every plugin and then ModGrouping should only be used in specific cases such as this because in most other situations you will create a false statement, and lying is bad.</li>
                     <li>When asked to include the current CRC32s, always click <strong>Yes</strong></li>
                     <li>In this menu you can name your ModGroup and assign tags to each plugin involved (Explained below). The fastest way to name it would be to select the mod you just enabled (In this case TTW) and then pressing CTRL+N</li>
                     <center><img src="./img/ttwconflictsmg.png" alt="TTW ModGroup"></center>
+                    <li>Then you can store the ModGroup in TaleOfTwoWastelands.esm or YUPTTW.esm. Storing it just means that whenever that plugin is loaded then the statement will be used.</li>
+                    <li>The ModGroup you just created will appear in the <strong>Overwrite</strong> folder in MO2, simply take that file and drag it to the corresponding mod, which is Tale Of Two Wastelands in this case.</li>
                 </ol>
+                <blockquote>Remember that this method of selecting every plugin on the left and then ModGrouping should only be used for your base content, which is always present and all of its conflicts are safe to ignore (these conflicts are between your main patch mod and also between all of the game's original plugins). Another example where you would do this is on New Vegas but without TTW, where the YUP mod should be ModGrouped with all of the game DLCs and main plugin above it.</blockquote>
                 <h3 class="subheader" id="mgtags">Tags</h3>
                 <ul>
                     <li><strong>Optional</strong>: What the name says, having this plugin disabled will not invalidate the ModGroup, so the remaining conflicts will still be hidden correctly. (This is used when dealing with patches for other mods for example, since having those combinations may not be permanent)</li>
@@ -109,6 +111,7 @@ SOFTWARE.
                 <li>Enable a mod and launch xEdit with the VQSC argument.</li>
                 <li>Once loaded, you will see all conflicts caused by it. Check the records involved and patch where necessary.</li>
                 <li>Once patched, reload the filter or reload xEdit, then ModGroup the remaining conflicts into a ModGroup file made for that mod.</li>
+                <li>Take the ModGroup file you created and drag it from overwrite to the corresponding mod.</li>
                 <li>Repeat for the next mod going down your load order.</li>
             </ol>
             <h3 class="subheader" id="example">Example</h3>
