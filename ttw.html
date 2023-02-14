@@ -1,7 +1,7 @@
-<!-- 
+<!--
 MIT License
 
-Copyright (c) 2021 VivaNewVegas
+Copyright (c) Wasteland Survival Guide
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,76 +23,181 @@ SOFTWARE.
 -->
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
-    <title>Wasteland Survival Guide</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="./style.css" type="text/css">
-    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
-    <script src="https://kit.fontawesome.com/a83e24dd8d.js" crossorigin="anonymous"></script>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="img/logo.webp">
+        <script src="https://kit.fontawesome.com/baff4f2fd4.js" crossorigin="anonymous"></script>
+        <script src="javascript.js"></script>
+        <title>TTW | Wasteland Survival Guide</title>
+        <meta name="description" content="TTW installation." />
+        <meta name="twitter:card" value="summary">
+        <meta property="og:title" content="Wasteland Survival Guide" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://wastelandsurvivalguide.com/" />
+        <meta property="og:image" content="img/logo.webp" />
+        <meta property="og:description" content="TTW installation." />
+    </head>
 
     <body>
-        <!-- The sidebar -->
-        <div class="sidebar">
-            <a href="./index.html"> Intro</a>
-            <a href="./setup.html">Game Setup</a>
-            <a href="./mo2.html"> MO2 Setup</a>
-            <a href="./ttw.html" class="active"> TTW Setup</a>
-            <a href="./utilities.html">Utilities</a>
-            <a href="./ui.html">UI/HUD</a>
-            <a href="./gameplay.html">Gameplay</a>
-            <a href="./content.html">Content</a>
-            <a href="./homes.html">Homes</a>
-            <a href="./overhauls.html">Overhauls</a>
-            <a href="./visuals.html">Visuals</a>
-            <a href="./animations.html">Animations</a>
-            <a href="./finish.html">Finish</a>
-            <a href="./appendix.html">Appendix</a>
-        </div>
-        <header>
-            <a href="./index.html">
-                <h1><i class="fas fa-book-dead"></i>Wasteland Survival Guide</h1>
-            </a>
-        </header>
-        <h2><i class="fas fa-download"></i>Installing Tale of Two Wastelands</h2>
-        <hr>
-        <p>In this step, we will install and activate Tale of Two Wastelands through Mod Organizer 2.</p>
-        <blockquote>If you run into any errors when installing, check the <a href="https://taleoftwowastelands.com/faq" target="_blank">FAQ</a> to see if it has the solution.</blockquote>
-        <ol>
-            <li>Make sure both Mod Organizer 2 and the game are closed.</li>
-            <li>From the <a href="https://taleoftwowastelands.com/dl" target="_blank">TTW Download</a> page, download the <strong>3.3.2 Installer</strong> file.</li>
-            <li>Extract the contents of the <strong>3.3.2 Installer</strong> archive to a new folder called <strong>TTW Installer</strong> in a safe location <abbr title="Do not use any folder falling under UAC such as Program Files, Desktop, Documents, Downloads, etc. Use a simple location like C:/Modding">outside of any default Windows folders.</abbr></li>
-            <li>Once everything has been extracted, open MO2, select the <img style="width:2%" src="./img/mo2 folders.webp" alt="MO2 Folders"> button at the top, and select <strong>Open Mods folder</strong>, and create a folder there named <strong>Tale of Two Wastelands</strong>.</li>
-            <li>Back in the <strong>TTW Installer</strong> folder, right-click the <strong>TTW Install.exe</strong> and select <strong>Run As Administrator</strong>.</li>
-            <li>In the installer, verify that the automatically set file paths for both your Fallout 3 and Fallout New Vegas installations are correct.</li>
-            <li>Set the Tale of Two Wastelands install path to the <code>C:\Users\<strong>YOUR USERNAME</strong>\AppData\Local\ModOrganizer\TTW\mods\Tale of Two Wastelands</code> you created in step 4.</li>
-            <img src="./img/install.webp" alt="Installation Paths">
-            <li>Ensure your paths look similar to the example above, then select <strong>Install</strong>.</li>
-        </ol>
-        <blockquote class="red"><i class="fas fa-exclamation-triangle"></i>The install may take a long time as the .ogg encoding is very CPU-intensive. It takes about 40 minutes on my 5600x but could take several hours or even longer on a slower CPU.<br> It is recommended to leave your computer alone and have any CPU-intensive applications closed during this install to reduce the likelihood of installation errors</blockquote>
-        <h3><i class="far fa-check-square"></i>Activating TTW in Mod Organizer 2</h3>
-        <ol start="9">
-            <li>Launch Mod Organizer 2</li>
-            <li>If you installed TTW properly with the correct filepaths, you should see the <strong>Tale of Two Wastelands</strong> mod in the left pane of MO2.</li>
-            <ul>
-                <li>If you do not see anything, you did not install TTW to the correct folder. Find out where the files were installed to and move them to
-                    <br>
-                    <code>C:\Users\<strong>YOUR USERNAME</strong>\AppData\Local\ModOrganizer\TTW\mods\Tale of Two Wastelands</code>
-                </li>
-            </ul>
-            <li>Click the checkbox next to it in the left pane, and the right pane should fill with plugins.</li>
-        </ol>
-        <h3><i class="fas fa-screwdriver"></i>Installing the Hotfix</h3>
-        <ol class="standard_ol" start="12">
-            <li>Download the <a target="_blank" href="https://cdn.discordapp.com/attachments/267355049666019329/1003041304252534814/TTW_3.3.2_Hotfix.zip">3.3.2 Hotfix</a>.</li>
-            <li>Install it normally in MO2, renaming appropriately if prompted, and drag it below <b>Tale of Two Wastelands</b> in the left pane.</li>
-            <blockquote class="blockquote"> If you don't know how to install a mod that isn't from Nexus, refer to the <a href="./mo2.html#advice">Mod Installation Advice</a> section again.</blockquote>
-            <li>Click the checkbox next to it in the left pane to activate it.</li>
-            <img src="./img/ttw hotfix.webp" alt="TTW Hotfix" />
-        </ol>
-        <!-- QOLORE CONTENT ENDS HERE -->
-        <span class="continue"><a href="./utilities.html">Continue to Utilities <i class="fas fa-angle-double-right"></i></a></span>
-        <hr>
-        <footer>Guide created by <a href="./contributors.html">WSG contributors</a>, do not reproduce without permission.</footer>
+        <div>
+            <!-- Titlebar -->
+            <div class="titlecontainer">
+                <div id="sideButton" onclick="toggleNav()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <img src="./img/logo.webp" alt="Logo" />
+                <a href="./index.html"> Wasteland Survival Guide </a>
+
+            </div>
+            <!-- Left sidebar -->
+            <div id="sidenavLeft">
+                <p>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./intro.html">Introduction</a>
+                        </li>
+                        <li>
+                            <a href="./setup.html">Initial Setup</a>
+                        </li>
+                        <li>
+                            <a href="./mo2.html">MO2</a>
+                        </li>
+                        <li>
+                            <a href="./ttw.html" class="active">TTW</a>
+                        </li>
+                        <li>
+                            <a href="./essentials.html">Essential Mods</a>
+                        </li>
+                        <li>
+                            <a href="./finish.html">Final Steps</a>
+                        </li>
+                        <li>
+                            <a href="./changelog.html">Changelog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <hr>
+                    <ul>
+                        <li>
+                            <a href="https://vivanewvegas.github.io/avoid-tools.html">Tools to Avoid</a>
+                        </li>
+                        <li>
+                            <a href="https://vivanewvegas.github.io/avoid-mods.html">Mods to Avoid</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="footer">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/wastelandsurvivalguide/wastelandsurvivalguide.github.io" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://discord.gg/taleoftwowastelands" target="_blank">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </p>
+            </div>
+            <!-- Content -->
+            <div class="content">
+                <!-- Introduction -->
+                <div class="section">
+                    <p>
+                    <h1> Installing Tale of Two Wastelands </h1>
+                    <h3> In this step, we will install and activateTale of Two Wastelands through Mod Organizer 2. </h3>
+                    </p>
+                </div>
+                <!-- Installing TTW -->
+                <div class="section" id="installing_ttw">
+                    <p>
+                        <a href="#installing_ttw">
+                            <h2>Installing TTW</h2>
+                        </a>
+                    <blockquote>If you run into any errors when installing, check the <a href="https://taleoftwowastelands.com/faq" target="_blank">FAQ</a> to see if it has the solution.</blockquote>
+                    <ol>
+                        <li>Make sure both Mod Organizer 2 and the game are closed.</li>
+                        <li>From the <a href="https://taleoftwowastelands.com/dl" target="_blank">TTW Download</a> page, download the <strong>3.3.2 Installer</strong> file.</li>
+                        <li>Extract the contents of the <strong>3.3.2 Installer</strong> archive to a new folder called <strong>TTW Installer</strong> in a safe location <abbr title="Do not use any folder falling under UAC such as Program Files, Desktop, Documents, Downloads, etc. Use a simple location like C:/Modding">outside of any default Windows folders.</abbr></li>
+                        <li>Once everything has been extracted, open MO2, select the <img style="width:2%" src="./img/mo2 folders.webp" alt="MO2 Folders"> button at the top, and select <strong>Open Mods folder</strong>, and create a folder there named <strong>Tale of Two Wastelands</strong>.</li>
+                        <li>Back in the <strong>TTW Installer</strong> folder, right-click the <strong>TTW Install.exe</strong> and select <strong>Run As Administrator</strong>.</li>
+                        <li>In the installer, verify that the automatically set file paths for both your Fallout 3 and Fallout New Vegas installations are correct.</li>
+                        <li>Set the Tale of Two Wastelands install path to the <code>C:\Users\<strong>YOUR USERNAME</strong>\AppData\Local\ModOrganizer\TTW\mods\Tale of Two Wastelands</code> you created in step 4.</li>
+                        <img src="./img/install.webp" alt="Installation Paths">
+                        <li>Ensure your paths look similar to the example above, then select <strong>Install</strong>.</li>
+                    </ol>
+                    <blockquote> The install may take a long time as the .ogg encoding is very CPU-intensive. It takes about 40 minutes on my 5600x but could take several hours or even longer on a slower CPU. It is recommended to leave your computer alone and have any CPU-intensive applications closed during this time so as to not overheat your CPU and cause the TTW installation to fail. </blockquote>
+                    </p>
+                </div>
+                <!-- MO2 -->
+                <div class="section" id="activating_ttw">
+                    <p>
+                        <a href="#activating_ttw">
+                            <h2>Activating TTW in Mod Organizer 2</h2>
+                        </a>
+                    <ol>
+                        <li>Launch Mod Organizer 2, or if you kept it open, click the <img src="./img/mo2 refresh.webp" alt="MO2 refresh"> button at the top to refresh the left pane.</li>
+                        <li>If you installed TTW correctly with the correct filepaths, you should see the <strong>Tale of Two Wastelands</strong> mod in the left pane of MO2.</li>
+                        <ul>
+                            <li>If you do not see anything, you did not install TTW to the correct folder. Find out where the files were installed to and move them to
+                                <br>
+                                <code>C:\Users\<strong>YOUR USERNAME</strong>\AppData\Local\ModOrganizer\TTW\mods\Tale of Two Wastelands</code>
+                            </li>
+                        </ul>
+                        <li>Click the checkbox next to it in the left pane, and the right pane should fill with plugins.</li>
+                    </ol>
+                    </p>
+                </div>
+                <!-- Hotfix -->
+                <div class="section" id="hotfix">
+                    <p>
+                        <a href="#hotfix">
+                            <h2>Installing the Hotfix</h2>
+                        </a>
+                    <blockquote>If you don't know how to install a mod that isn't from Nexus, refer to the <a href="./mo2.html#installation_instructions">Mod Installation Instructions</a> section again.</blockquote>
+                    <ol>
+                        <li>Download the <a target="_blank" href="https://cdn.discordapp.com/attachments/267355049666019329/1003041304252534814/TTW_3.3.2_Hotfix.zip">3.3.2 Hotfix</a>.</li>
+                        <li>Install it normally in MO2, renaming appropriately if prompted, and click the checkbox next to it in the left pane to activate it.</li>
+                        <img src="img/ttw hotfix.webp" alt="TTW Hotfix" />
+                    </ol>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <hr>
+                        <a href="./mo2.html" id="previous"><img class="navigationArrow left mirror" src="./img/arrow.webp" alt="Back arrow"></a>
+                        <a href="./essentials.html" id="next"><img class="navigationArrow right" src="./img/arrow.webp" alt="Forward arrow"></a>
+                    </p>
+                </div>
+            </div>
+            <!-- Right sidebar -->
+            <div id="sidenavRight">
+                <p>
+                <ul>
+                    <li>
+                        <a href="#installing_ttw">Installation</a>
+                    </li>
+                    <li>
+                        <a href="#activating_ttw">Activation</a>
+                    </li>
+                    <li>
+                        <a href="#hotfix">Installing Hotfix</a>
+                    </li>
+                </ul>
+                </p>
+            </div>
     </body>
 
 </html>
