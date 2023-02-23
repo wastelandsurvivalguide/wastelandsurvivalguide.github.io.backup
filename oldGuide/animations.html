@@ -1,0 +1,160 @@
+<!-- 
+MIT License
+
+Copyright (c) 2021 VivaNewVegas
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Wasteland Survival Guide</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <script src="https://kit.fontawesome.com/a83e24dd8d.js" crossorigin="anonymous"></script>
+
+    <body>
+        <div class="sidebar">
+            <a href="./index.html">Intro</a>
+            <a href="./setup.html">Game Setup</a>
+            <a href="./mo2.html">MO2 Setup</a>
+            <a href="./ttw.html">TTW Setup</a>
+            <a href="./utilities.html">Utilities</a>
+            <a href="./ui.html">UI/HUD</a>
+            <a href="./gameplay.html">Gameplay</a>
+            <a href="./content.html">Content</a>
+            <a href="./homes.html">Homes</a>
+            <a href="./overhauls.html">Overhauls</a>
+            <a href="./visuals.html">Visuals</a>
+            <a href="./animations.html" class="active">Animations</a>
+            <a href="./finish.html">Finish</a>
+            <a href="./appendix.html">Appendix</a>
+        </div>
+        <header>
+            <a href="./index.html">
+                <h1><i class="fas fa-book-dead"></i>Wasteland Survival Guide</h1>
+            </a>
+        </header>
+        <h2><i class="fas fa-paint-roller"></i>Animations</h2>
+        <hr>
+        <h3>First, create an "Animations" <a href="./img/mo2 separator.png" target="new">separator</a> in MO2.</h3>
+        <h5>As you install the mods from this section, organize them underneath this separator.</h5>
+        <blockquote class="yellow"><i class="fas fa-film"></i>Using animation replacers like the ones on this page can affect the balance of the game by making attacks and reloads take a different amount of time compared to vanilla. They may also look strange when combined with the Rapid Reload perk, may be distracting, etc.</blockquote>
+        <table>
+            <tr>
+                <th>Mod Name</th>
+                <th>Description</th>
+                <th>Instructions</th>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/75417">ISControl Enabler</a></td>
+                <td><strong>REQUIRED</strong> for the following animations - automatically creates ##ISControl nodes for weapons with sighting nodes.</td>
+                <td><strong>Main File - ISControl</strong></td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/64335">B42 Weapon Inertia</a></td>
+                <td>Makes weapon movement feel more natural and realistic, watch the provided video.</td>
+                <td><strong>Main File - B42 Inertia</strong></td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/68776">NV Compatibility Skeleton</a></td>
+                <td>A skeleton with compatibility for the latest mods, required for B42 Inertia above. <blockquote class="yellow"><i class="fas fa-exclamation-triangle"></i>If you install any other mods which require this mod, <strong>allow Compatibility Skeleton to overwrite them</strong> by dragging it below them in MO2's left pane!</blockquote>
+                </td>
+                <td>
+                    <ul>
+                        <li><strong>Main File - NVCS Installer</strong></li>
+                        <ul>
+                            <li>In the prompt just click <button>Install</button></li>
+                        </ul>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/70158">Anniversary Anim Pack</a></td>
+                <td>Includes three of Hitman's previous animation/bugfix mods, Subtle Camera Motion, Iron Sights Recoil Animations, and Fire Animation Variants. Also includes some new previously unreleased animations.</td>
+                <td><strong>Main File - Anniversary Anim Pack</strong></td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/72320">Anniversary Anim Pack - General Bugfix</a></td>
+                <td>Fixed camera jumps, animation snapping, movement lock, broken aim in 3rd person.</td>
+                <td>
+                    <ul>
+                        <li><strong>Main File - AnniAnimPack_BugFix</strong></li>
+                        <li><strong>Main File - Bonus Patch</strong></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/70599">FNV Clean Animations</a></td>
+                <td>Clean first person animations for New Vegas from <b>rockbiter</b>. A solid base for adding other animations on top.</td>
+                <td>
+                    <ul>
+                        <li><strong>Main File - FNV Clean Animations</strong></li>
+                        <li><strong>Update File - FNV Clean Animations - Update</strong></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/75208">Hit's Anims - Season 2</a></td>
+                <td>Animations from <b>Hitman</b> for (mostly) energy weapons.</td>
+                <td><strong>Main File - Hit's Anims - Season 2</strong></td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/76843">Hit's Anims - Season 3</a></td>
+                <td>Animations from <b>Hitman</b> for many different weapons.</td>
+                <td><strong>Main File - Hit's Anims - Season 3</strong></td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/76457">Hit's Anims - Animation Fixes</a></td>
+                <td>Adds Hitman's animations to some left-out weapons, restores vanilla pistol RoF & other fixes.</td>
+                <td><strong>Main File - Hit's Anims - Animation Fixes</strong></td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+        <br>
+        <table>
+            <tr>
+                <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/76055">Butcher Pete - Part 1</a></td>
+                <td>Animations from <b>rockbiter</b> for cleaver and machete-based weapons.</td>
+                <td><strong>Main File - Butcher Pete - A Melee Animation Overhaul (Part 1)</strong></td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/77177">Butcher Pete - Part 2</a></td>
+                <td>Animations from <b>rockbiter</b> for knives and blades.</td>
+                <td><strong>Main File - Butcher Pete - A Melee Animation Overhaul (Part 2)</strong></td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/75981">Melee Hitstop Effects</a></td>
+                <td>Adds hitstop (a very short pause of game time) to melee attacks, giving them a feeling of weight & impact.</td>
+                <td><strong>Main File - Melee Hitstop Effects</strong></td>
+            </tr>
+            <tr>
+                <td><a target="_blank" href="https://www.nexusmods.com/newvegas/mods/73480">Melee VATS Animation Restoration</a></td>
+                <td>Restores melee VATS animations that were present in FO3 but not FNV.</td>
+                <td><strong>Main File - Melee VATS Animation Restoration</strong></td>
+            </tr>
+        </table>
+        <span class="continue"><a href="./finish.html">Continue to Final Steps <i class="fas fa-angle-double-right"></i></a></span>
+        <hr>
+        <footer>Guide created by <a href="./contributors.html">WSG contributors</a>, do not reproduce without permission.</footer>
+    </body>
+
+</html>

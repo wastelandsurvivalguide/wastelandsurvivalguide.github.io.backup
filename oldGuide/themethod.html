@@ -1,0 +1,133 @@
+<!--
+MIT License
+
+Copyright (c) 2021 VivaNewVegas
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Wasteland Survival Guide</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <script src="https://kit.fontawesome.com/a83e24dd8d.js" crossorigin="anonymous"></script>
+
+    <body>
+        <div class="sidebar">
+            <a href="./index.html">Intro</a>
+            <a href="./setup.html">Game Setup</a>
+            <a href="./mo2.html">MO2 Setup</a>
+            <a href="./ttw.html">TTW Setup</a>
+            <a href="./utilities.html">Utilities</a>
+            <a href="./ui.html">UI/HUD</a>
+            <a href="./gameplay.html">Gameplay</a>
+            <a href="./content.html">Content</a>
+            <a href="./homes.html">Homes</a>
+            <a href="./overhauls.html">Overhauls</a>
+            <a href="./visuals.html">Visuals</a>
+            <a href="./animations.html">Animations</a>
+            <a href="./finish.html">Finish</a>
+            <a href="./appendix.html">Appendix</a>
+            <a href="./themethod.html" class="active">The Method</a>
+        </div>
+        <header>
+            <a href="./index.html">
+                <h1><i class="fas fa-book-dead"></i>Wasteland Survival Guide</h1>
+            </a>
+        </header>
+        <h2 class="fullheader">The Method</h2>
+        <hr>
+        <div>
+            <h2 class="subheader" id="requirements">Requirements</h2>
+            <p class="subparagraph">
+            <ul>
+                <li><strong>Mod Organizer 2</strong>: Preferably the Alpha 3 of version 2.4.5, which you can download in the release channel of the <a href="https://discord.gg/6GKR9jZ" target="_blank">MO2 Discord server</a>. Vortex is simply too slow and the way it handles load order just makes The Method a pain. In case you don't want to use the MO2 Alpha, keep in mind that plugins in your LO that are written in bold text (meaning they are ESM) will often have to be pushed manually for them to appear in their correct position, which is always above non-ESM plugins. This version also fixes the bug with the loadorder.txt file being reset to alphabetical order randomly. Basic knowledge of the tool is required since going into specific steps for everything would make this guide too long.</li>
+                <li><strong>xEdit and knowing how to use it</strong>: You can find the absolute latest version in the <a href="https://discord.gg/5t8RnNQ" target="_blank">xEdit Discord server</a>. 4.0.4 on Nexus is fine for New Vegas. If you get crashes with this version then roll back to 4.0.3. To use The Method effectively you also need to know how plugins are structured and how you use xEdit to patch mods together or make other changes. A basic guide is available <a href="./xedit.html" class="active">here</a>.</li>
+                <li>Plenty of <strong>time</strong>.</li>
+            </ul>
+            </p>
+            <h2 class="subheader" id="intro-terminology">Terminology</h2>
+            <p class="subparagraph"> The 2 basic terms you will need to know for The Method are these:
+            <ul>
+                <li>VQSC: Command line argument you can use on xEdit to skip reference loading (which speeds up loading but will not allow you to view or jump to references) and directly load a conflict filter on all plugins enabled in your load order.</li>
+                <li>ModGrouping: Feature of xEdit that consists in logic statements that hide conflicts you have already checked, allowing you to isolate new conflicts for the next mod you enable, these statements are contained in the .modgroups file xEdit will create when you go through this process.</li>
+            </ul>
+            </p>
+            <h2 class="subheader" id="objective-logic">Objective and logic</h2>
+            <p class="subparagraph"> In order to make sure that all conflicts between your plugins are intended and/or harmless, you need to check conflicts with xEdit after each mod gets enabled. At every run you can choose how to patch the plugins involved and at the end you will ModGroup the remaining conflicts between the mod and the patches against the mods you have above. At the end you will have a fully patched load order and every conflict that doesn't need intervention will be hidden, leaving room for additions and ease of patching. </p>
+            <h2 class="subheader" id="firstmodgroup">First ModGroup</h2>
+            <p class="subparagraph">
+            <ol>
+                <li>After you get working install of the latest TTW, you will need to add xEdit to your MO2 list of executables with the argument -FNV. Then add it again but with -FNV -VQSC (You only need "-FNV" if your xEdit executable is not named FNVEdit.exe). The first one is for general use and the 2nd is for quick conflict checking, which we will soon need.</li>
+                <li>The first ModGroup you will need to make is for the base game plugins conflicting between eachother and with TTW/YUPTTW.</li>
+                <ol>
+                    <li>Load up xEdit with VQSC.</li>
+                    <center><img src="./img/ttwconflicts.png" alt="TTW Conflicts"></center>
+                    <li>Since the mod is obviously intended to edit the base game plugins, nothing needs patching here.</li>
+                    <li>Now create a ModGroup for all these plugins by highlighting them (CTRL+A), right-clicking and then selecting the "Create ModGroup" option.</li>
+                    <li>When asked to include the current CRC32s, always click <strong>Yes</strong></li>
+                    <li>In this menu you can name your ModGroup and assign tags to each plugin involved (Explained below). The fastest way to name it would be to select the mod you just enabled (In this case TTW) and then pressing CTRL+N</li>
+                    <center><img src="./img/ttwconflictsmg.png" alt="TTW ModGroup"></center>
+                    <li>Then you can store the ModGroup in TaleOfTwoWastelands.esm or YUPTTW.esm. Storing it just means that whenever that plugin is loaded then the statement will be used.</li>
+                    <li>The ModGroup you just created will appear in the <strong>Overwrite</strong> folder in MO2, simply take that file and drag it to the corresponding mod, which is Tale Of Two Wastelands in this case.</li>
+                </ol>
+                <blockquote>Remember that this method of selecting every plugin on the left and then ModGrouping should only be used for your base content, which is always present and all of its conflicts are safe to ignore (these conflicts are between your main patch mod and also between all of the game's original plugins). Another example where you would do this is on New Vegas but without TTW, where the YUP mod should be ModGrouped with all of the game DLCs and main plugin above it.</blockquote>
+                <h3 class="subheader" id="mgtags">Tags</h3>
+                <ul>
+                    <li><strong>Optional</strong>: What the name says, having this plugin disabled will not invalidate the ModGroup, so the remaining conflicts will still be hidden correctly. (This is used when dealing with patches for other mods for example, since having those combinations may not be permanent)</li>
+                    <li><strong>Target</strong>: Any conflicting override between this plugin and other sources below will be hidden.</li>
+                    <li><strong>Source</strong>: Any conflicting override between this plugin and other targets above will be hidden.</li>
+                    <li><strong>Forbidden</strong>: If this module is loaded, the ModGroup is invalid.</li>
+                    <li><strong>Ignore LO</strong>: If this is not selected, the module must be loaded in the same order as listed in this ModGroup. There are two values for this column:</li>
+                    <ul>
+                        <li>Always: The load order of the module does not matter at all</li>
+                        <li>In Block: all consecutive modules with this flag form a Block. Any module above the block must be loaded before any module in the block. Any module after the block must be loaded after any module in the block. The modules inside the block can load in any order.</li>
+                    </ul>
+                </ul>
+            </ol>
+            </p>
+            <h2 class="subheader" id="modgroupingmods">ModGrouping your own mods</h2>
+            <p class="subparagraph"> Right after TTW, enable your next mod in MO2 and if multiple plugins or patches are present, then make sure those are loaded and placed below the main plugin. <br> In short, the process from this point on is this: (Detailed instructions and example below)
+            <ol>
+                <li>Enable a mod and launch xEdit with the VQSC argument.</li>
+                <li>Once loaded, you will see all conflicts caused by it. Check the records involved and patch where necessary.</li>
+                <li>Once patched, reload the filter or reload xEdit, then ModGroup the remaining conflicts into a ModGroup file made for that mod.</li>
+                <li>Take the ModGroup file you created and drag it from overwrite to the corresponding mod.</li>
+                <li>Repeat for the next mod going down your load order.</li>
+            </ol>
+            <h3 class="subheader" id="example">Example</h3>
+            <ol>
+                <li>I will use the "(Benny Humbles You) and Steals Your Stuff" mod as example for the next ModGroup.</li>
+                <li>Since there is a TTW patch available, i enable that on top of the main mod plugin, then i load up VQSC.</li>
+                <li>Here you can see that the remaining conflicts are only between the main mod plugin and TTW, but since i already have a patch taking care of this, then it means that the remaining conflict is already taken care of and you can safely hide it via ModGroup.</li>
+                <center><img src="./img/mgexample.png" alt="ModGroup Example"></center>
+                <li>Expand any of the record in either plugin, then once it is open, right-click the top right of the plugin name to create a new ModGroup for that specific combination of plugins conflicting as shown in the record you opened.</li>
+                <center><img src="./img/mgexample2.png" alt="ModGroup Example 2"></center>
+                <li>Now name your new ModGroup just like before, but since this one is more specific, i suggest you start creating your own naming scheme for combinations or you just use mine, which is the name of the main plugin from the mod you just enabled + the name of the plugin you are ModGrouping against, as shown in the picture.</li>
+                <center><img src="./img/mgexample3.png" alt="ModGroup Example 3"></center>
+                <li>Now that the ModGroup is done, you can check if it's working by closing and opening xEdit with VQSC again or by right-clicking on the xEdit tree-view while it is still open and removing the applied filter, then right-clicking anywhere on the tree-view and applying a filter for conflicts. If no conflicts are showing then you hid the previous ones correctly and you can keep ModGrouping your mods</li>
+            </ol>
+        </div>
+        <hr>
+        <footer>Guide created by <a href="./contributors.html">WSG contributors</a>, do not reproduce without permission.</footer>
+    </body>
+
+</html>

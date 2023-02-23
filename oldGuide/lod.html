@@ -1,0 +1,101 @@
+<!--
+MIT License
+
+Copyright (c) 2021 VivaNewVegas
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Wasteland Survival Guide</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <script src="https://kit.fontawesome.com/a83e24dd8d.js" crossorigin="anonymous"></script>
+
+    <body>
+        <div class="sidebar">
+            <a href="./index.html">Intro</a>
+            <a href="./setup.html">Game Setup</a>
+            <a href="./mo2.html">MO2 Setup</a>
+            <a href="./ttw.html">TTW Setup</a>
+            <a href="./utilities.html">Utilities</a>
+            <a href="./ui.html">UI/HUD</a>
+            <a href="./gameplay.html">Gameplay</a>
+            <a href="./content.html">Content</a>
+            <a href="./homes.html">Homes</a>
+            <a href="./overhauls.html">Overhauls</a>
+            <a href="./visuals.html">Visuals</a>
+            <a href="./animations.html">Animations</a>
+            <a href="./finish.html">Finish</a>
+            <a href="./appendix.html">Appendix</a>
+            <a href="./lod.html" class="active">LOD Guide</a>
+        </div>
+        <header>
+            <a href="./index.html">
+                <h1><i class="fas fa-book-dead"></i>Wasteland Survival Guide</h1>
+            </a>
+        </header>
+        <h2 class="fullheader">LOD Guide</h2>
+        <hr>
+        <div>
+            <p class="subparagraph"> Before getting started, there are a few things you should know. First, generating LOD is not a requirement, but it will add detail in the distance thanks to the mod linked below. It becomes a requirement for proper visuals if you installed texture mods (such as NMCs or Poco Bueno) or are using a mod that requires LOD to be generated (like MoreMojave). Terrain LOD creates a much larger file size (+500mb) and potential performance loss for a very minimal visual improvement. Therefore, this guide will focus only on generating object LOD with xLODGen. If you need to generate xLODGen terrain LOD for whatever reason, the instructions will be the exact same except you will need to enable <b>Terrain LOD</b> option in addition to the <b>Object LOD</b> option. </p>
+            <h2 class="subheader" id="installing_lodgen">Installing xLODGen</h2>
+            <ol class="standard_ol">
+                <li>Download the latest <strong>xLODGen</strong> file from <a href="https://stepmodifications.org/forum/topic/13451-xlodgen-terrain-lod-beta-94-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal-enderalse/" target="_blank">here</a>.</li>
+                <li>Once the download has finished, extract the contents of the archive to any location of your choice.</li>
+                <li>In MO2, select the <img src="./img/mo2 executabes.webp" alt="mo2 executables"> button at the top of MO2 to open the executables menu.</li>
+                <li>Click the <strong style="color:rgb(20, 162, 228)">+</strong> at the top of the window and the select <strong>Add from file...</strong></li>
+                <li>From the pop-up, navigate to where xLODGen is installed and select <strong>xLODGen.exe</strong>.</li>
+                <li>In the <b>Arguments</b> box in the right pane, enter: <code>-FNV -O:"C:\Output\"</code></li>
+            </ol>
+            <blockquote class="blockquote"> This argument will make the files generated through xLODGen appear in a folder called <b>Output</b> on your <b>C:\</b> drive (the drive Windows is installed on). You can change this path to whatever you would like if you would prefer the files to be generated elsewhere (Not a UAC protected folder or the game folder). </blockquote>
+            <ol class="standard_ol" start="9">
+                <li>Select <strong>Apply</strong> then <strong>OK</strong>.</li>
+            </ol>
+            <h2 class="subheader" id="installing_resources">Installing LOD Resources</h2>
+            <ul class="standard_ul">
+                <li><a href="https://www.nexusmods.com/newvegas/mods/61206" target="_blank">LOD Additions and Improvements</a> - <strong>Main File - LODadditions</strong></li>
+                <li><a href="https://www.nexusmods.com/newvegas/mods/77945" target="_blank">LOD Additions - TTW Patch</a> - <strong>Patch File</strong></li>
+                <blockquote class="blockquote">This mod will eventually be merged into TTW.</blockquote>
+                <li><a href="https://www.nexusmods.com/newvegas/mods/79734" target="_blank">Wasted LOD - Cliffs of DC</a> - <strong>Main File - Wasted DC</strong></li>
+            </ul>
+            <h2 class="subheader" id="running_lodgen">Running xLODGen</h2>
+            <ol class="standard_ol">
+                <li>Select xLODGen from the executables drop-down in the top right of MO2 and click <strong>Run</strong>.</li>
+                <li>Once the program has loaded, right-click in the left pane and click <strong>Select All</strong>.</li>
+                <li>In the right pane, check <strong>Objects LOD</strong> but leave <strong>Trees LOD</strong> unchecked.</li>
+            </ol>
+            <blockquote class="blockquote">Tree LOD is not functional in New Vegas. LOD for trees is covered in Object LOD.</blockquote>
+            <ol class="standard_ol" start="4">
+                <li>Under the <strong>Objects LOD</strong> section, change the <strong>Atlas size</strong> option to <strong>8192 </strong> x <strong>8192</strong>.</li>
+                <li>Select <strong>Generate</strong>.</li>
+                <li>Wait for the message <strong>LOD Generator: finished (you can close this application now)</strong> to appear (Generation time depends on your CPU performance), then close out of the program.</li>
+                <li>In MO2, right-click on the <i>Overwrite</i> folder at the bottom of the left pane and select <strong>All Mods -> Create empty mod above.</strong></li>
+                <li>Title the mod <strong>FNVLODGen Output.</strong></li>
+                <li>Navigate to where the LOD files were generated and select both the <code>textures</code> and <code>meshes</code> folders.</li>
+                <li>Cut them to the <strong>FNVLODGen Output</strong> mod you just created (right-click on the mod and select <b>Open in Explorer).</b></li>
+            </ol>
+        </div>
+        <hr>
+        <footer>Guide created by <a href="./contributors.html">WSG contributors</a>, do not reproduce without permission.</footer>
+    </body>
+
+</html>
