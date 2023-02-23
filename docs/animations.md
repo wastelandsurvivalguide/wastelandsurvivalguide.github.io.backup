@@ -1,8 +1,5 @@
-﻿[Intro](./index.html) [Game Setup](./setup.html) [MO2 Setup](./mo2.html) [TTW Setup](./ttw.html) [Utilities](./utilities.html) [UI/HUD](./ui.html) [Gameplay](./gameplay.html) [Content](./content.html) [Homes](./homes.html) [Overhauls](./overhauls.html) [Visuals](./visuals.html) [Animations](./animations.html) [Finish](./finish.html) [Appendix](./appendix.html)
-# [**Wasteland Survival Guide**](./index.html)
-## **Animations**
-
-### **First, create an "Animations" [separator](./img/mo2 separator.png) in MO2.**
+﻿# Animations
+### **First, create an "Animations"  in MO2.**
 ##### **As you install the mods from this section, organize them underneath this separator.**
 Using animation replacers like the ones on this page can affect the balance of the game by making attacks and reloads take a different amount of time compared to vanilla. They may also look strange when combined with the Rapid Reload perk, may be distracting, etc.
 
@@ -28,4 +25,3 @@ Using animation replacers like the ones on this page can affect the balance of t
 |[Melee VATS Animation Restoration](https://www.nexusmods.com/newvegas/mods/73480)|Restores melee VATS animations that were present in FO3 but not FNV.|**Main File - Melee VATS Animation Restoration**|
 [Continue to Final Steps ](./finish.html)
 
-Guide created by [WSG contributors](./contributors.html), do not reproduce without permission.

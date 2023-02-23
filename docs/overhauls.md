@@ -1,34 +1,105 @@
-﻿[Intro](./index.html) [Game Setup](./setup.html) [MO2 Setup](./mo2.html) [TTW Setup](./ttw.html) [Utilities](./utilities.html) [UI/HUD](./ui.html) [Gameplay](./gameplay.html) [Content](./content.html) [Homes](./homes.html) [Overhauls](./overhauls.html) [Visuals](./visuals.html) [Animations](./animations.html) [Finish](./finish.html) [Appendix](./appendix.html)
-# [**Wasteland Survival Guide**](./index.html)
-## **Overhauls**
+﻿# Overhauls
 
-### **First, create an "Overhauls" [separator](./img/mo2 separator.png) in MO2.**
-##### **As you install the mods from this section, organize them underneath this separator.**
-Some of the mods in this section are **very challenging**. Don't overdo it and remember that everything is **optional**!
+The mods in this section may change the game dramatically, and some are **very challenging**. Don't overdo it and remember that everything is **optional**!
 
-|**Mod Name**|**Description**|**Instructions**|
-| :-: | :-: | :-: |
-|[(Benny Humbles You) and Steals Your Stuff](https://www.nexusmods.com/newvegas/mods/71112)|<p>- A subsidiary variant of the original Benny Humbles You, aimed at preserving the balance of the early game in New Vegas.</p><p>- Customizable reset of Level, XP, Skills, Karma upon travelling from the CW to the Mojave for the first time.</p><p>- Takes all the player's gear, locks it in a safe in the Tops Presidential Suite, and gives Benny the key.</p><p>Skip this mod if you plan to start in the Mojave instead of DC. Not only does the premise of the mod not make sense playing in that order, moreover you will experience character creation issues at Doc Mitchell's. This mod is only for DC start, which is the (soft) recommendation for TTW.</p>|<p>- **Main File - Benny Humbles You and Steals Your Stuff**</p><p>- Double-click **(Benny Humbles You) and Steals Your Stuff** in the left pane, choose **INI Files** & decide what to reset and what to keep</p><p>- **Patch File - [Benny Humbles You and Steals Your Stuff - TTW Patch](https://www.nexusmods.com/newvegas/mods/77945)**</p><p>- **Optional File - [Nail Gun Semi Auto Rework](https://www.nexusmods.com/newvegas/mods/74465)** (Strongly recommended to be used with BHY)</p>|
-|[BLEED](https://www.nexusmods.com/newvegas/mods/61141)|Overhauls how damage and force is applied, making combat much more unforgiving and closer to classic Fallout. Crippled limbs on crit, burning and bleeding effects and more.|**Main File - BLEED**|
-|[BLEEDLESS](https://www.nexusmods.com/newvegas/mods/75660)|<p>A lighter version of RoyBatty's excellent BLEED; it retains most changes relating to damage while removing its more intrusive changes </p><p>This is to be used **instead** of BLEED, not alongside it.</p>|<p>- **Main File - BLEEDLESS**</p><p>- **Optional File - Better Damage Multipliers**</p><p>&emsp;- This standalone optional will also work with the original **BLEED**. Recommended!</p>|
-|[BURN - Hardcore Fire Effects](https://www.nexusmods.com/newvegas/mods/76060)|<p>Causes unprotected humans and flammable creatures to panic and flee when set on fire, adding an extra gameplay mechanic for incendiary weapons and ammo. </p><p>This mod restores some companion screams cut from FNV which some people find disturbing. Give this one a skip if realistic screams of pain would be a trigger for you</p>|<p>- **Main File - BURN - Hardcore Fire Effects**</p><p>- **Patch File - BURN - TTW Patch (Script Runner)**</p><p>- **Optional File - [BLEED and BURN Scriptrunner Patch](https://www.nexusmods.com/newvegas/mods/76489)**</p>|
-|[Charisma Tweaks](https://www.nexusmods.com/newvegas/mods/71310)|Barter and speech checks (And optionally, ALL skill checks) take into account both your charisma and the intelligence of the person you're speaking to. Optionally, it can use the charisma of the person you're speaking to instead.|**Main File - Charisma Tweaks**|
-|[Cyberware 2281](https://eddoursul.win/mods/cyberware-2281/)|Recreates the functionality of the Cyberware implants from Project Nevada, without all the problems caused by that ancient mod.|<p>- **Main File - Cyberware 2281**</p><p>- **Patch File - Cyberware 2281 TTW Patch**</p>|
-|[CyberJAM](https://www.nexusmods.com/newvegas/mods/74655)|Integrates Cyberware 2281 and Just Assorted Mods, allowing them to interact like the old PN Core and Cyberware modules. Reintroduces and expands on the cut Wired Synapses implant.|<p>- **Main File - CyberJAM**</p><p>- **Optional File - CyberJAM INI File**</p>|
-|[GRA Unique Weapons Relocated](https://www.nexusmods.com/newvegas/mods/68153)|Makes the GRA unique weapons unavailable for purchase and scatters them across the Mojave, Zion, and the Big MT - just like all the other unique weapons.|<p>- **Main File - GUWR Unbalanced**</p><p>- **Patch File - [GRA Unique Weapons Relocated - TTW Patch](https://www.nexusmods.com/newvegas/mods/77945)**</p>|
-|[Harder New Vegas Strip Access](https://www.nexusmods.com/newvegas/mods/71643)|Makes it harder to access The Strip in New Vegas, forcing the player to engage with the early game - especially if Benny has Stolen their Stuff.|**Main File - Harder New Vegas Strip Access**|
-|[Infirmary Overhaul TTW](https://www.nexusmods.com/newvegas/mods/73435)|Changes the infirmary. No limitless healing, rad removing or limb fixing. Your skill in medicine will greatly affect the amount healed or rads removed.|**Main File - Infirmary Overhaul TTW**|
-|[JIP LN Fonfig](./dl/JIP LN Fonfig.7z)|Customizes some settings in JIP LN to make the game more dynamic and challenging, for example by distributing weapon mods to NPCs.|Install from archive and place under Fonfig separator|
-|[RAD - Radiation (is) Actually Dangerous](https://www.nexusmods.com/newvegas/mods/71541)|Radiation now damages your health at a rate of 1% HP per 10 rads until it is removed; the UI reflects the affected portion in red like in Fallout 4. With hardcore mode enabled, your primary needs will decrease your AP as well; dehydration penalties are twice as severe.|<p>- **Main File - RAD - Overhaul**</p><p>- **Guide File - [RAD Fonfig](./dl/RAD Fonfig.7z)**</p>|
-|[ROOG - Roy's Overhaul Of Gameplay](https://www.nexusmods.com/newvegas/mods/75599)|<p>Restores Fallout 3 weapon degrading, repair and overhauls the difficulty of the game for a much harder experience and slower progression. </p><p>This is the mother of all challenge mods. Make sure you read the description thoroughly and understand what you are getting yourself into. This will dramatically overhaul the difficulty & pacing of the game.</p>|<p>- **Main File - ROOG**</p><p>- **Patch File - sawyerbattyROOG**</p><p>- **Optional File - [TTW - ROOG - Rebuild the Capital Patch](https://www.nexusmods.com/newvegas/mods/77602?tab=files)**</p>|
-|[Save Restrictions](https://www.nexusmods.com/newvegas/mods/72672)|<p>Save Restrictions comes with the following optional features, configurable in its INI: </p><p>- Save only while sitting in a chair/bench/whatever</p><p>- Save only while not in combat i.e. [DANGER]</p><p>- Save only in interiors</p><p>- Disable the quickload hotkey</p>|<p>- **Main File - Save Restrictions**</p><p>- Double-click the mod in the left pane & select **INI Files**</p><p>- Select the **Config\SaveRestrictions\SR.ini** file in the left pane</p><p>- Set your desired restrictions in the right pane</p>|
-|[SawyerBatty](https://www.nexusmods.com/newvegas/mods/75598)|<p>- Mostly based on the famous [JSawyer](https://fallout-archive.fandom.com/wiki/JSawyer#Main_features) mod by FNV's director Josh Sawyer.</p><p>- Edited by [RoyBatty](https://www.patreon.com/RoyBatty) to revert the carry weight, level cap & Logan's Loophole change, fix many bugs, and for parity with TTW.</p><p>- The pre-order packs are placed in logical areas around Springvale and Megaton when you start in DC.</p>|**Main File - SawyerBatty**|
-|[Simple Diseases](https://www.nexusmods.com/newvegas/mods/74802)|A simple and modular disease system for Fallout New Vegas. Adds a chance to get sick from eating bad food and drinking untreated water as well as the risk of contracting diseases from wild animal attacks. |**Main File - Simple Diseases**|
-|[Three Perk Bounty](https://www.nexusmods.com/newvegas/mods/77783)|Upon level up you will be presented with a choice of three randomly selected perks from the available perk pool. You may re-roll the random selection up to three times, but this carries a chance of giving you an unlucky perk until next level (Luck over 5 improves your chances a bit). |**Main File - Three Perk Bounty**|
-|[TTW Quick Start](https://www.nexusmods.com/newvegas/mods/65937)|Quick start plugin to skip Vault 101 and start in the cave just outside the vault. The Medicine Bobblehead is not given at the start, you can pick it up later during Trouble on the Homefront.|<p>- **Main File - TTW Quick Start**</p><p>- **Optional File - [TTW Quick Start Item Remover](https://www.nexusmods.com/newvegas/mods/75832)**</p>|
-|[Wasteland Starting Gear DC](https://www.nexusmods.com/newvegas/mods/75789)|Provides you with stat-based starting gear at the beginning of your TTW playthrough. A staged mock battle near Vault 101's exit door adds the gear to the dead combatants for you to loot.|**Main File - Wasteland Starting Gear DC**|
-|[Weapon Requirements System](https://www.nexusmods.com/newvegas/mods/69161)|Makes weapon Strength and Skill requirements matter, allowing you to use any weapon but assigning significant dynamic penalties for those you aren't proficient with.|**Main File - Weapon Requirements System**|
-|[Your Buddy Is Dead](https://www.nexusmods.com/newvegas/mods/79635)|NPCs react to encountering the dead bodies of their friends for a short while after death, and for a brief window will put two and two together to conclude the player had killed a friendly. Doesn't touch AI packages, making it safe to use even in scripted sequences like Liberty Prime.|**Main File - Your Buddy Is Dead**|
-[Continue to Visuals ](./visuals.html)
+### [Benny Humbles You](https://www.nexusmods.com/newvegas/mods/71112)
+Resets the player's Level, XP, Skills, Perks and Karma upon travelling from the CW to the Mojave for the first time; optionally confiscates gear as well.
+#### Installation:
+* Main File - Benny Humbles You and Steals Your Stuff
+  - After install, double-click (Benny Humbles You) and Steals Your Stuff in the left pane, choose INI Files & configure the mod to your preferences
+* Patch File - [Benny Humbles You and Steals Your Stuff - TTW Patch](https://www.nexusmods.com/newvegas/mods/77945)
+* Recommended Optional File - [Nail Gun Semi Auto Rework](https://www.nexusmods.com/newvegas/mods/74465)
 
-Guide created by [WSG contributors](./contributors.html), do not reproduce without permission.
+### [BLEED](https://www.nexusmods.com/newvegas/mods/61141)
+Overhauls how damage and force is applied, making combat much more unforgiving and closer to classic Fallout. Crippled limbs on crit, burning and bleeding effects and more.
+#### Installation:
+* Main File - BLEED
+
+### [BURN](https://www.nexusmods.com/newvegas/mods/76060)
+Causes unprotected humans and flammable creatures to panic and flee when set on fire, adding an extra gameplay mechanic for incendiary weapons and ammo. This mod restores some companion screams cut from FNV which some people find disturbing. Give this one a skip if realistic screams of pain would be a trigger for you.
+#### Installation:
+* Main File - BURN - Hardcore Fire Effects
+* Patch File - BURN - TTW Patch (Script Runner)
+* Optional File - [BLEED and BURN Scriptrunner Patch](https://www.nexusmods.com/newvegas/mods/76489)
+
+### [Charisma Tweaks](https://www.nexusmods.com/newvegas/mods/71310)
+Barter and speech checks (And optionally, ALL skill checks) take into account both your charisma and the intelligence of the person you're speaking to. Optionally, it can use the charisma of the person you're speaking to instead.
+#### Installation:
+* Main File - Charisma Tweaks
+
+### [Cyberware 2281](https://eddoursul.win/mods/cyberware-2281/)
+Recreates the functionality of the Cyberware implants from Project Nevada, without all the problems caused by that ancient mod.
+#### Installation:
+* Main File - Cyberware 2281
+* Patch File - Cyberware 2281 TTW Patch
+
+### [CyberJAM](https://www.nexusmods.com/newvegas/mods/74655)
+Integrates Cyberware 2281 and Just Assorted Mods, allowing them to interact like the old PN Core and Cyberware modules. Reintroduces and expands upon the cut Wired Synapses implant.
+#### Installation:
+* Main File - CyberJAM 
+* Optional File - CyberJAM INI File
+
+### [GRA Unique Weapons Relocated](https://www.nexusmods.com/newvegas/mods/68153)
+Makes the GRA unique weapons unavailable for purchase and scatters them across the Mojave, Zion, and the Big MT - just like all the other unique weapons.
+#### Installation:
+* Main File - GUWR Unbalanced 
+* Patch File - [GRA Unique Weapons Relocated - TTW Patch](https://www.nexusmods.com/newvegas/mods/77945)
+
+### [Harder New Vegas Strip Access](https://www.nexusmods.com/newvegas/mods/71643)
+#### Installation:
+Makes it harder to access The Strip in New Vegas, forcing the player to engage with the early game.
+* Main File - Harder New Vegas Strip Access
+
+### [Infirmary Overhaul TTW](https://www.nexusmods.com/newvegas/mods/73435)
+#### Installation:
+Changes the infirmary. No limitless healing, rad removing or limb fixing. Your skill in medicine will greatly affect the amount healed or rads removed. 
+* Main File - Infirmary Overhaul TTW
+
+### [JIP LN Fonfig](./dl/JIP%20LN%20Fonfig.7z)
+Customizes some settings in JIP LN to make the game more dynamic and challenging, for example by distributing weapon mods to NPCs.
+#### Installation:
+* Install archive manually in MO2 (refer to MO2 section if lost)
+
+### [RAD](https://www.nexusmods.com/newvegas/mods/71541)
+Radiation now damages your health at a rate of 1% HP per 10 rads until it is removed; the UI reflects the affected portion in red like in Fallout 4. With hardcore mode enabled, your primary needs will decrease your AP as well; dehydration penalties are twice as severe.
+#### Installation:
+* Main File - RAD - Overhaul 
+* Guide File - [RAD Fonfig](./dl/RAD%20Fonfig.7z)
+
+### [Save Restrictions](https://www.nexusmods.com/newvegas/mods/72672)
+Allows you to set various restrictions on when the game can be saved
+#### Installation:
+* Main File - Save Restrictions 
+  - Double-click the mod in the left pane & select INI Files 
+  - Select the Config\SaveRestrictions\SR.ini file in the left pane- Set your desired restrictions in the right pane# 
+
+### [SawyerBatty](https://www.nexusmods.com/newvegas/mods/75598)
+TTW version of the famous [JSawyer](https://fallout-archive.fandom.com/wiki/JSawyer#Main_features) mod by FNV's director Josh Sawyer. Changes to carry weight, level cap & Logan's Loophole were reverted. The pre-order packs are placed in logical areas around Springvale and Megaton when you start in DC.
+#### Installation:
+* Main File - SawyerBatty
+
+### [Simple Diseases](https://www.nexusmods.com/newvegas/mods/74802)
+A simple and modular disease system for Fallout New Vegas. Adds a chance to get sick from eating bad food and drinking untreated water as well as the risk of contracting diseases from wild animal attacks. 
+#### Installation:
+* Main File - Simple Diseases
+
+### [Three Perk Bounty](https://www.nexusmods.com/newvegas/mods/77783)
+Presents a random selection of 3 perks to choose from instead of the full perk list. You may re-roll up to three times, but with bad luck you may receive a negative "curse" perk which lasts until next level.
+#### Installation:
+* Main File - Three Perk Bounty
+
+### [TTW Quick Start](https://www.nexusmods.com/newvegas/mods/65937)
+Quick start plugin to skip Vault 101 and start in the cave just outside the vault. The Medicine Bobblehead is not given at the start, you can pick it up later during Trouble on the Homefront.
+#### Installation:
+* Main File - TTW Quick Start 
+
+### [Weapon Requirements System](https://www.nexusmods.com/newvegas/mods/69161)
+Makes weapon Strength and Skill requirements matter, allowing you to use any weapon but assigning significant dynamic penalties for those you aren't proficient with.
+#### Installation:
+* Main File - Weapon Requirements System
+
+### [Your Buddy Is Dead](https://www.nexusmods.com/newvegas/mods/79635)
+NPCs react to encountering the dead bodies of their friends for a short while after death, and for a brief window will put two and two together to conclude the player had killed a friendly.
+#### Installation:
+* Main File - Your Buddy Is Dead
+

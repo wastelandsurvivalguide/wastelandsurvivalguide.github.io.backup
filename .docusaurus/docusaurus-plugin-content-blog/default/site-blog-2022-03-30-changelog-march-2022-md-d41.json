@@ -1,0 +1,22 @@
+{
+  "permalink": "/blog/2022/03/30/changelog-march2022",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2022-03-30-changelog-march2022.md",
+  "source": "@site/blog/2022-03-30-changelog-march2022.md",
+  "title": "Changelog - March 2022",
+  "description": "----------",
+  "date": "2022-03-30T00:00:00.000Z",
+  "formattedDate": "March 30, 2022",
+  "tags": [],
+  "readingTime": 1.795,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {},
+  "prevItem": {
+    "title": "Redesign",
+    "permalink": "/blog/changelog"
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

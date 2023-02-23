@@ -1,7 +1,4 @@
-﻿[Intro](./index.html) [Game Setup](./setup.html) [MO2 Setup](./mo2.html) [TTW Setup](./ttw.html) [Utilities](./utilities.html) [UI/HUD](./ui.html) [Gameplay](./gameplay.html) [Content](./content.html) [Homes](./homes.html) [Overhauls](./overhauls.html) [Visuals](./visuals.html) [Animations](./animations.html) [Finish](./finish.html) [Appendix](./appendix.html)
-# [**Wasteland Survival Guide**](./index.html)
-## **Final Steps**
-
+﻿# Final Steps
 1. [Download the WSG load order here](./dl/WSG Load Order.7z).
 1. Once the download has finished, click the  button at the top of MO2 and select **Open Profile folder**.
 1. Extract the **loadorder.txt** from the archive into the opened folder and overwrite when prompted.
@@ -15,4 +12,3 @@ Congratulations! You now have a modded Tale of Two Wastelands setup to enjoy. Fo
 
 Remember to join the [TTW Discord](https://discord.gg/taleoftwowastelands) if you have any questions. Any questions not related to TTW and the guide, or questions about other mods you added that are not in the guide, will not be answered. 
 
-Guide created by [WSG contributors](./contributors.html), do not reproduce without permission.

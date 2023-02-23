@@ -1,0 +1,24 @@
+{
+  "unversionedId": "homes",
+  "id": "homes",
+  "title": "homes",
+  "description": "Player Homes",
+  "source": "@site/docs/homes.md",
+  "sourceDirName": ".",
+  "slug": "/homes",
+  "permalink": "/docs/homes",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/homes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Content",
+    "permalink": "/docs/content"
+  },
+  "next": {
+    "title": "Overhauls",
+    "permalink": "/docs/overhauls"
+  }
+}

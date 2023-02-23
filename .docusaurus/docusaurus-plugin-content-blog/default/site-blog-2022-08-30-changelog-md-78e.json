@@ -1,0 +1,22 @@
+{
+  "permalink": "/blog/2022/08/30/changelog",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2022-08-30-changelog.md",
+  "source": "@site/blog/2022-08-30-changelog.md",
+  "title": "Changelog - August 2022",
+  "description": "18/08/22",
+  "date": "2022-08-30T00:00:00.000Z",
+  "formattedDate": "August 30, 2022",
+  "tags": [],
+  "readingTime": 0.815,
+  "hasTruncateMarker": true,
+  "authors": [],
+  "frontMatter": {},
+  "prevItem": {
+    "title": "Changelog - September 2022",
+    "permalink": "/blog/2022/09/30/changelog"
+  },
+  "nextItem": {
+    "title": "Changelog - July 2022",
+    "permalink": "/blog/2022/07/30/changelog"
+  }
+}

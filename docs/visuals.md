@@ -2,7 +2,7 @@
 # [**Wasteland Survival Guide** ](./index.html)
 ## **Visuals**
 
-### **First, create a "Visuals" [separator](./img/mo2 separator.png) in MO2.**
+### **First, create a "Visuals"  in MO2.**
 ##### **As you install the mods from this section, organize them underneath this separator.**
 If you are curious about/disappointed by the lack of texture mods in this section, the WSG team doesn't really use texture mods & they are generally compatible with everything, so for that reason they are considered outside of the scope of the guide. If you are interested in texture packs, [here is a texture guide](https://salamand3r.fail/texture-guide) contributed by **Salamand3r** to help you get started. No support is provided for these textures, but do enjoy.
 
@@ -33,4 +33,3 @@ If you are curious about/disappointed by the lack of texture mods in this sectio
 |[Desert Natural Weathers](https://www.nexusmods.com/newvegas/mods/75437)|An overhaul of weathers with 360 degree panoramic cloud textures, improved lighting, and DLC support.|**Main File - Desert Natural Weathers TTW**|
 [Continue to Animations](./animations.html) 
 
-Guide created by [WSG contributors](./contributors.html), do not reproduce without permission.

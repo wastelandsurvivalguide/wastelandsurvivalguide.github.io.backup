@@ -55,4 +55,3 @@ In short, the process from this point on is this: (Detailed instructions and exa
 
 1. Now that the ModGroup is done, you can check if it's working by closing and opening xEdit with VQSC again or by right-clicking on the xEdit tree-view while it is still open and removing the applied filter, then right-clicking anywhere on the tree-view and applying a filter for conflicts. If no conflicts are showing then you hid the previous ones correctly and you can keep ModGrouping your mods
 
-Guide created by [WSG contributors](./contributors.html), do not reproduce without permission.

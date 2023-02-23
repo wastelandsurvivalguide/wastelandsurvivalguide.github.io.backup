@@ -1,8 +1,6 @@
-﻿[Intro](./index.html) [Game Setup](./setup.html) [MO2 Setup](./mo2.html) [TTW Setup](./ttw.html) [Utilities](./utilities.html) [UI/HUD](./ui.html) [Gameplay](./gameplay.html) [Content](./content.html) [Homes](./homes.html) [Overhauls](./overhauls.html) [Visuals](./visuals.html) [Animations](./animations.html) [Finish](./finish.html) [Appendix](./appendix.html)
-# [**Wasteland Survival Guide**](./index.html)
-## **Mod Organizer 2**
+﻿# Mod Organizer 2
 
-In this step, we will install and configure Mod Organizer 2, the best mod manager for any Bethesda game.
+In this step, we will install and configure Mod Organizer 2, the best mod manager for any Bethesda game and the only one supported for the guide.
 ### **Installing Mod Organizer 2**
 1. Download [**Main File - Mod Organizer 2**](https://www.nexusmods.com/skyrimspecialedition/mods/6194?tab=files) using the **Manual Download** link and run the installer.
 1. Choose any unoccupied install location outside of any default Window folders and outside of the game's **Root** folder (e.g. C:/Modding/Mod Organizer 2/).
@@ -24,7 +22,7 @@ In this step, we will install and configure Mod Organizer 2, the best mod manage
 If you have MO2 installed on a drive with little space, you can check the **Show advanced options** box and change the **Downloads** file path to a different drive with more space. This will not affect download/game performance, and the downloads can be deleted after the mods have been installed.
 
 6. On the last page, select **Finish**.
-6. MO2 will launch and prompt you with a pop-up called **Show tutorial?**, in which you should select **No**.
+6. MO2 will launch and prompt you with a pop-up called **Show Guide?**, in which you should select **No**.
 6. From the pop-up called **Register?**, select **Yes**.
    1. This pop-up will not show up if you have already registered a different instance of MO2.
 
@@ -83,4 +81,3 @@ If at any point during mod installation you get a message called **Extract BSA**
 
 [Continue to TTW Installation ](./ttw.html)
 
-Guide created by [WSG contributors](./contributors.html), do not reproduce without permission.

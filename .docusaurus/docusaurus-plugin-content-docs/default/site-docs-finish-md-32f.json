@@ -1,0 +1,24 @@
+{
+  "unversionedId": "finish",
+  "id": "finish",
+  "title": "Final Steps",
+  "description": "1. Download the WSG load order here.",
+  "source": "@site/docs/finish.md",
+  "sourceDirName": ".",
+  "slug": "/finish",
+  "permalink": "/docs/finish",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/finish.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Animations",
+    "permalink": "/docs/animations"
+  },
+  "next": {
+    "title": "Appendix",
+    "permalink": "/docs/appendix"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "utilities",
+  "id": "utilities",
+  "title": "Utilities",
+  "description": "First, create a \"Utilities\"  in MO2.",
+  "source": "@site/docs/utilities.md",
+  "sourceDirName": ".",
+  "slug": "/utilities",
+  "permalink": "/docs/utilities",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/utilities.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Tale of Two Wastelands",
+    "permalink": "/docs/ttw"
+  },
+  "next": {
+    "title": "ui",
+    "permalink": "/docs/ui"
+  }
+}

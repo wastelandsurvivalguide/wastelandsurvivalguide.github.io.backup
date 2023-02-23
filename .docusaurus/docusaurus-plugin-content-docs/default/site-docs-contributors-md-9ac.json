@@ -1,0 +1,24 @@
+{
+  "unversionedId": "contributors",
+  "id": "contributors",
+  "title": "Contributors",
+  "description": "Some content transposed from The Best of Times & Viva New Vegas by Qolore7.",
+  "source": "@site/docs/contributors.md",
+  "sourceDirName": ".",
+  "slug": "/contributors",
+  "permalink": "/docs/contributors",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributors.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "GuideSidebar",
+  "previous": {
+    "title": "Content",
+    "permalink": "/docs/content"
+  },
+  "next": {
+    "title": "Dangerous Dogma",
+    "permalink": "/docs/dogma"
+  }
+}

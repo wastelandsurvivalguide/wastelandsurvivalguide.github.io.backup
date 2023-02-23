@@ -1,0 +1,24 @@
+{
+  "unversionedId": "overhauls",
+  "id": "overhauls",
+  "title": "Overhauls",
+  "description": "The mods in this section may change the game dramatically, and some are very challenging. Don't overdo it and remember that everything is optional!",
+  "source": "@site/docs/overhauls.md",
+  "sourceDirName": ".",
+  "slug": "/overhauls",
+  "permalink": "/docs/overhauls",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/overhauls.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "homes",
+    "permalink": "/docs/homes"
+  },
+  "next": {
+    "title": "visuals",
+    "permalink": "/docs/visuals"
+  }
+}

@@ -1,6 +1,4 @@
-﻿[Intro](./index.html) [Game Setup](./setup.html) [MO2 Setup](./mo2.html) [TTW Setup](./ttw.html) [Utilities](./utilities.html) [UI/HUD](./ui.html) [Gameplay](./gameplay.html) [Content](./content.html) [Homes](./homes.html) [Overhauls](./overhauls.html) [Visuals](./visuals.html) [Animations](./animations.html) [Finish](./finish.html) [Appendix](./appendix.html)
-# [**Wasteland Survival Guide**](./index.html)
-## **Installing Tale of Two Wastelands**
+﻿# Tale of Two Wastelands
 
 In this step, we will install and activate Tale of Two Wastelands through Mod Organizer 2.
 
@@ -36,4 +34,3 @@ If you don't know how to install a mod that isn't from Nexus, refer to the [Mod 
 
 ` `[Continue to Utilities ](./utilities.html)
 
-Guide created by [WSG contributors](./contributors.html), do not reproduce without permission.

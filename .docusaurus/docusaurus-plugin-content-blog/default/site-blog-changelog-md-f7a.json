@@ -1,0 +1,18 @@
+{
+  "permalink": "/blog/changelog",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/changelog.md",
+  "source": "@site/blog/changelog.md",
+  "title": "Redesign",
+  "description": "----------",
+  "date": "2023-02-23T04:38:24.921Z",
+  "formattedDate": "February 23, 2023",
+  "tags": [],
+  "readingTime": 13.61,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {},
+  "nextItem": {
+    "title": "Changelog - January 2023",
+    "permalink": "/blog/2023/01/30/changelog"
+  }
+}

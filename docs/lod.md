@@ -1,6 +1,4 @@
-﻿[Intro](./index.html) [Game Setup](./setup.html) [MO2 Setup](./mo2.html) [TTW Setup](./ttw.html) [Utilities](./utilities.html) [UI/HUD](./ui.html) [Gameplay](./gameplay.html) [Content](./content.html) [Homes](./homes.html) [Overhauls](./overhauls.html) [Visuals](./visuals.html) [Animations](./animations.html) [Finish](./finish.html) [Appendix](./appendix.html) [LOD Guide](./lod.html)
-# [**Wasteland Survival Guide**](./index.html)
-## **LOD Guide**
+﻿# LOD Guide
 
 Before getting started, there are a few things you should know. First, generating LOD is not a requirement, but it will add detail in the distance thanks to the mod linked below. It becomes a requirement for proper visuals if you installed texture mods (such as NMCs or Poco Bueno) or are using a mod that requires LOD to be generated (like MoreMojave). Terrain LOD creates a much larger file size (+500mb) and potential performance loss for a very minimal visual improvement. Therefore, this guide will focus only on generating object LOD with xLODGen. If you need to generate xLODGen terrain LOD for whatever reason, the instructions will be the exact same except you will need to enable **Terrain LOD** option in addition to the **Object LOD** option. 
 ## **Installing xLODGen**
@@ -36,4 +34,3 @@ Tree LOD is not functional in New Vegas. LOD for trees is covered in Object LOD.
 4. Navigate to where the LOD files were generated and select both the textures and meshes folders.
 4. Cut them to the **FNVLODGen Output** mod you just created (right-click on the mod and select **Open in Explorer).**
 
-Guide created by [WSG contributors](./contributors.html), do not reproduce without permission.

@@ -1,6 +1,4 @@
-﻿[Intro](./index.html) [Game Setup](./setup.html) [MO2 Setup](./mo2.html) [TTW Setup](./ttw.html) [Utilities](./utilities.html) [UI/HUD](./ui.html) [Gameplay](./gameplay.html) [Content](./content.html) [Homes](./homes.html) [Overhauls](./overhauls.html) [Visuals](./visuals.html) [Animations](./animations.html) [Finish](./finish.html) [Appendix](./appendix.html)
-# [**Wasteland Survival Guide**](./index.html)
-## **Contributors**
+﻿# Contributors
 
 ##### **Some content transposed from The Best of Times & Viva New Vegas by [Qolore7](https://www.patreon.com/vivanewvegas).**
 ##### **Huge thanks to all mod authors featured in the guide & to the TTW team & community.**

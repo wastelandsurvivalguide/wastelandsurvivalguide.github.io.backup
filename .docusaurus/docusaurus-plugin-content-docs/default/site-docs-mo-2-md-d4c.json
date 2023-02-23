@@ -1,0 +1,24 @@
+{
+  "unversionedId": "mo2",
+  "id": "mo2",
+  "title": "Mod Organizer 2",
+  "description": "In this step, we will install and configure Mod Organizer 2, the best mod manager for any Bethesda game and the only one supported for the guide.",
+  "source": "@site/docs/mo2.md",
+  "sourceDirName": ".",
+  "slug": "/mo2",
+  "permalink": "/docs/mo2",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/mo2.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Game Setup",
+    "permalink": "/docs/setup"
+  },
+  "next": {
+    "title": "Tale of Two Wastelands",
+    "permalink": "/docs/ttw"
+  }
+}

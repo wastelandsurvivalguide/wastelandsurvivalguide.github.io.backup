@@ -1,0 +1,24 @@
+{
+  "unversionedId": "themethod",
+  "id": "themethod",
+  "title": "themethod",
+  "description": "Intro Game Setup MO2 Setup TTW Setup Utilities UI/HUD Gameplay Content Homes Overhauls Visuals Animations Finish Appendix The Method",
+  "source": "@site/docs/themethod.md",
+  "sourceDirName": ".",
+  "slug": "/themethod",
+  "permalink": "/docs/themethod",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/themethod.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "GuideSidebar",
+  "previous": {
+    "title": "Game Setup",
+    "permalink": "/docs/setup"
+  },
+  "next": {
+    "title": "Tale of Two Wastelands",
+    "permalink": "/docs/ttw"
+  }
+}

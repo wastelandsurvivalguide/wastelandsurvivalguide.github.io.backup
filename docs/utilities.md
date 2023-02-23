@@ -1,8 +1,6 @@
-﻿[Intro](./index.html) [Game Setup](./setup.html) [MO2 Setup](./mo2.html) [TTW Setup](./ttw.html) [Utilities](./utilities.html) [UI/HUD](./ui.html) [Gameplay](./gameplay.html) [Content](./content.html) [Homes](./homes.html) [Overhauls](./overhauls.html) [Visuals](./visuals.html) [Animations](./animations.html) [Finish](./finish.html) [Appendix](./appendix.html)
-# [**Wasteland Survival Guide** ](./index.html)
-## **Essential Utilities**
+﻿# Utilities
 
-### **First, create a "Utilities" [separator](./img/mo2 separator.png) in MO2.** 
+### **First, create a "Utilities"  in MO2.** 
 As you install the mods from this section, organize them underneath this separator.
 
 All of the mods in this section are absolutely **essential** for the mods in the guide to function! Many mods in the following sections are optional, but make sure to get every Utility listed - they are all hard requirements.
@@ -80,4 +78,3 @@ Before clicking the following continue link, you should make sure you passed all
 
 [Continue to User Interface & HUD ](./ui.html)
 
-Guide created by [WSG contributors](./contributors.html), do not reproduce without permission.

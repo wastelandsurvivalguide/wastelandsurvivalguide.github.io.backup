@@ -34,8 +34,7 @@ Now let's say i want to edit something in the base game, such as the damage of t
 
 Now apply the filter and you will be presented will all the plugins that have created or overridden a record going by that name and record type you filtered. In this case the filter found multiple weapons, expand the last plugin (So that we can override the latest instance of that weapon, since TTW edits it and we don't want to lose those changes) and right-click the Assault Rifle, then select the "Copy as override into..." option. This will let you create a new plugin with a name of your choice where the damage change will happen. 
 
-To make a new plugin, select "**<new file>.esp**" in the prompt, then name it. Once created, you will see your plugin appear at the bottom of the tree-view and a new override appearing in the record you opened in the right pane. Let's also filter for "damage" on the top left of the right pane, so that we can see where damage is defined in that record. 
+To make a new plugin, select "**\<new file\>.esp**" in the prompt, then name it. Once created, you will see your plugin appear at the bottom of the tree-view and a new override appearing in the record you opened in the right pane. Let's also filter for "damage" on the top left of the right pane, so that we can see where damage is defined in that record. 
 
 Now you can just edit that number (Right-click, edit) in your plugin. The plugin that are you changing is dictated by the column you choose to edit values in. Once you are done, just close xEdit and it will ask you to save. When you are back in Mod Organizer 2, you will find a new plugin in your overwrite folder, which is the plugin you just created. 
 
-Guide created by [WSG contributors](./contributors.html), do not reproduce without permission.

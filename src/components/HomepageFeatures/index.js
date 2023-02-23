@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Stable & Bug-Free',
+    Svg: require('@site/static/img/bugfix.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Say goodbye to crashes and glitches. The settings & mods in the guide have been extensively tested.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Tailor Your Experience',
+    Svg: require('@site/static/img/custom.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Customize your game however you want. Virtually all of the mods in the guide are optional.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Community-Driven',
+    Svg: require('@site/static/img/community.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Created for TTW fans, by TTW fans. Join the <a href="https://discord.gg/taleoftwowastelands">Discord</a> for guide help, or to learn to make your own mods!
       </>
     ),
   },

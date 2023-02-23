@@ -1,6 +1,5 @@
-﻿[Intro](./index.html) [Game Setup](./setup.html) [MO2 Setup](./mo2.html) [TTW Setup](./ttw.html) [Utilities *](./utilities.html) [UI/HUD](./ui.html) [Gameplay](./gameplay.html) [Content](./content.html) [Homes](./homes.html) [Overhauls](./overhauls.html) [Visuals](./visuals.html) [Animations](./animations.html) [Finish](./finish.html) [Appendix](./appendix.html) [FAQ](./faq.html)
-# [**Wasteland Survival Guide**](./index.html)
-## **Frequently-Asked Questions**
+﻿# Frequently Asked Questions
+
 ##### **Q: Why does the console command IsDLLLoaded NVTF always report back >> 0?**
 A: Install the DirectX Libraries from [here](https://www.microsoft.com/en-us/download/details.aspx?id=8109). 
 ##### **Q: Why is my game moving too fast?**
@@ -34,6 +33,4 @@ Change the values to whatever resolution you want to play in.
 1. Starting from the in-game pause menu click **Settings/Tweaks** and search for ultrawide.
 1. Enable the Ultrawide Support tweak that appears then restart the game so it takes effect.
 ##### **Q: What is "Fonfig" supposed to mean?**
-A: It's short for "Fonfiguration", obviously. 
-
-Guide created by [WSG contributors](./contributors.html), do not reproduce without permission.
+A: It's short for "Fonfiguration", obviously.

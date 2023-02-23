@@ -1,6 +1,4 @@
-﻿[Intro](./index.html) [Game Setup](./setup.html) [MO2 Setup](./mo2.html) [TTW Setup](./ttw.html) [Utilities](./utilities.html) [UI/HUD](./ui.html) [Gameplay](./gameplay.html) [Content](./content.html) [Homes](./homes.html) [Overhauls](./overhauls.html) [Visuals](./visuals.html) [Animations](./animations.html) [Finish](./finish.html) [Appendix](./appendix.html) [Dangerous Dogma](./dogma.html)
-# [**Wasteland Survival Guide**](./index.html)
-## **Dangerous Dogma**
+﻿# Dangerous Dogma
 
 The goal with this page is to collect all the dangerous information shared over the years about anything related to modding in general but also specifically Fallout New Vegas and Tale of Two Wastelands. The main sources are sadly often the most popular ones, such as YouTube videos that keep getting recommended or posts on site like Nexus or Reddit. 
 
@@ -20,4 +18,3 @@ Keep in mind that this is in no way a complete list, since modding methods and i
 - **Initially disabled and enable state opposite of parent with the player as the parent**: This is an invalid combination, it's one or the other. Since you shouldn't be loading mods mid-save anyways, the former is correct to disable anything except for trees, simply move them under the map instead.
 - **Setting Z -30000**: This is a horrible thing to do in both Fallout 3 and New Vegas as cells have Havok bounds of only 27000 units, setting it higher causes crazy havok bugs and can also cause crashes.
 
-Guide created by [WSG contributors](./contributors.html), do not reproduce without permission.

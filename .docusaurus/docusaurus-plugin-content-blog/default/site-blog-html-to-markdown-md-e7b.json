@@ -1,0 +1,18 @@
+{
+  "permalink": "/blog/html-to-markdown",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/html-to-markdown.md",
+  "source": "@site/blog/html-to-markdown.md",
+  "title": "html-to-markdown",
+  "description": "Wasteland Survival Guide",
+  "date": "2023-02-23T04:38:24.921Z",
+  "formattedDate": "February 23, 2023",
+  "tags": [],
+  "readingTime": 15.6,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {},
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}
