@@ -1,0 +1,23 @@
+{
+  "unversionedId": "overhauls",
+  "id": "overhauls",
+  "title": "Overhauls",
+  "description": "The mods in this section may change the game dramatically, and some are very challenging. Don't",
+  "source": "@site/guide/overhauls.md",
+  "sourceDirName": ".",
+  "slug": "/overhauls",
+  "permalink": "/wastelandsurvivalguide/guide/overhauls",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Player Homes",
+    "permalink": "/wastelandsurvivalguide/guide/homes"
+  },
+  "next": {
+    "title": "Visuals",
+    "permalink": "/wastelandsurvivalguide/guide/visuals"
+  }
+}

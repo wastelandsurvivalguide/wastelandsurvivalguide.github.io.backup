@@ -1,0 +1,14 @@
+{
+  "unversionedId": "resources",
+  "id": "resources",
+  "title": "Resources",
+  "description": "",
+  "source": "@site/guide/resources.md",
+  "sourceDirName": ".",
+  "slug": "/resources",
+  "permalink": "/guide/resources",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -2,7 +2,7 @@
   "unversionedId": "setup",
   "id": "setup",
   "title": "Game Setup",
-  "description": "In this step, we will do clean installations and configurations of the games, which is required for the guide.",
+  "description": "Before we can proceed with the guide, a clean installation is required for both Fallout NV and Fallout 3. A video walkthrough",
   "source": "@site/docs/setup.md",
   "sourceDirName": ".",
   "slug": "/setup",

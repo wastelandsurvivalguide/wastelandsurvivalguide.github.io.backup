@@ -1,0 +1,23 @@
+{
+  "unversionedId": "xedit",
+  "id": "xedit",
+  "title": "xEdit Basics",
+  "description": "Requirements",
+  "source": "@site/guide/xedit.md",
+  "sourceDirName": ".",
+  "slug": "/xedit",
+  "permalink": "/wastelandsurvivalguide/guide/xedit",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "appendixSidebar",
+  "previous": {
+    "title": "Frequently Asked Questions",
+    "permalink": "/wastelandsurvivalguide/guide/faq"
+  },
+  "next": {
+    "title": "The Method",
+    "permalink": "/wastelandsurvivalguide/guide/themethod"
+  }
+}

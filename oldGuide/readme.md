@@ -1,5 +1,5 @@
 # Wasteland-Survival-Guide
 
-A modding guide for Tale of Two Wastelands v3.3.2
+A modding guide for Tale of Two Wastelands
 
 https://wastelandsurvivalguide.com

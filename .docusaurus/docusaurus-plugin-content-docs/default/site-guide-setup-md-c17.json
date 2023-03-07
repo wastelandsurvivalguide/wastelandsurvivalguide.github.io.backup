@@ -1,0 +1,23 @@
+{
+  "unversionedId": "setup",
+  "id": "setup",
+  "title": "Game Setup",
+  "description": "A video walkthrough for this section is available.",
+  "source": "@site/guide/setup.md",
+  "sourceDirName": ".",
+  "slug": "/setup",
+  "permalink": "/wastelandsurvivalguide/guide/setup",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Intro",
+    "permalink": "/wastelandsurvivalguide/guide/intro"
+  },
+  "next": {
+    "title": "Mod Organizer 2",
+    "permalink": "/wastelandsurvivalguide/guide/mo2"
+  }
+}

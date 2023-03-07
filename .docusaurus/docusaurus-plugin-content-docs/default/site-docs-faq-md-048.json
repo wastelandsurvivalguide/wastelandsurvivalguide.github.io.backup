@@ -2,7 +2,7 @@
   "unversionedId": "faq",
   "id": "faq",
   "title": "Frequently Asked Questions",
-  "description": "Q: Why does the console command IsDLLLoaded NVTF always report back >> 0?",
+  "description": "Can I use Vortex instead of MO2?",
   "source": "@site/docs/faq.md",
   "sourceDirName": ".",
   "slug": "/faq",
@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "GuideSidebar",
+  "sidebar": "TutorialSidebar",
   "previous": {
     "title": "Dangerous Dogma",
     "permalink": "/docs/dogma"

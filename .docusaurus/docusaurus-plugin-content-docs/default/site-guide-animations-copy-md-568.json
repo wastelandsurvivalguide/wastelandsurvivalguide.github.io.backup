@@ -1,0 +1,14 @@
+{
+  "unversionedId": "animations copy",
+  "id": "animations copy",
+  "title": "Animations",
+  "description": "First, create an \"Animations\"  in MO2.",
+  "source": "@site/guide/animations copy.md",
+  "sourceDirName": ".",
+  "slug": "/animations copy",
+  "permalink": "/guide/animations copy",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

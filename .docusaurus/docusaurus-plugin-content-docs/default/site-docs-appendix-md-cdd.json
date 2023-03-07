@@ -12,9 +12,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "sidebar",
+  "sidebar": "TutorialSidebar",
   "previous": {
-    "title": "Final Steps",
-    "permalink": "/docs/finish"
+    "title": "Animations",
+    "permalink": "/docs/animations"
+  },
+  "next": {
+    "title": "Content",
+    "permalink": "/docs/content"
   }
 }

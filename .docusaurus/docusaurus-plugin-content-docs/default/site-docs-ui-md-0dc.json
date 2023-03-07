@@ -1,8 +1,8 @@
 {
   "unversionedId": "ui",
   "id": "ui",
-  "title": "ui",
-  "description": "Intro Game Setup MO2 Setup TTW Setup Utilities UI/HUD Gameplay Content Homes Overhauls Visuals Animations Finish Appendix",
+  "title": "User Interface & HUD",
+  "description": "First, create a \"UI & HUD\"  in MO2.",
   "source": "@site/docs/ui.md",
   "sourceDirName": ".",
   "slug": "/ui",

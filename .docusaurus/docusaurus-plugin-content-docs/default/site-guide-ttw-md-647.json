@@ -1,0 +1,23 @@
+{
+  "unversionedId": "ttw",
+  "id": "ttw",
+  "title": "Tale of Two Wastelands",
+  "description": "A video guide is available to help with this section.",
+  "source": "@site/guide/ttw.md",
+  "sourceDirName": ".",
+  "slug": "/ttw",
+  "permalink": "/wastelandsurvivalguide/guide/ttw",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Mod Organizer 2",
+    "permalink": "/wastelandsurvivalguide/guide/mo2"
+  },
+  "next": {
+    "title": "Utilities",
+    "permalink": "/wastelandsurvivalguide/guide/utilities"
+  }
+}

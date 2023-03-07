@@ -1,0 +1,23 @@
+{
+  "unversionedId": "utilities",
+  "id": "utilities",
+  "title": "Utilities",
+  "description": "In this section we will install a multitude of required tools and mods. It's very important not to skip anything on this page,",
+  "source": "@site/guide/utilities.md",
+  "sourceDirName": ".",
+  "slug": "/utilities",
+  "permalink": "/wastelandsurvivalguide/guide/utilities",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Tale of Two Wastelands",
+    "permalink": "/wastelandsurvivalguide/guide/ttw"
+  },
+  "next": {
+    "title": "User Interface & HUD",
+    "permalink": "/wastelandsurvivalguide/guide/ui"
+  }
+}

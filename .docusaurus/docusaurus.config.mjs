@@ -7,10 +7,10 @@ export default {
   "title": "Wasteland Survival Guide",
   "tagline": "A Tale of Two Wastelands Modding Guide",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "url": "https://wastelandsurvivalguide.com",
+  "baseUrl": "/wastelandsurvivalguide/",
+  "organizationName": "wastelandsurvivalguide",
+  "projectName": "wastelandsurvivalguide",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -26,12 +26,12 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\liamt\\source\\repos\\wasteland-survival-guide\\sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "path": "guide",
+          "routeBasePath": "guide",
+          "sidebarPath": "C:\\Users\\liamt\\source\\repos\\wasteland-survival-guide\\sidebars.js"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "showReadingTime": false
         },
         "theme": {
           "customCss": "C:\\Users\\liamt\\source\\repos\\wasteland-survival-guide\\src\\css\\custom.css"
@@ -52,11 +52,17 @@ export default {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Guide"
+        },
+        {
+          "type": "doc",
+          "docId": "appendix",
+          "position": "left",
+          "label": "Appendix"
         },
         {
           "to": "/blog",
-          "label": "Blog",
+          "label": "Changelog",
           "position": "left"
         },
         {
@@ -71,116 +77,178 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Other Guides",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/intro"
+              "label": "Performance Guide",
+              "href": "https://wallsogb.github.io/FalloutNV-Performance-Guide/"
+            },
+            {
+              "label": "Texture Guide",
+              "href": "https://salamand3r.fail/texture-guide"
+            },
+            {
+              "label": "Viva New Vegas",
+              "href": "https://vivanewvegas.github.io/"
+            }
+          ]
+        },
+        {
+          "title": "Information",
+          "items": [
+            {
+              "label": "GECKWiki",
+              "href": "https://geckwiki.com/index.php/Main_Page"
+            },
+            {
+              "label": "Mods to Avoid",
+              "href": "https://vivanewvegas.github.io/avoid-mods.html"
+            },
+            {
+              "label": "Tools to Avoid",
+              "href": "https://vivanewvegas.github.io/avoid-tools.html"
+            }
+          ]
+        },
+        {
+          "title": "TTW Community",
+          "items": [
+            {
+              "label": "TTW Discord",
+              "href": "https://discord.gg/taleoftwowastelands"
+            },
+            {
+              "label": "Incompatible Mods List",
+              "href": "https://taleoftwowastelands.com/viewtopic.php?t=6878"
             }
           ]
         }
-      ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      ]
     },
     "prism": {
       "theme": {
         "plain": {
-          "color": "#393A34",
-          "backgroundColor": "#f6f8fa"
+          "color": "#403f53",
+          "backgroundColor": "#FBFBFB"
         },
         "styles": [
           {
             "types": [
-              "comment",
-              "prolog",
-              "doctype",
-              "cdata"
+              "changed"
             ],
             "style": {
-              "color": "#999988",
+              "color": "rgb(162, 191, 252)",
               "fontStyle": "italic"
             }
           },
           {
             "types": [
-              "namespace"
+              "deleted"
             ],
             "style": {
-              "opacity": 0.7
+              "color": "rgba(239, 83, 80, 0.56)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "inserted",
+              "attr-name"
+            ],
+            "style": {
+              "color": "rgb(72, 118, 214)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "comment"
+            ],
+            "style": {
+              "color": "rgb(152, 159, 177)",
+              "fontStyle": "italic"
             }
           },
           {
             "types": [
               "string",
-              "attr-value"
-            ],
-            "style": {
-              "color": "#e3116c"
-            }
-          },
-          {
-            "types": [
-              "punctuation",
-              "operator"
-            ],
-            "style": {
-              "color": "#393A34"
-            }
-          },
-          {
-            "types": [
-              "entity",
-              "url",
-              "symbol",
-              "number",
-              "boolean",
-              "variable",
+              "builtin",
+              "char",
               "constant",
-              "property",
-              "regex",
-              "inserted"
+              "url"
             ],
             "style": {
-              "color": "#36acaa"
+              "color": "rgb(72, 118, 214)"
             }
           },
           {
             "types": [
-              "atrule",
-              "keyword",
-              "attr-name",
-              "selector"
+              "variable"
             ],
             "style": {
-              "color": "#00a4db"
+              "color": "rgb(201, 103, 101)"
+            }
+          },
+          {
+            "types": [
+              "number"
+            ],
+            "style": {
+              "color": "rgb(170, 9, 130)"
+            }
+          },
+          {
+            "types": [
+              "punctuation"
+            ],
+            "style": {
+              "color": "rgb(153, 76, 195)"
             }
           },
           {
             "types": [
               "function",
-              "deleted",
+              "selector",
+              "doctype"
+            ],
+            "style": {
+              "color": "rgb(153, 76, 195)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "class-name"
+            ],
+            "style": {
+              "color": "rgb(17, 17, 17)"
+            }
+          },
+          {
+            "types": [
               "tag"
             ],
             "style": {
-              "color": "#d73a49"
+              "color": "rgb(153, 76, 195)"
             }
           },
           {
             "types": [
-              "function-variable"
+              "operator",
+              "property",
+              "keyword",
+              "namespace"
             ],
             "style": {
-              "color": "#6f42c1"
+              "color": "rgb(12, 150, 155)"
             }
           },
           {
             "types": [
-              "tag",
-              "selector",
-              "keyword"
+              "boolean"
             ],
             "style": {
-              "color": "#00009f"
+              "color": "rgb(188, 84, 84)"
             }
           }
         ]
@@ -274,7 +342,9 @@ export default {
           }
         ]
       },
-      "additionalLanguages": [],
+      "additionalLanguages": [
+        "ini"
+      ],
       "magicComments": [
         {
           "className": "theme-code-block-highlighted-line",

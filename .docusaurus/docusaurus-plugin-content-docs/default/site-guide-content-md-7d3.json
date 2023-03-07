@@ -1,0 +1,23 @@
+{
+  "unversionedId": "content",
+  "id": "content",
+  "title": "Content",
+  "description": "AWOP4FO3TTW A World of Pain for Fallout 3",
+  "source": "@site/guide/content.md",
+  "sourceDirName": ".",
+  "slug": "/content",
+  "permalink": "/wastelandsurvivalguide/guide/content",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Gameplay",
+    "permalink": "/wastelandsurvivalguide/guide/gameplay"
+  },
+  "next": {
+    "title": "Player Homes",
+    "permalink": "/wastelandsurvivalguide/guide/homes"
+  }
+}

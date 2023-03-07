@@ -1,0 +1,23 @@
+{
+  "unversionedId": "animations",
+  "id": "animations",
+  "title": "Animations",
+  "description": "First, create an \"Animations\"  in MO2.",
+  "source": "@site/guide/animations.md",
+  "sourceDirName": ".",
+  "slug": "/animations",
+  "permalink": "/wastelandsurvivalguide/guide/animations",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Visuals",
+    "permalink": "/wastelandsurvivalguide/guide/visuals"
+  },
+  "next": {
+    "title": "Final Steps",
+    "permalink": "/wastelandsurvivalguide/guide/finish"
+  }
+}

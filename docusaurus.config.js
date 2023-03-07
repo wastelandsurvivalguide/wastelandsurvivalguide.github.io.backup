@@ -1,8 +1,25 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
+const lightCodeTheme = require('prism-react-renderer/themes/nightOwlLight');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+
+/*
+dracula.js
+duotoneDark.js
+duotoneLight.js
+github.js
+nightOwl.js
+nightOwlLight.js
+oceanicNext.js
+okaidia.js
+palenight.js
+shadesOfPurple.js
+synthwave84.js
+ultramin.js
+vsDark.js
+vsLight.js
+*/
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -11,15 +28,15 @@ const config = {
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://your-docusaurus-test-site.com',
+    url: 'https://wastelandsurvivalguide.com',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/',
+    baseUrl: '/wastelandsurvivalguide',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
+    organizationName: 'wastelandsurvivalguide', // Usually your GitHub org/user name.
+    projectName: 'wastelandsurvivalguide', // Usually your repo name.
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -38,16 +55,18 @@ const config = {
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
                 docs: {
+                    path: 'guide',
+                    routeBasePath: 'guide',
                     sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 blog: {
-                    showReadingTime: true,
+                    showReadingTime: false,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -71,9 +90,15 @@ const config = {
                     type: 'doc',
                     docId: 'intro',
                     position: 'left',
-                    label: 'Tutorial',
+                    label: 'Guide',
                 },
-                { to: '/blog', label: 'Blog', position: 'left' },
+                {
+                    type: 'doc',
+                    docId: 'appendix',
+                    position: 'left',
+                    label: 'Appendix',
+                },
+                { to: '/blog', label: 'Changelog', position: 'left' },
                 {
                     href: 'https://github.com/facebook/docusaurus',
                     label: 'GitHub',
@@ -83,47 +108,58 @@ const config = {
         },
         footer: {
             style: 'dark',
-            links: [{
-                    title: 'Docs',
+            links: [ {
+                    title: 'Other Guides',
                     items: [{
-                        label: 'Tutorial',
-                        to: '/docs/intro',
-                    }, ],
+                            label: 'Performance Guide',
+                            href: 'https://wallsogb.github.io/FalloutNV-Performance-Guide/',
+                        },
+                        {
+                            label: 'Texture Guide',
+                            href: 'https://salamand3r.fail/texture-guide',
+                        },
+                        {
+                            label: 'Viva New Vegas',
+                            href: 'https://vivanewvegas.github.io/',
+                        },
+                    ],
                 },
-                // {
-                //     title: 'Community',
-                //     items: [{
-                //             label: 'Stack Overflow',
-                //             href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                //         },
-                //         {
-                //             label: 'Discord',
-                //             href: 'https://discordapp.com/invite/docusaurus',
-                //         },
-                //         {
-                //             label: 'Twitter',
-                //             href: 'https://twitter.com/docusaurus',
-                //         },
-                //     ],
-                // },
-                // {
-                //     title: 'More',
-                //     items: [{
-                //             label: 'Blog',
-                //             to: '/blog',
-                //         },
-                //         {
-                //             label: 'GitHub',
-                //             href: 'https://github.com/facebook/docusaurus',
-                //         },
-                //     ],
-                // },
+                {
+                    title: 'Information',
+                    items: [{
+                            label: 'GECKWiki',
+                            href: 'https://geckwiki.com/index.php/Main_Page',
+                        },
+                        {
+                            label: 'Mods to Avoid',
+                            href: 'https://vivanewvegas.github.io/avoid-mods.html',
+                        },
+                        {
+                            label: 'Tools to Avoid',
+                            href: 'https://vivanewvegas.github.io/avoid-tools.html',
+                        },
+                    ],
+                },
+                {
+                    title: 'TTW Community',
+                    items: [
+                        {
+                            label: 'TTW Discord',
+                            href: 'https://discord.gg/taleoftwowastelands',
+                        },
+                        {
+                            label: 'Incompatible Mods List',
+                            href: 'https://taleoftwowastelands.com/viewtopic.php?t=6878',
+                        },
+                    ],
+                },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            //copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
         },
         prism: {
             theme: lightCodeTheme,
             darkTheme: darkCodeTheme,
+            additionalLanguages: ['ini'],
         },
     }),
 };

@@ -1,0 +1,14 @@
+{
+  "unversionedId": "contributors",
+  "id": "contributors",
+  "title": "Contributors",
+  "description": "Some content transposed from The Best of Times & Viva New Vegas by Qolore7.",
+  "source": "@site/guide/contributors.md",
+  "sourceDirName": ".",
+  "slug": "/contributors",
+  "permalink": "/wastelandsurvivalguide/guide/contributors",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

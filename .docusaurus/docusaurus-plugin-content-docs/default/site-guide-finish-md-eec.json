@@ -1,0 +1,19 @@
+{
+  "unversionedId": "finish",
+  "id": "finish",
+  "title": "Final Steps",
+  "description": "Click the MO2 folder button button at the top of MO2 and select",
+  "source": "@site/guide/finish.md",
+  "sourceDirName": ".",
+  "slug": "/finish",
+  "permalink": "/wastelandsurvivalguide/guide/finish",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Animations",
+    "permalink": "/wastelandsurvivalguide/guide/animations"
+  }
+}

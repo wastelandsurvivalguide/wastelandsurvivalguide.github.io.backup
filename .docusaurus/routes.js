@@ -3,250 +3,253 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'f1c'),
+    path: '/wastelandsurvivalguide/__docusaurus/debug',
+    component: ComponentCreator('/wastelandsurvivalguide/__docusaurus/debug', '581'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '18b'),
+    path: '/wastelandsurvivalguide/__docusaurus/debug/config',
+    component: ComponentCreator('/wastelandsurvivalguide/__docusaurus/debug/config', '2b6'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '483'),
+    path: '/wastelandsurvivalguide/__docusaurus/debug/content',
+    component: ComponentCreator('/wastelandsurvivalguide/__docusaurus/debug/content', '2ff'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'b36'),
+    path: '/wastelandsurvivalguide/__docusaurus/debug/globalData',
+    component: ComponentCreator('/wastelandsurvivalguide/__docusaurus/debug/globalData', 'b15'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '000'),
+    path: '/wastelandsurvivalguide/__docusaurus/debug/metadata',
+    component: ComponentCreator('/wastelandsurvivalguide/__docusaurus/debug/metadata', '57b'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', 'e8d'),
+    path: '/wastelandsurvivalguide/__docusaurus/debug/registry',
+    component: ComponentCreator('/wastelandsurvivalguide/__docusaurus/debug/registry', 'f0f'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '6a0'),
+    path: '/wastelandsurvivalguide/__docusaurus/debug/routes',
+    component: ComponentCreator('/wastelandsurvivalguide/__docusaurus/debug/routes', '845'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', '01a'),
+    path: '/wastelandsurvivalguide/blog',
+    component: ComponentCreator('/wastelandsurvivalguide/blog', '28c'),
     exact: true
   },
   {
-    path: '/blog/2022/03/30/changelog',
-    component: ComponentCreator('/blog/2022/03/30/changelog', '454'),
+    path: '/wastelandsurvivalguide/blog/2022/03/30/changelog',
+    component: ComponentCreator('/wastelandsurvivalguide/blog/2022/03/30/changelog', 'd42'),
     exact: true
   },
   {
-    path: '/blog/2022/04/30/changelog',
-    component: ComponentCreator('/blog/2022/04/30/changelog', '5aa'),
+    path: '/wastelandsurvivalguide/blog/2022/04/30/changelog',
+    component: ComponentCreator('/wastelandsurvivalguide/blog/2022/04/30/changelog', '798'),
     exact: true
   },
   {
-    path: '/blog/2022/05/30/changelog',
-    component: ComponentCreator('/blog/2022/05/30/changelog', 'c1d'),
+    path: '/wastelandsurvivalguide/blog/2022/05/30/changelog',
+    component: ComponentCreator('/wastelandsurvivalguide/blog/2022/05/30/changelog', '760'),
     exact: true
   },
   {
-    path: '/blog/2022/06/30/changelog',
-    component: ComponentCreator('/blog/2022/06/30/changelog', '7f1'),
+    path: '/wastelandsurvivalguide/blog/2022/06/30/changelog',
+    component: ComponentCreator('/wastelandsurvivalguide/blog/2022/06/30/changelog', 'e1c'),
     exact: true
   },
   {
-    path: '/blog/2022/07/30/changelog',
-    component: ComponentCreator('/blog/2022/07/30/changelog', '223'),
+    path: '/wastelandsurvivalguide/blog/2022/07/30/changelog',
+    component: ComponentCreator('/wastelandsurvivalguide/blog/2022/07/30/changelog', '863'),
     exact: true
   },
   {
-    path: '/blog/2022/08/30/changelog',
-    component: ComponentCreator('/blog/2022/08/30/changelog', 'bb9'),
+    path: '/wastelandsurvivalguide/blog/2022/08/30/changelog',
+    component: ComponentCreator('/wastelandsurvivalguide/blog/2022/08/30/changelog', '057'),
     exact: true
   },
   {
-    path: '/blog/2022/09/30/changelog',
-    component: ComponentCreator('/blog/2022/09/30/changelog', '84e'),
+    path: '/wastelandsurvivalguide/blog/2022/09/30/changelog',
+    component: ComponentCreator('/wastelandsurvivalguide/blog/2022/09/30/changelog', '89d'),
     exact: true
   },
   {
-    path: '/blog/2022/10/30/changelog',
-    component: ComponentCreator('/blog/2022/10/30/changelog', '6c5'),
+    path: '/wastelandsurvivalguide/blog/2022/10/30/changelog',
+    component: ComponentCreator('/wastelandsurvivalguide/blog/2022/10/30/changelog', 'd18'),
     exact: true
   },
   {
-    path: '/blog/2022/11/30/changelog',
-    component: ComponentCreator('/blog/2022/11/30/changelog', '4f3'),
+    path: '/wastelandsurvivalguide/blog/2022/11/30/changelog',
+    component: ComponentCreator('/wastelandsurvivalguide/blog/2022/11/30/changelog', '1cc'),
     exact: true
   },
   {
-    path: '/blog/2023/01/30/changelog',
-    component: ComponentCreator('/blog/2023/01/30/changelog', '9ba'),
+    path: '/wastelandsurvivalguide/blog/2023/01/30/changelog',
+    component: ComponentCreator('/wastelandsurvivalguide/blog/2023/01/30/changelog', '2bc'),
     exact: true
   },
   {
-    path: '/blog/2023/02/23/redesign',
-    component: ComponentCreator('/blog/2023/02/23/redesign', '7b1'),
+    path: '/wastelandsurvivalguide/blog/2023/02/23/redesign',
+    component: ComponentCreator('/wastelandsurvivalguide/blog/2023/02/23/redesign', '6f8'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', 'bb4'),
+    path: '/wastelandsurvivalguide/blog/archive',
+    component: ComponentCreator('/wastelandsurvivalguide/blog/archive', '75e'),
     exact: true
   },
   {
-    path: '/blog/page/2',
-    component: ComponentCreator('/blog/page/2', 'ad4'),
+    path: '/wastelandsurvivalguide/blog/page/2',
+    component: ComponentCreator('/wastelandsurvivalguide/blog/page/2', '79d'),
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '06e'),
+    path: '/wastelandsurvivalguide/markdown-page',
+    component: ComponentCreator('/wastelandsurvivalguide/markdown-page', '87f'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', 'fcd'),
+    path: '/wastelandsurvivalguide/guide',
+    component: ComponentCreator('/wastelandsurvivalguide/guide', 'b47'),
     routes: [
       {
-        path: '/docs/animations',
-        component: ComponentCreator('/docs/animations', '745'),
+        path: '/wastelandsurvivalguide/guide/animations',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/animations', '6ba'),
         exact: true,
         sidebar: "sidebar"
       },
       {
-        path: '/docs/appendix',
-        component: ComponentCreator('/docs/appendix', 'd4b'),
+        path: '/wastelandsurvivalguide/guide/appendix',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/appendix', 'b3f'),
+        exact: true,
+        sidebar: "appendixSidebar"
+      },
+      {
+        path: '/wastelandsurvivalguide/guide/content',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/content', 'e2d'),
         exact: true,
         sidebar: "sidebar"
       },
       {
-        path: '/docs/content',
-        component: ComponentCreator('/docs/content', '0e2'),
+        path: '/wastelandsurvivalguide/guide/contributors',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/contributors', '1ea'),
+        exact: true
+      },
+      {
+        path: '/wastelandsurvivalguide/guide/dogma',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/dogma', 'be4'),
+        exact: true,
+        sidebar: "appendixSidebar"
+      },
+      {
+        path: '/wastelandsurvivalguide/guide/faq',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/faq', 'a39'),
+        exact: true,
+        sidebar: "appendixSidebar"
+      },
+      {
+        path: '/wastelandsurvivalguide/guide/finish',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/finish', '032'),
         exact: true,
         sidebar: "sidebar"
       },
       {
-        path: '/docs/contributors',
-        component: ComponentCreator('/docs/contributors', '3ab'),
-        exact: true,
-        sidebar: "GuideSidebar"
-      },
-      {
-        path: '/docs/dogma',
-        component: ComponentCreator('/docs/dogma', 'a7a'),
-        exact: true,
-        sidebar: "GuideSidebar"
-      },
-      {
-        path: '/docs/faq',
-        component: ComponentCreator('/docs/faq', '670'),
-        exact: true,
-        sidebar: "GuideSidebar"
-      },
-      {
-        path: '/docs/finish',
-        component: ComponentCreator('/docs/finish', '93f'),
+        path: '/wastelandsurvivalguide/guide/gameplay',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/gameplay', '9bd'),
         exact: true,
         sidebar: "sidebar"
       },
       {
-        path: '/docs/gameplay',
-        component: ComponentCreator('/docs/gameplay', '029'),
+        path: '/wastelandsurvivalguide/guide/homes',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/homes', 'b07'),
         exact: true,
         sidebar: "sidebar"
       },
       {
-        path: '/docs/homes',
-        component: ComponentCreator('/docs/homes', '9da'),
+        path: '/wastelandsurvivalguide/guide/intro',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/intro', '834'),
         exact: true,
         sidebar: "sidebar"
       },
       {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'a91'),
+        path: '/wastelandsurvivalguide/guide/lod',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/lod', 'c4c'),
+        exact: true,
+        sidebar: "appendixSidebar"
+      },
+      {
+        path: '/wastelandsurvivalguide/guide/mo2',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/mo2', 'c86'),
         exact: true,
         sidebar: "sidebar"
       },
       {
-        path: '/docs/lod',
-        component: ComponentCreator('/docs/lod', '0a7'),
-        exact: true,
-        sidebar: "GuideSidebar"
+        path: '/wastelandsurvivalguide/guide/mods-avoid',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/mods-avoid', 'df7'),
+        exact: true
       },
       {
-        path: '/docs/mo2',
-        component: ComponentCreator('/docs/mo2', 'e90'),
+        path: '/wastelandsurvivalguide/guide/overhauls',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/overhauls', 'd31'),
         exact: true,
         sidebar: "sidebar"
       },
       {
-        path: '/docs/overhauls',
-        component: ComponentCreator('/docs/overhauls', '606'),
+        path: '/wastelandsurvivalguide/guide/setup',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/setup', '41b'),
         exact: true,
         sidebar: "sidebar"
       },
       {
-        path: '/docs/resources',
-        component: ComponentCreator('/docs/resources', 'a0a'),
+        path: '/wastelandsurvivalguide/guide/themethod',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/themethod', '556'),
         exact: true,
-        sidebar: "GuideSidebar"
+        sidebar: "appendixSidebar"
       },
       {
-        path: '/docs/setup',
-        component: ComponentCreator('/docs/setup', '049'),
+        path: '/wastelandsurvivalguide/guide/tools-avoid',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/tools-avoid', 'f98'),
+        exact: true
+      },
+      {
+        path: '/wastelandsurvivalguide/guide/ttw',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/ttw', '2a8'),
         exact: true,
         sidebar: "sidebar"
       },
       {
-        path: '/docs/themethod',
-        component: ComponentCreator('/docs/themethod', '83e'),
-        exact: true,
-        sidebar: "GuideSidebar"
-      },
-      {
-        path: '/docs/ttw',
-        component: ComponentCreator('/docs/ttw', '53a'),
+        path: '/wastelandsurvivalguide/guide/ui',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/ui', '2cb'),
         exact: true,
         sidebar: "sidebar"
       },
       {
-        path: '/docs/ui',
-        component: ComponentCreator('/docs/ui', '16b'),
+        path: '/wastelandsurvivalguide/guide/utilities',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/utilities', '1f9'),
         exact: true,
         sidebar: "sidebar"
       },
       {
-        path: '/docs/utilities',
-        component: ComponentCreator('/docs/utilities', 'e9e'),
+        path: '/wastelandsurvivalguide/guide/visuals',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/visuals', 'd10'),
         exact: true,
         sidebar: "sidebar"
       },
       {
-        path: '/docs/visuals',
-        component: ComponentCreator('/docs/visuals', '7bf'),
+        path: '/wastelandsurvivalguide/guide/xedit',
+        component: ComponentCreator('/wastelandsurvivalguide/guide/xedit', 'f1b'),
         exact: true,
-        sidebar: "sidebar"
-      },
-      {
-        path: '/docs/xedit',
-        component: ComponentCreator('/docs/xedit', 'aab'),
-        exact: true,
-        sidebar: "GuideSidebar"
+        sidebar: "appendixSidebar"
       }
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'dc8'),
+    path: '/wastelandsurvivalguide/',
+    component: ComponentCreator('/wastelandsurvivalguide/', '390'),
     exact: true
   },
   {

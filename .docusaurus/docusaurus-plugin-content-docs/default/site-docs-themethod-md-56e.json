@@ -1,8 +1,8 @@
 {
   "unversionedId": "themethod",
   "id": "themethod",
-  "title": "themethod",
-  "description": "Intro Game Setup MO2 Setup TTW Setup Utilities UI/HUD Gameplay Content Homes Overhauls Visuals Animations Finish Appendix The Method",
+  "title": "The Method",
+  "description": "Requirements",
   "source": "@site/docs/themethod.md",
   "sourceDirName": ".",
   "slug": "/themethod",
@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "GuideSidebar",
+  "sidebar": "TutorialSidebar",
   "previous": {
     "title": "Game Setup",
     "permalink": "/docs/setup"

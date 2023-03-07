@@ -1,0 +1,23 @@
+{
+  "unversionedId": "themethod",
+  "id": "themethod",
+  "title": "The Method",
+  "description": "Requirements",
+  "source": "@site/guide/themethod.md",
+  "sourceDirName": ".",
+  "slug": "/themethod",
+  "permalink": "/wastelandsurvivalguide/guide/themethod",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "appendixSidebar",
+  "previous": {
+    "title": "xEdit Basics",
+    "permalink": "/wastelandsurvivalguide/guide/xedit"
+  },
+  "next": {
+    "title": "LOD Guide",
+    "permalink": "/wastelandsurvivalguide/guide/lod"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "unversionedId": "mods-avoid",
+  "id": "mods-avoid",
+  "title": "Mods to Avoid",
+  "description": "In this section we will go list some of the popular mods that shouldn't be used for Fallout New Vegas or",
+  "source": "@site/guide/mods-avoid.md",
+  "sourceDirName": ".",
+  "slug": "/mods-avoid",
+  "permalink": "/wastelandsurvivalguide/guide/mods-avoid",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

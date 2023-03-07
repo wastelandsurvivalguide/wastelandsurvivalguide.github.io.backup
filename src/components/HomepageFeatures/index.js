@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/community.svg').default,
     description: (
       <>
-        Created for TTW fans, by TTW fans. Join the <a href="https://discord.gg/taleoftwowastelands">Discord</a> for guide help, or to learn to make your own mods!
+        Created for TTW fans, by TTW fans. Join the <a href="https://discord.gg/taleoftwowastelands">TTW Discord</a> for guide help, or to learn to make your own mods!
       </>
     ),
   },

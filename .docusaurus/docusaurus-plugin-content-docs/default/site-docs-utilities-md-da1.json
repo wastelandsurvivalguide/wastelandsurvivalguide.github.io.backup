@@ -2,7 +2,7 @@
   "unversionedId": "utilities",
   "id": "utilities",
   "title": "Utilities",
-  "description": "First, create a \"Utilities\"  in MO2.",
+  "description": "In this section we will install a multitude of required tools and mods. It's very important not to skip anything on this page,",
   "source": "@site/docs/utilities.md",
   "sourceDirName": ".",
   "slug": "/utilities",
@@ -18,7 +18,7 @@
     "permalink": "/docs/ttw"
   },
   "next": {
-    "title": "ui",
+    "title": "User Interface & HUD",
     "permalink": "/docs/ui"
   }
 }
