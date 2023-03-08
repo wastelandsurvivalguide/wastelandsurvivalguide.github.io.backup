@@ -4,325 +4,392 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  title: "Wasteland Survival Guide",
-  tagline: "A Tale of Two Wastelands Modding Guide",
-  favicon: "img/favicon.ico",
-  url: "https://wastelandsurvivalguide.com",
-  baseUrl: "/wastelandsurvivalguide/",
-  organizationName: "wastelandsurvivalguide",
-  projectName: "wastelandsurvivalguide",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-  i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
-    path: "i18n",
-    localeConfigs: {},
+  "title": "Wasteland Survival Guide",
+  "tagline": "A Tale of Two Wastelands Modding Guide",
+  "favicon": "img/favicon.ico",
+  "url": "https://wastelandsurvivalguide.com",
+  "baseUrl": "/wastelandsurvivalguide/",
+  "organizationName": "wastelandsurvivalguide",
+  "projectName": "wastelandsurvivalguide.github.io",
+  "trailingSlash": false,
+  "onBrokenLinks": "throw",
+  "onBrokenMarkdownLinks": "warn",
+  "i18n": {
+    "defaultLocale": "en",
+    "locales": [
+      "en"
+    ],
+    "path": "i18n",
+    "localeConfigs": {}
   },
-  presets: [
+  "presets": [
     [
       "classic",
       {
-        docs: {
-          path: "guide",
-          routeBasePath: "guide",
-          sidebarPath:
-            "C:\\Users\\liamt\\source\\repos\\wasteland-survival-guide\\sidebars.js",
+        "docs": {
+          "path": "guide",
+          "routeBasePath": "guide",
+          "sidebarPath": "C:\\Users\\liamt\\source\\repos\\wastelandsurvivalguide.github.io\\sidebars.js"
         },
-        blog: {
-          showReadingTime: false,
+        "blog": {
+          "showReadingTime": false
         },
-        theme: {
-          customCss:
-            "C:\\Users\\liamt\\source\\repos\\wasteland-survival-guide\\src\\css\\custom.css",
-        },
-      },
-    ],
+        "theme": {
+          "customCss": "C:\\Users\\liamt\\source\\repos\\wastelandsurvivalguide.github.io\\src\\css\\custom.css"
+        }
+      }
+    ]
   ],
-  themeConfig: {
-    image: "img/docusaurus-social-card.jpg",
-    navbar: {
-      title: "Wasteland Survival Guide",
-      logo: {
-        alt: "Wasteland Survival Guide Logo",
-        src: "img/logo.webp",
+  "themeConfig": {
+    "image": "img/docusaurus-social-card.jpg",
+    "navbar": {
+      "title": "Wasteland Survival Guide",
+      "logo": {
+        "alt": "Wasteland Survival Guide Logo",
+        "src": "img/logo.webp"
       },
-      items: [
+      "items": [
         {
-          type: "doc",
-          docId: "intro",
-          position: "left",
-          label: "Guide",
+          "type": "doc",
+          "docId": "intro",
+          "position": "left",
+          "label": "Guide"
         },
         {
-          type: "doc",
-          docId: "appendix",
-          position: "left",
-          label: "Appendix",
+          "type": "doc",
+          "docId": "appendix",
+          "position": "left",
+          "label": "Appendix"
         },
         {
-          to: "/blog",
-          label: "Changelog",
-          position: "left",
+          "to": "/blog",
+          "label": "Changelog",
+          "position": "left"
         },
         {
-          href: "https://github.com/wastelandsurvivalguide/wastelandsurvivalguide.github.io",
-          label: "GitHub",
-          position: "right",
-        },
+          "href": "https://github.com/wastelandsurvivalguide/wastelandsurvivalguide.github.io",
+          "label": "GitHub",
+          "position": "right"
+        }
       ],
-      hideOnScroll: false,
+      "hideOnScroll": false
     },
-    footer: {
-      style: "dark",
-      links: [
+    "footer": {
+      "style": "dark",
+      "links": [
         {
-          title: "Other Guides",
-          items: [
+          "title": "Other Guides",
+          "items": [
             {
-              label: "Performance Guide",
-              href: "https://wallsogb.github.io/FalloutNV-Performance-Guide/",
+              "label": "Performance Guide",
+              "href": "https://wallsogb.github.io/FalloutNV-Performance-Guide/"
             },
             {
-              label: "Texture Guide",
-              href: "https://salamand3r.fail/texture-guide",
+              "label": "Texture Guide",
+              "href": "https://salamand3r.fail/texture-guide"
             },
             {
-              label: "Viva New Vegas",
-              href: "https://vivanewvegas.github.io/",
-            },
-          ],
+              "label": "Viva New Vegas",
+              "href": "https://vivanewvegas.github.io/"
+            }
+          ]
         },
         {
-          title: "Information",
-          items: [
+          "title": "Information",
+          "items": [
             {
-              label: "GECKWiki",
-              href: "https://geckwiki.com/index.php/Main_Page",
+              "label": "GECKWiki",
+              "href": "https://geckwiki.com/index.php/Main_Page"
             },
             {
-              label: "Mods to Avoid",
-              href: "https://vivanewvegas.github.io/avoid-mods.html",
+              "label": "Mods to Avoid",
+              "href": "https://vivanewvegas.github.io/avoid-mods.html"
             },
             {
-              label: "Tools to Avoid",
-              href: "https://vivanewvegas.github.io/avoid-tools.html",
-            },
-          ],
+              "label": "Tools to Avoid",
+              "href": "https://vivanewvegas.github.io/avoid-tools.html"
+            }
+          ]
         },
         {
-          title: "TTW Community",
-          items: [
+          "title": "TTW Community",
+          "items": [
             {
-              label: "TTW Discord",
-              href: "https://discord.gg/taleoftwowastelands",
+              "label": "TTW Discord",
+              "href": "https://discord.gg/taleoftwowastelands"
             },
             {
-              label: "Incompatible Mods List",
-              href: "https://taleoftwowastelands.com/viewtopic.php?t=6878",
-            },
-          ],
+              "label": "Incompatible Mods List",
+              "href": "https://taleoftwowastelands.com/viewtopic.php?t=6878"
+            }
+          ]
+        }
+      ]
+    },
+    "prism": {
+      "theme": {
+        "plain": {
+          "color": "#403f53",
+          "backgroundColor": "#FBFBFB"
         },
+        "styles": [
+          {
+            "types": [
+              "changed"
+            ],
+            "style": {
+              "color": "rgb(162, 191, 252)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "deleted"
+            ],
+            "style": {
+              "color": "rgba(239, 83, 80, 0.56)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "inserted",
+              "attr-name"
+            ],
+            "style": {
+              "color": "rgb(72, 118, 214)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "comment"
+            ],
+            "style": {
+              "color": "rgb(152, 159, 177)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "string",
+              "builtin",
+              "char",
+              "constant",
+              "url"
+            ],
+            "style": {
+              "color": "rgb(72, 118, 214)"
+            }
+          },
+          {
+            "types": [
+              "variable"
+            ],
+            "style": {
+              "color": "rgb(201, 103, 101)"
+            }
+          },
+          {
+            "types": [
+              "number"
+            ],
+            "style": {
+              "color": "rgb(170, 9, 130)"
+            }
+          },
+          {
+            "types": [
+              "punctuation"
+            ],
+            "style": {
+              "color": "rgb(153, 76, 195)"
+            }
+          },
+          {
+            "types": [
+              "function",
+              "selector",
+              "doctype"
+            ],
+            "style": {
+              "color": "rgb(153, 76, 195)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "class-name"
+            ],
+            "style": {
+              "color": "rgb(17, 17, 17)"
+            }
+          },
+          {
+            "types": [
+              "tag"
+            ],
+            "style": {
+              "color": "rgb(153, 76, 195)"
+            }
+          },
+          {
+            "types": [
+              "operator",
+              "property",
+              "keyword",
+              "namespace"
+            ],
+            "style": {
+              "color": "rgb(12, 150, 155)"
+            }
+          },
+          {
+            "types": [
+              "boolean"
+            ],
+            "style": {
+              "color": "rgb(188, 84, 84)"
+            }
+          }
+        ]
+      },
+      "darkTheme": {
+        "plain": {
+          "color": "#F8F8F2",
+          "backgroundColor": "#282A36"
+        },
+        "styles": [
+          {
+            "types": [
+              "prolog",
+              "constant",
+              "builtin"
+            ],
+            "style": {
+              "color": "rgb(189, 147, 249)"
+            }
+          },
+          {
+            "types": [
+              "inserted",
+              "function"
+            ],
+            "style": {
+              "color": "rgb(80, 250, 123)"
+            }
+          },
+          {
+            "types": [
+              "deleted"
+            ],
+            "style": {
+              "color": "rgb(255, 85, 85)"
+            }
+          },
+          {
+            "types": [
+              "changed"
+            ],
+            "style": {
+              "color": "rgb(255, 184, 108)"
+            }
+          },
+          {
+            "types": [
+              "punctuation",
+              "symbol"
+            ],
+            "style": {
+              "color": "rgb(248, 248, 242)"
+            }
+          },
+          {
+            "types": [
+              "string",
+              "char",
+              "tag",
+              "selector"
+            ],
+            "style": {
+              "color": "rgb(255, 121, 198)"
+            }
+          },
+          {
+            "types": [
+              "keyword",
+              "variable"
+            ],
+            "style": {
+              "color": "rgb(189, 147, 249)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "comment"
+            ],
+            "style": {
+              "color": "rgb(98, 114, 164)"
+            }
+          },
+          {
+            "types": [
+              "attr-name"
+            ],
+            "style": {
+              "color": "rgb(241, 250, 140)"
+            }
+          }
+        ]
+      },
+      "additionalLanguages": [
+        "ini"
       ],
-    },
-    prism: {
-      theme: {
-        plain: {
-          color: "#403f53",
-          backgroundColor: "#FBFBFB",
-        },
-        styles: [
-          {
-            types: ["changed"],
-            style: {
-              color: "rgb(162, 191, 252)",
-              fontStyle: "italic",
-            },
-          },
-          {
-            types: ["deleted"],
-            style: {
-              color: "rgba(239, 83, 80, 0.56)",
-              fontStyle: "italic",
-            },
-          },
-          {
-            types: ["inserted", "attr-name"],
-            style: {
-              color: "rgb(72, 118, 214)",
-              fontStyle: "italic",
-            },
-          },
-          {
-            types: ["comment"],
-            style: {
-              color: "rgb(152, 159, 177)",
-              fontStyle: "italic",
-            },
-          },
-          {
-            types: ["string", "builtin", "char", "constant", "url"],
-            style: {
-              color: "rgb(72, 118, 214)",
-            },
-          },
-          {
-            types: ["variable"],
-            style: {
-              color: "rgb(201, 103, 101)",
-            },
-          },
-          {
-            types: ["number"],
-            style: {
-              color: "rgb(170, 9, 130)",
-            },
-          },
-          {
-            types: ["punctuation"],
-            style: {
-              color: "rgb(153, 76, 195)",
-            },
-          },
-          {
-            types: ["function", "selector", "doctype"],
-            style: {
-              color: "rgb(153, 76, 195)",
-              fontStyle: "italic",
-            },
-          },
-          {
-            types: ["class-name"],
-            style: {
-              color: "rgb(17, 17, 17)",
-            },
-          },
-          {
-            types: ["tag"],
-            style: {
-              color: "rgb(153, 76, 195)",
-            },
-          },
-          {
-            types: ["operator", "property", "keyword", "namespace"],
-            style: {
-              color: "rgb(12, 150, 155)",
-            },
-          },
-          {
-            types: ["boolean"],
-            style: {
-              color: "rgb(188, 84, 84)",
-            },
-          },
-        ],
-      },
-      darkTheme: {
-        plain: {
-          color: "#F8F8F2",
-          backgroundColor: "#282A36",
-        },
-        styles: [
-          {
-            types: ["prolog", "constant", "builtin"],
-            style: {
-              color: "rgb(189, 147, 249)",
-            },
-          },
-          {
-            types: ["inserted", "function"],
-            style: {
-              color: "rgb(80, 250, 123)",
-            },
-          },
-          {
-            types: ["deleted"],
-            style: {
-              color: "rgb(255, 85, 85)",
-            },
-          },
-          {
-            types: ["changed"],
-            style: {
-              color: "rgb(255, 184, 108)",
-            },
-          },
-          {
-            types: ["punctuation", "symbol"],
-            style: {
-              color: "rgb(248, 248, 242)",
-            },
-          },
-          {
-            types: ["string", "char", "tag", "selector"],
-            style: {
-              color: "rgb(255, 121, 198)",
-            },
-          },
-          {
-            types: ["keyword", "variable"],
-            style: {
-              color: "rgb(189, 147, 249)",
-              fontStyle: "italic",
-            },
-          },
-          {
-            types: ["comment"],
-            style: {
-              color: "rgb(98, 114, 164)",
-            },
-          },
-          {
-            types: ["attr-name"],
-            style: {
-              color: "rgb(241, 250, 140)",
-            },
-          },
-        ],
-      },
-      additionalLanguages: ["ini"],
-      magicComments: [
+      "magicComments": [
         {
-          className: "theme-code-block-highlighted-line",
-          line: "highlight-next-line",
-          block: {
-            start: "highlight-start",
-            end: "highlight-end",
-          },
-        },
-      ],
+          "className": "theme-code-block-highlighted-line",
+          "line": "highlight-next-line",
+          "block": {
+            "start": "highlight-start",
+            "end": "highlight-end"
+          }
+        }
+      ]
     },
-    colorMode: {
-      defaultMode: "light",
-      disableSwitch: false,
-      respectPrefersColorScheme: false,
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": false
     },
-    docs: {
-      versionPersistence: "localStorage",
-      sidebar: {
-        hideable: false,
-        autoCollapseCategories: false,
-      },
+    "docs": {
+      "versionPersistence": "localStorage",
+      "sidebar": {
+        "hideable": false,
+        "autoCollapseCategories": false
+      }
     },
-    metadata: [],
-    tableOfContents: {
-      minHeadingLevel: 2,
-      maxHeadingLevel: 3,
-    },
+    "metadata": [],
+    "tableOfContents": {
+      "minHeadingLevel": 2,
+      "maxHeadingLevel": 3
+    }
   },
-  baseUrlIssueBanner: true,
-  onDuplicateRoutes: "warn",
-  staticDirectories: ["static"],
-  customFields: {},
-  plugins: [],
-  themes: [],
-  scripts: [],
-  headTags: [],
-  stylesheets: [],
-  clientModules: [],
-  titleDelimiter: "|",
-  noIndex: false,
-  markdown: {
-    mermaid: false,
-  },
+  "baseUrlIssueBanner": true,
+  "onDuplicateRoutes": "warn",
+  "staticDirectories": [
+    "static"
+  ],
+  "customFields": {},
+  "plugins": [],
+  "themes": [],
+  "scripts": [],
+  "headTags": [],
+  "stylesheets": [],
+  "clientModules": [],
+  "titleDelimiter": "|",
+  "noIndex": false,
+  "markdown": {
+    "mermaid": false
+  }
 };

@@ -4,7 +4,7 @@ displayed_sidebar: appendixSidebar
 
 # Appendix
 
-## [Frequently-Asked Questions](./faq.html)
+## [Frequently-Asked Questions](faq)
 
 Solutions to common problems with the guide.
 
