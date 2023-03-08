@@ -2,7 +2,7 @@
   "unversionedId": "visuals",
   "id": "visuals",
   "title": "Visuals",
-  "description": "Where are the texture mods?",
+  "description": "WSG doesn't cover texture mods as most of our team doesn't use them, but please check out",
   "source": "@site/guide/visuals.md",
   "sourceDirName": ".",
   "slug": "/visuals",

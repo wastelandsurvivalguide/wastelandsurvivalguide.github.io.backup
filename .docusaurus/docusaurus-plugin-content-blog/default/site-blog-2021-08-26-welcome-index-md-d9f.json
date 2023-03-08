@@ -41,15 +41,8 @@
   "frontMatter": {
     "slug": "welcome",
     "title": "Welcome",
-    "authors": [
-      "slorber",
-      "yangshun"
-    ],
-    "tags": [
-      "facebook",
-      "hello",
-      "docusaurus"
-    ]
+    "authors": ["slorber", "yangshun"],
+    "tags": ["facebook", "hello", "docusaurus"]
   },
   "prevItem": {
     "title": "Changelog - April 2022",

@@ -2,7 +2,7 @@
   "unversionedId": "content",
   "id": "content",
   "title": "Content",
-  "description": "AWOP4FO3TTW A World of Pain for Fallout 3",
+  "description": "NPCs & Quests",
   "source": "@site/guide/content.md",
   "sourceDirName": ".",
   "slug": "/content",
@@ -17,7 +17,7 @@
     "permalink": "/wastelandsurvivalguide/guide/gameplay"
   },
   "next": {
-    "title": "Player Homes",
-    "permalink": "/wastelandsurvivalguide/guide/homes"
+    "title": "Overhauls",
+    "permalink": "/wastelandsurvivalguide/guide/overhauls"
   }
 }

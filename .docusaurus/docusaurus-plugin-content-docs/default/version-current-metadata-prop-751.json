@@ -59,12 +59,6 @@
       },
       {
         "type": "link",
-        "label": "Player Homes",
-        "href": "/wastelandsurvivalguide/guide/homes",
-        "docId": "homes"
-      },
-      {
-        "type": "link",
         "label": "Overhauls",
         "href": "/wastelandsurvivalguide/guide/overhauls",
         "docId": "overhauls"
@@ -125,7 +119,7 @@
     "animations": {
       "id": "animations",
       "title": "Animations",
-      "description": "First, create an \"Animations\"  in MO2.",
+      "description": "Some of these mods can affect game balance by differing from vanilla attack speed and reload",
       "sidebar": "sidebar"
     },
     "appendix": {
@@ -137,7 +131,7 @@
     "content": {
       "id": "content",
       "title": "Content",
-      "description": "AWOP4FO3TTW A World of Pain for Fallout 3",
+      "description": "NPCs & Quests",
       "sidebar": "sidebar"
     },
     "contributors": {
@@ -166,19 +160,13 @@
     "gameplay": {
       "id": "gameplay",
       "title": "Gameplay",
-      "description": "Casino Exchange All",
-      "sidebar": "sidebar"
-    },
-    "homes": {
-      "id": "homes",
-      "title": "Player Homes",
-      "description": "Home and Safehouse Tweaks",
+      "description": "Tweaks & Quality-Of-Life",
       "sidebar": "sidebar"
     },
     "intro": {
       "id": "intro",
       "title": "Intro",
-      "description": "About the Guide",
+      "description": "WSG Banner",
       "sidebar": "sidebar"
     },
     "lod": {
@@ -207,7 +195,7 @@
     "setup": {
       "id": "setup",
       "title": "Game Setup",
-      "description": "A video walkthrough for this section is available.",
+      "description": "Before we can proceed with the guide, a clean installation is required for both Fallout NV and Fallout 3.",
       "sidebar": "sidebar"
     },
     "themethod": {
@@ -242,7 +230,7 @@
     "visuals": {
       "id": "visuals",
       "title": "Visuals",
-      "description": "Where are the texture mods?",
+      "description": "WSG doesn't cover texture mods as most of our team doesn't use them, but please check out",
       "sidebar": "sidebar"
     },
     "xedit": {

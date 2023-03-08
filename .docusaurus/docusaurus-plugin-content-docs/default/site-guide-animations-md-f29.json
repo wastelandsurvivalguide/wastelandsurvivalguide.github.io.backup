@@ -2,7 +2,7 @@
   "unversionedId": "animations",
   "id": "animations",
   "title": "Animations",
-  "description": "First, create an \"Animations\"  in MO2.",
+  "description": "Some of these mods can affect game balance by differing from vanilla attack speed and reload",
   "source": "@site/guide/animations.md",
   "sourceDirName": ".",
   "slug": "/animations",

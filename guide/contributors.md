@@ -1,8 +1,11 @@
 ﻿# Contributors
 
 ##### **Some content transposed from The Best of Times & Viva New Vegas by [Qolore7](https://www.patreon.com/vivanewvegas).**
+
 ##### **Huge thanks to all mod authors featured in the guide & to the TTW team & community.**
+
 ##### **Contributors:**
+
 - [Audley](https://www.nexusmods.com/newvegas/users/3644561)
 - [Audixas](https://ko-fi.com/audixas)
 - [Wall_SoGB](https://www.nexusmods.com/users/22363364)

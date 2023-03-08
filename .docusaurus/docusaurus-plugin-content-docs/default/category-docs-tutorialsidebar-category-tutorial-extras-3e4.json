@@ -1,15 +1,15 @@
 {
-    "title": "Guide - Extras",
-    "slug": "/category/Guide---extras",
-    "permalink": "/docs/category/Guide---extras",
-    "navigation": {
-        "previous": {
-            "title": "Congratulations!",
-            "permalink": "/docs/Guide-basics/congratulations"
-        },
-        "next": {
-            "title": "Manage Docs Versions",
-            "permalink": "/docs/Guide-extras/manage-docs-versions"
-        }
+  "title": "Guide - Extras",
+  "slug": "/category/Guide---extras",
+  "permalink": "/docs/category/Guide---extras",
+  "navigation": {
+    "previous": {
+      "title": "Congratulations!",
+      "permalink": "/docs/Guide-basics/congratulations"
+    },
+    "next": {
+      "title": "Manage Docs Versions",
+      "permalink": "/docs/Guide-extras/manage-docs-versions"
     }
+  }
 }

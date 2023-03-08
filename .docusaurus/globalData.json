@@ -50,11 +50,6 @@
               "sidebar": "sidebar"
             },
             {
-              "id": "homes",
-              "path": "/wastelandsurvivalguide/guide/homes",
-              "sidebar": "sidebar"
-            },
-            {
               "id": "intro",
               "path": "/wastelandsurvivalguide/guide/intro",
               "sidebar": "sidebar"

@@ -2,82 +2,82 @@
   "/wastelandsurvivalguide/__docusaurus/debug-581": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-759-d06"
+      "plugin": "plugin---wastelandsurvivalguide-docusaurus-debug-759-88a"
     }
   },
   "/wastelandsurvivalguide/__docusaurus/debug/config-2b6": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-759-d06"
+      "plugin": "plugin---wastelandsurvivalguide-docusaurus-debug-759-88a"
     }
   },
   "/wastelandsurvivalguide/__docusaurus/debug/content-2ff": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-759-d06"
+      "plugin": "plugin---wastelandsurvivalguide-docusaurus-debug-759-88a"
     },
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+    "allContent": "allContent---wastelandsurvivalguide-docusaurus-debug-content-246-1d2"
   },
   "/wastelandsurvivalguide/__docusaurus/debug/globalData-b15": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-759-d06"
+      "plugin": "plugin---wastelandsurvivalguide-docusaurus-debug-759-88a"
     }
   },
   "/wastelandsurvivalguide/__docusaurus/debug/metadata-57b": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-759-d06"
+      "plugin": "plugin---wastelandsurvivalguide-docusaurus-debug-759-88a"
     }
   },
   "/wastelandsurvivalguide/__docusaurus/debug/registry-f0f": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-759-d06"
+      "plugin": "plugin---wastelandsurvivalguide-docusaurus-debug-759-88a"
     }
   },
   "/wastelandsurvivalguide/__docusaurus/debug/routes-845": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debug-759-d06"
+      "plugin": "plugin---wastelandsurvivalguide-docusaurus-debug-759-88a"
     }
   },
   "/wastelandsurvivalguide/blog-28c": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---blog-6-b-7-4ea"
+      "plugin": "plugin---wastelandsurvivalguide-blog-6-b-7-f06"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "sidebar---wastelandsurvivalguide-blog-814-f83",
     "items": [
       {
-        "content": "content---bloge-84-b02"
+        "content": "content---wastelandsurvivalguide-bloge-84-7de"
       },
       {
-        "content": "content---blog-46-f-0f5"
+        "content": "content---wastelandsurvivalguide-blog-46-f-8cc"
       },
       {
-        "content": "content---blog-204-8fb"
+        "content": "content---wastelandsurvivalguide-blog-204-88e"
       },
       {
-        "content": "content---blog-0-e-5-5fb"
+        "content": "content---wastelandsurvivalguide-blog-0-e-5-cce"
       },
       {
-        "content": "content---blogf-03-127"
+        "content": "content---wastelandsurvivalguide-blogf-03-060"
       },
       {
-        "content": "content---blog-09-f-c4d"
+        "content": "content---wastelandsurvivalguide-blog-09-f-1c9"
       },
       {
-        "content": "content---bloge-7-b-2d5"
+        "content": "content---wastelandsurvivalguide-bloge-7-b-cef"
       },
       {
-        "content": "content---blog-875-131"
+        "content": "content---wastelandsurvivalguide-blog-875-4ce"
       },
       {
-        "content": "content---blog-873-5ad"
+        "content": "content---wastelandsurvivalguide-blog-873-466"
       },
       {
-        "content": "content---bloga-87-85b"
+        "content": "content---wastelandsurvivalguide-bloga-87-2ca"
       }
     ],
     "metadata": "metadata---wastelandsurvivalguide-blog-59-f-510"
@@ -85,107 +85,107 @@
   "/wastelandsurvivalguide/blog/2022/03/30/changelog-d42": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-6-b-7-4ea"
+      "plugin": "plugin---wastelandsurvivalguide-blog-6-b-7-f06"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2022-03-30-changelogb-44-a94"
+    "sidebar": "sidebar---wastelandsurvivalguide-blog-814-f83",
+    "content": "content---wastelandsurvivalguide-blog-2022-03-30-changelogb-44-1ee"
   },
   "/wastelandsurvivalguide/blog/2022/04/30/changelog-798": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-6-b-7-4ea"
+      "plugin": "plugin---wastelandsurvivalguide-blog-6-b-7-f06"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2022-04-30-changelogbef-18a"
+    "sidebar": "sidebar---wastelandsurvivalguide-blog-814-f83",
+    "content": "content---wastelandsurvivalguide-blog-2022-04-30-changelogbef-0c2"
   },
   "/wastelandsurvivalguide/blog/2022/05/30/changelog-760": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-6-b-7-4ea"
+      "plugin": "plugin---wastelandsurvivalguide-blog-6-b-7-f06"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2022-05-30-changelogb-74-b17"
+    "sidebar": "sidebar---wastelandsurvivalguide-blog-814-f83",
+    "content": "content---wastelandsurvivalguide-blog-2022-05-30-changelogb-74-786"
   },
   "/wastelandsurvivalguide/blog/2022/06/30/changelog-e1c": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-6-b-7-4ea"
+      "plugin": "plugin---wastelandsurvivalguide-blog-6-b-7-f06"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2022-06-30-changeloga-70-f1a"
+    "sidebar": "sidebar---wastelandsurvivalguide-blog-814-f83",
+    "content": "content---wastelandsurvivalguide-blog-2022-06-30-changeloga-70-13c"
   },
   "/wastelandsurvivalguide/blog/2022/07/30/changelog-863": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-6-b-7-4ea"
+      "plugin": "plugin---wastelandsurvivalguide-blog-6-b-7-f06"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2022-07-30-changelogfd-2-b79"
+    "sidebar": "sidebar---wastelandsurvivalguide-blog-814-f83",
+    "content": "content---wastelandsurvivalguide-blog-2022-07-30-changelogfd-2-e62"
   },
   "/wastelandsurvivalguide/blog/2022/08/30/changelog-057": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-6-b-7-4ea"
+      "plugin": "plugin---wastelandsurvivalguide-blog-6-b-7-f06"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2022-08-30-changelog-78-e-7cc"
+    "sidebar": "sidebar---wastelandsurvivalguide-blog-814-f83",
+    "content": "content---wastelandsurvivalguide-blog-2022-08-30-changelog-78-e-d3a"
   },
   "/wastelandsurvivalguide/blog/2022/09/30/changelog-89d": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-6-b-7-4ea"
+      "plugin": "plugin---wastelandsurvivalguide-blog-6-b-7-f06"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2022-09-30-changelog-0-e-8-d06"
+    "sidebar": "sidebar---wastelandsurvivalguide-blog-814-f83",
+    "content": "content---wastelandsurvivalguide-blog-2022-09-30-changelog-0-e-8-a00"
   },
   "/wastelandsurvivalguide/blog/2022/10/30/changelog-d18": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-6-b-7-4ea"
+      "plugin": "plugin---wastelandsurvivalguide-blog-6-b-7-f06"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2022-10-30-changelog-93-e-ab2"
+    "sidebar": "sidebar---wastelandsurvivalguide-blog-814-f83",
+    "content": "content---wastelandsurvivalguide-blog-2022-10-30-changelog-93-e-791"
   },
   "/wastelandsurvivalguide/blog/2022/11/30/changelog-1cc": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-6-b-7-4ea"
+      "plugin": "plugin---wastelandsurvivalguide-blog-6-b-7-f06"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2022-11-30-changelogd-3-b-086"
+    "sidebar": "sidebar---wastelandsurvivalguide-blog-814-f83",
+    "content": "content---wastelandsurvivalguide-blog-2022-11-30-changelogd-3-b-69d"
   },
   "/wastelandsurvivalguide/blog/2023/01/30/changelog-2bc": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-6-b-7-4ea"
+      "plugin": "plugin---wastelandsurvivalguide-blog-6-b-7-f06"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2023-01-30-changelog-752-ae7"
+    "sidebar": "sidebar---wastelandsurvivalguide-blog-814-f83",
+    "content": "content---wastelandsurvivalguide-blog-2023-01-30-changelog-752-b9a"
   },
   "/wastelandsurvivalguide/blog/2023/02/23/redesign-6f8": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
-      "plugin": "plugin---blog-6-b-7-4ea"
+      "plugin": "plugin---wastelandsurvivalguide-blog-6-b-7-f06"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-2023-02-23-redesign-2-db-e0d"
+    "sidebar": "sidebar---wastelandsurvivalguide-blog-814-f83",
+    "content": "content---wastelandsurvivalguide-blog-2023-02-23-redesign-2-db-5df"
   },
   "/wastelandsurvivalguide/blog/archive-75e": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "plugin---blog-6-b-7-4ea"
+      "plugin": "plugin---wastelandsurvivalguide-blog-6-b-7-f06"
     },
     "archive": "archive---wastelandsurvivalguide-blog-archive-37-f-395"
   },
   "/wastelandsurvivalguide/blog/page/2-79d": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
-      "plugin": "plugin---blog-6-b-7-4ea"
+      "plugin": "plugin---wastelandsurvivalguide-blog-6-b-7-f06"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "sidebar---wastelandsurvivalguide-blog-814-f83",
     "items": [
       {
-        "content": "content---blog-page-2839-083"
+        "content": "content---wastelandsurvivalguide-blog-page-2839-44a"
       }
     ],
     "metadata": "metadata---wastelandsurvivalguide-blog-page-2617-d9c"
@@ -193,110 +193,106 @@
   "/wastelandsurvivalguide/markdown-page-87f": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---markdown-page-4-d-9-c17"
+      "plugin": "plugin---wastelandsurvivalguide-markdown-page-4-d-9-525"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "content---wastelandsurvivalguide-markdown-page-393-a10"
   },
-  "/wastelandsurvivalguide/guide-b47": {
+  "/wastelandsurvivalguide/guide-8c5": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "plugin---guidef-82-270"
+      "plugin": "plugin---wastelandsurvivalguide-guidef-82-590"
     },
-    "versionMetadata": "versionMetadata---guide-935-f4f"
+    "versionMetadata": "versionMetadata---wastelandsurvivalguide-guide-935-002"
   },
   "/wastelandsurvivalguide/guide/animations-6ba": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-animationsf-29-2bf"
+    "content": "content---wastelandsurvivalguide-guide-animationsf-29-4bd"
   },
   "/wastelandsurvivalguide/guide/appendix-b3f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-appendix-97-e-2f9"
+    "content": "content---wastelandsurvivalguide-guide-appendix-97-e-9af"
   },
   "/wastelandsurvivalguide/guide/content-e2d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-content-7-d-3-5ed"
+    "content": "content---wastelandsurvivalguide-guide-content-7-d-3-fdf"
   },
   "/wastelandsurvivalguide/guide/contributors-1ea": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-contributors-86-d-3e8"
+    "content": "content---wastelandsurvivalguide-guide-contributors-86-d-0d1"
   },
   "/wastelandsurvivalguide/guide/dogma-be4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-dogmaa-21-f0d"
+    "content": "content---wastelandsurvivalguide-guide-dogmaa-21-c1b"
   },
   "/wastelandsurvivalguide/guide/faq-a39": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-faq-4-c-2-053"
+    "content": "content---wastelandsurvivalguide-guide-faq-4-c-2-5a2"
   },
   "/wastelandsurvivalguide/guide/finish-032": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-finisheec-8dd"
+    "content": "content---wastelandsurvivalguide-guide-finisheec-3e3"
   },
   "/wastelandsurvivalguide/guide/gameplay-9bd": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-gameplay-2-dc-55f"
-  },
-  "/wastelandsurvivalguide/guide/homes-b07": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-homesb-34-3c3"
+    "content": "content---wastelandsurvivalguide-guide-gameplay-2-dc-6eb"
   },
   "/wastelandsurvivalguide/guide/intro-834": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-intro-840-a7b"
+    "content": "content---wastelandsurvivalguide-guide-intro-840-428"
   },
   "/wastelandsurvivalguide/guide/lod-c4c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-lod-009-e64"
+    "content": "content---wastelandsurvivalguide-guide-lod-009-b3f"
   },
   "/wastelandsurvivalguide/guide/mo2-c86": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-mo-22-a-1-633"
+    "content": "content---wastelandsurvivalguide-guide-mo-22-a-1-a15"
   },
   "/wastelandsurvivalguide/guide/mods-avoid-df7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-mods-avoid-21-a-23c"
+    "content": "content---wastelandsurvivalguide-guide-mods-avoid-21-a-fb3"
   },
   "/wastelandsurvivalguide/guide/overhauls-d31": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-overhaulsee-5-ceb"
+    "content": "content---wastelandsurvivalguide-guide-overhaulsee-5-94e"
   },
   "/wastelandsurvivalguide/guide/setup-41b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-setupc-17-5d3"
+    "content": "content---wastelandsurvivalguide-guide-setupc-17-994"
   },
   "/wastelandsurvivalguide/guide/themethod-556": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-themethod-2-d-3-d72"
+    "content": "content---wastelandsurvivalguide-guide-themethod-2-d-3-2f7"
   },
   "/wastelandsurvivalguide/guide/tools-avoid-f98": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-tools-avoid-23-b-e9b"
+    "content": "content---wastelandsurvivalguide-guide-tools-avoid-23-b-fc6"
   },
   "/wastelandsurvivalguide/guide/ttw-2a8": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-ttw-647-2ce"
+    "content": "content---wastelandsurvivalguide-guide-ttw-647-677"
   },
   "/wastelandsurvivalguide/guide/ui-2cb": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-uid-54-bdf"
+    "content": "content---wastelandsurvivalguide-guide-uid-54-f2c"
   },
   "/wastelandsurvivalguide/guide/utilities-1f9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-utilitiesc-09-71d"
+    "content": "content---wastelandsurvivalguide-guide-utilitiesc-09-62f"
   },
   "/wastelandsurvivalguide/guide/visuals-d10": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-visuals-019-44d"
+    "content": "content---wastelandsurvivalguide-guide-visuals-019-3d6"
   },
   "/wastelandsurvivalguide/guide/xedit-f1b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---guide-xeditfbf-3a6"
+    "content": "content---wastelandsurvivalguide-guide-xeditfbf-6a5"
   },
   "/wastelandsurvivalguide/-390": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---markdown-page-4-d-9-c17"
+      "plugin": "plugin---wastelandsurvivalguide-markdown-page-4-d-9-525"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---wastelandsurvivalguide-5-e-9-3d8"
   }
 }
