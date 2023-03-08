@@ -1,6 +1,6 @@
 ﻿# Intro
 
-![WSG Banner](https://wastelandsurvivalguide.com/img/banner.png)
+![WSG Banner](img/banner.png)
 
 ## About the Guide
 

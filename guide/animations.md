@@ -69,6 +69,9 @@ Fixed camera jumps, animation snapping, movement lock, broken aim in 3rd person.
 ### [Hit's Anims - Animation Fixes](https://www.nexusmods.com/newvegas/mods/76457)
 
 Adds Hitman's animations to some left-out weapons, restores vanilla pistol RoF & other fixes.
+
+#### Installation:
+
 Main File - Hit's Anims - Animation Fixes
 
 ### [Melee VATS Animation Restoration](https://www.nexusmods.com/newvegas/mods/73480)

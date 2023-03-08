@@ -6,8 +6,8 @@
 export default {
   "title": "Wasteland Survival Guide",
   "tagline": "A Tale of Two Wastelands Modding Guide",
-  "favicon": "./static/img/favicon.ico",
-  "url": "https://wastelandsurvivalguide.github.io",
+  "favicon": "img/favicon.ico",
+  "url": "https://wastelandsurvivalguide.com",
   "baseUrl": "/",
   "organizationName": "wastelandsurvivalguide",
   "projectName": "wastelandsurvivalguide.github.io",
@@ -42,7 +42,7 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/social.png",
     "navbar": {
       "title": "Wasteland Survival Guide",
       "logo": {
@@ -99,16 +99,16 @@ export default {
           "title": "Information",
           "items": [
             {
-              "label": "GECKWiki",
-              "href": "https://geckwiki.com/index.php/Main_Page"
-            },
-            {
               "label": "Mods to Avoid",
               "href": "https://vivanewvegas.github.io/avoid-mods.html"
             },
             {
               "label": "Tools to Avoid",
               "href": "https://vivanewvegas.github.io/avoid-tools.html"
+            },
+            {
+              "label": "GECKWiki",
+              "href": "https://geckwiki.com/index.php/Main_Page"
             }
           ]
         },

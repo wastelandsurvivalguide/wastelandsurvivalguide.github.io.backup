@@ -8,10 +8,10 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
     title: "Wasteland Survival Guide",
     tagline: "A Tale of Two Wastelands Modding Guide",
-    favicon: "./static/img/favicon.ico",
+    favicon: "img/favicon.ico",
 
     // Set the production url of your site here
-    url: "https://wastelandsurvivalguide.github.io",
+    url: "https://wastelandsurvivalguide.com",
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: "/",
@@ -64,7 +64,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
         // Replace with your project's social card
-        image: "img/docusaurus-social-card.jpg",
+        image: "img/social.png",
         navbar: {
             title: "Wasteland Survival Guide",
             logo: {
@@ -112,16 +112,16 @@ const config = {
                 {
                     title: "Information",
                     items: [{
-                            label: "GECKWiki",
-                            href: "https://geckwiki.com/index.php/Main_Page",
-                        },
-                        {
                             label: "Mods to Avoid",
                             href: "https://vivanewvegas.github.io/avoid-mods.html",
                         },
                         {
                             label: "Tools to Avoid",
                             href: "https://vivanewvegas.github.io/avoid-tools.html",
+                        },
+                        {
+                            label: "GECKWiki",
+                            href: "https://geckwiki.com/index.php/Main_Page",
                         },
                     ],
                 },
