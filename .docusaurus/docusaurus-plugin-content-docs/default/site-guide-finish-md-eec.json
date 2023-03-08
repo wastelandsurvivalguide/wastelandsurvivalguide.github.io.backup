@@ -15,5 +15,9 @@
   "previous": {
     "title": "Animations",
     "permalink": "/guide/animations"
+  },
+  "next": {
+    "title": "Frequently Asked Questions",
+    "permalink": "/guide/faq"
   }
 }

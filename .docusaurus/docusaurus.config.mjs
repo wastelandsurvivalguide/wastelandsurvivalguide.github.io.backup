@@ -42,6 +42,18 @@ export default {
     ]
   ],
   "themeConfig": {
+    "colorMode": {
+      "defaultMode": "dark",
+      "respectPrefersColorScheme": false,
+      "disableSwitch": false
+    },
+    "docs": {
+      "sidebar": {
+        "hideable": true,
+        "autoCollapseCategories": false
+      },
+      "versionPersistence": "localStorage"
+    },
     "image": "img/social.png",
     "navbar": {
       "title": "Wasteland Survival Guide",
@@ -55,6 +67,12 @@ export default {
           "docId": "intro",
           "position": "left",
           "label": "Guide"
+        },
+        {
+          "type": "doc",
+          "docId": "faq",
+          "position": "left",
+          "label": "FAQ"
         },
         {
           "type": "doc",
@@ -107,21 +125,25 @@ export default {
               "href": "https://vivanewvegas.github.io/avoid-tools.html"
             },
             {
-              "label": "GECKWiki",
-              "href": "https://geckwiki.com/index.php/Main_Page"
+              "label": "Incompatible Mods",
+              "href": "https://taleoftwowastelands.com/viewtopic.php?t=6878"
             }
           ]
         },
         {
-          "title": "TTW Community",
+          "title": "Community",
           "items": [
             {
               "label": "TTW Discord",
               "href": "https://discord.gg/taleoftwowastelands"
             },
             {
-              "label": "Incompatible Mods List",
-              "href": "https://taleoftwowastelands.com/viewtopic.php?t=6878"
+              "label": "xNVSE Discord",
+              "href": "https://discord.gg/EebN93s"
+            },
+            {
+              "label": "GECKWiki",
+              "href": "https://geckwiki.com/index.php/Main_Page"
             }
           ]
         }
@@ -357,18 +379,6 @@ export default {
           }
         }
       ]
-    },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
-    },
-    "docs": {
-      "versionPersistence": "localStorage",
-      "sidebar": {
-        "hideable": false,
-        "autoCollapseCategories": false
-      }
     },
     "metadata": [],
     "tableOfContents": {

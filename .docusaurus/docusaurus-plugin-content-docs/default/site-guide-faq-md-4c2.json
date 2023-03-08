@@ -2,7 +2,7 @@
   "unversionedId": "faq",
   "id": "faq",
   "title": "Frequently Asked Questions",
-  "description": "Can I use Vortex instead of MO2?",
+  "description": "Application Load Error 5:0000065434?",
   "source": "@site/guide/faq.md",
   "sourceDirName": ".",
   "slug": "/faq",
@@ -11,9 +11,9 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "appendixSidebar",
-  "next": {
-    "title": "xEdit Basics",
-    "permalink": "/guide/xedit"
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Final Steps",
+    "permalink": "/guide/finish"
   }
 }

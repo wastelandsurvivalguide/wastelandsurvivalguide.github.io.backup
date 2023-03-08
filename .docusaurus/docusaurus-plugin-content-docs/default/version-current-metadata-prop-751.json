@@ -80,14 +80,20 @@
         "label": "Final Steps",
         "href": "/guide/finish",
         "docId": "finish"
-      }
-    ],
-    "appendixSidebar": [
+      },
       {
         "type": "link",
         "label": "Frequently Asked Questions",
         "href": "/guide/faq",
         "docId": "faq"
+      }
+    ],
+    "appendixSidebar": [
+      {
+        "type": "link",
+        "label": "Contributors",
+        "href": "/guide/contributors",
+        "docId": "contributors"
       },
       {
         "type": "link",
@@ -125,7 +131,7 @@
     "appendix": {
       "id": "appendix",
       "title": "Appendix",
-      "description": "Frequently-Asked Questions",
+      "description": "Contributors",
       "sidebar": "appendixSidebar"
     },
     "content": {
@@ -137,7 +143,8 @@
     "contributors": {
       "id": "contributors",
       "title": "Contributors",
-      "description": "Some content transposed from The Best of Times & Viva New Vegas by Qolore7."
+      "description": "The WSG Team",
+      "sidebar": "appendixSidebar"
     },
     "dogma": {
       "id": "dogma",
@@ -148,8 +155,8 @@
     "faq": {
       "id": "faq",
       "title": "Frequently Asked Questions",
-      "description": "Can I use Vortex instead of MO2?",
-      "sidebar": "appendixSidebar"
+      "description": "Application Load Error 5:0000065434?",
+      "sidebar": "sidebar"
     },
     "finish": {
       "id": "finish",
@@ -166,7 +173,7 @@
     "intro": {
       "id": "intro",
       "title": "Intro",
-      "description": "WSG Banner",
+      "description": "About the Guide",
       "sidebar": "sidebar"
     },
     "lod": {
@@ -212,7 +219,7 @@
     "ttw": {
       "id": "ttw",
       "title": "Tale of Two Wastelands",
-      "description": "A video guide is available to help with this section.",
+      "description": "A YouTube video is available to help with this section.",
       "sidebar": "sidebar"
     },
     "ui": {

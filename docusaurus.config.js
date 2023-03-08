@@ -63,6 +63,15 @@ const config = {
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+        colorMode: {
+            defaultMode: "dark",
+            respectPrefersColorScheme: false,
+        },
+        docs: {
+            sidebar: {
+                hideable: true,
+            },
+        },
         // Replace with your project's social card
         image: "img/social.png",
         navbar: {
@@ -76,6 +85,12 @@ const config = {
                     docId: "intro",
                     position: "left",
                     label: "Guide",
+                },
+                {
+                    type: "doc",
+                    docId: "faq",
+                    position: "left",
+                    label: "FAQ",
                 },
                 {
                     type: "doc",
@@ -120,20 +135,25 @@ const config = {
                             href: "https://vivanewvegas.github.io/avoid-tools.html",
                         },
                         {
-                            label: "GECKWiki",
-                            href: "https://geckwiki.com/index.php/Main_Page",
+                            label: "Incompatible Mods",
+                            href: "https://taleoftwowastelands.com/viewtopic.php?t=6878",
                         },
                     ],
                 },
                 {
-                    title: "TTW Community",
+                    title: "Community",
                     items: [{
                             label: "TTW Discord",
                             href: "https://discord.gg/taleoftwowastelands",
                         },
+
                         {
-                            label: "Incompatible Mods List",
-                            href: "https://taleoftwowastelands.com/viewtopic.php?t=6878",
+                            label: "xNVSE Discord",
+                            href: "https://discord.gg/EebN93s",
+                        },
+                        {
+                            label: "GECKWiki",
+                            href: "https://geckwiki.com/index.php/Main_Page",
                         },
                     ],
                 },

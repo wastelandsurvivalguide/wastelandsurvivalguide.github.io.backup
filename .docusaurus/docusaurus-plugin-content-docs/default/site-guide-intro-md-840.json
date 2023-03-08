@@ -2,7 +2,7 @@
   "unversionedId": "intro",
   "id": "intro",
   "title": "Intro",
-  "description": "WSG Banner",
+  "description": "About the Guide",
   "source": "@site/guide/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",

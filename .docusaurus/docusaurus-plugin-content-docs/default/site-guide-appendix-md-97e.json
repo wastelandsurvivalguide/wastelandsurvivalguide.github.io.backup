@@ -2,7 +2,7 @@
   "unversionedId": "appendix",
   "id": "appendix",
   "title": "Appendix",
-  "description": "Frequently-Asked Questions",
+  "description": "Contributors",
   "source": "@site/guide/appendix.md",
   "sourceDirName": ".",
   "slug": "/appendix",

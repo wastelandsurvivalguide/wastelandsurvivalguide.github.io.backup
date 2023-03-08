@@ -73,13 +73,8 @@ export default [
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '82f'),
-    exact: true
-  },
-  {
     path: '/guide',
-    component: ComponentCreator('/guide', '182'),
+    component: ComponentCreator('/guide', '906'),
     routes: [
       {
         path: '/guide/animations',
@@ -101,8 +96,9 @@ export default [
       },
       {
         path: '/guide/contributors',
-        component: ComponentCreator('/guide/contributors', 'e3b'),
-        exact: true
+        component: ComponentCreator('/guide/contributors', '2a6'),
+        exact: true,
+        sidebar: "appendixSidebar"
       },
       {
         path: '/guide/dogma',
@@ -112,9 +108,9 @@ export default [
       },
       {
         path: '/guide/faq',
-        component: ComponentCreator('/guide/faq', '6bf'),
+        component: ComponentCreator('/guide/faq', 'dc3'),
         exact: true,
-        sidebar: "appendixSidebar"
+        sidebar: "sidebar"
       },
       {
         path: '/guide/finish',

@@ -40,9 +40,13 @@ which will benefit load times, stutter and frame rate.
 
 **Manual Download** the **Main File - NVHR** and extract the contents of the archive to the game's [Root](./setup/#important-locations) folder.
 
-> By default, NVHR will create a terminal window every time the game is launched, letting you know it has loaded successfully.
-> If you would like the terminal to stop appearing, create a file named `d3dx9_38.tmp` in the [Root](./setup/#important-locations) folder.
-> This will not affect anything in-game. If you want the terminal to appear again, you can delete `d3dx9_38.tmp`.
+:::note NVHR Terminal Window
+
+By default, NVHR will create a terminal window every time the game is launched, letting you know it has loaded successfully.
+If you would like the terminal to stop appearing, create a file named `d3dx9_38.tmp` in the [Root](./setup/#important-locations) folder.
+This will not affect anything in-game. If you want the terminal to appear again, you can delete `d3dx9_38.tmp`.
+
+:::
 
 ### [Discord Rich Presence](https://www.nexusmods.com/newvegas/mods/68976)
 
@@ -118,10 +122,15 @@ made specifically for certain weapons without affecting the others.
 ### [lStewieAl's Tweaks](https://www.nexusmods.com/newvegas/mods/66347)
 
 Plugin with engine bugfixes, optional tweaks and new features with no performance impact. Fully customisable
-via in-game menu and INIs. It cannot be overstated just how many different things this mod does & how many
+via in-game menu and INIs. Changes made in the in-game menu require a game restart to take effect.
+
+:::tip There's a tweak for that
+
+It cannot be overstated just how many different things this mod does & how many
 [mods it replaces/obsoletes](https://forums.nexusmods.com/index.php?/topic/10248968-mods-that-are-redundant-with-stewies-tweaks-list/).
-Always **check the in-game Settings/Tweaks menu** before installing additional mods. Changes made here
-require a game restart to take effect.
+Always **check the Tweaks menu** before installing additional mods, as Tweaks likely already does it.
+
+:::
 
 #### Installation:
 

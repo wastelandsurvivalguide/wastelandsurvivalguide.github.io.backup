@@ -2,7 +2,7 @@
   "unversionedId": "ttw",
   "id": "ttw",
   "title": "Tale of Two Wastelands",
-  "description": "A video guide is available to help with this section.",
+  "description": "A YouTube video is available to help with this section.",
   "source": "@site/guide/ttw.md",
   "sourceDirName": ".",
   "slug": "/ttw",

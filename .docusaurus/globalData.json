@@ -27,7 +27,8 @@
             },
             {
               "id": "contributors",
-              "path": "/guide/contributors"
+              "path": "/guide/contributors",
+              "sidebar": "appendixSidebar"
             },
             {
               "id": "dogma",
@@ -37,7 +38,7 @@
             {
               "id": "faq",
               "path": "/guide/faq",
-              "sidebar": "appendixSidebar"
+              "sidebar": "sidebar"
             },
             {
               "id": "finish",
@@ -123,8 +124,8 @@
             },
             "appendixSidebar": {
               "link": {
-                "path": "/guide/faq",
-                "label": "faq"
+                "path": "/guide/contributors",
+                "label": "contributors"
               }
             }
           }
