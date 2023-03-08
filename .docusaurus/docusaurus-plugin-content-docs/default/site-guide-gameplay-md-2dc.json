@@ -6,7 +6,7 @@
   "source": "@site/guide/gameplay.md",
   "sourceDirName": ".",
   "slug": "/gameplay",
-  "permalink": "/wastelandsurvivalguide/guide/gameplay",
+  "permalink": "/guide/gameplay",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "sidebar",
   "previous": {
     "title": "User Interface & HUD",
-    "permalink": "/wastelandsurvivalguide/guide/ui"
+    "permalink": "/guide/ui"
   },
   "next": {
     "title": "Content",
-    "permalink": "/wastelandsurvivalguide/guide/content"
+    "permalink": "/guide/content"
   }
 }

@@ -6,7 +6,7 @@
   "source": "@site/guide/faq.md",
   "sourceDirName": ".",
   "slug": "/faq",
-  "permalink": "/wastelandsurvivalguide/guide/faq",
+  "permalink": "/guide/faq",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,6 +14,6 @@
   "sidebar": "appendixSidebar",
   "next": {
     "title": "xEdit Basics",
-    "permalink": "/wastelandsurvivalguide/guide/xedit"
+    "permalink": "/guide/xedit"
   }
 }

@@ -6,7 +6,7 @@
   "source": "@site/guide/finish.md",
   "sourceDirName": ".",
   "slug": "/finish",
-  "permalink": "/wastelandsurvivalguide/guide/finish",
+  "permalink": "/guide/finish",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,6 +14,6 @@
   "sidebar": "sidebar",
   "previous": {
     "title": "Animations",
-    "permalink": "/wastelandsurvivalguide/guide/animations"
+    "permalink": "/guide/animations"
   }
 }

@@ -6,7 +6,7 @@
   "source": "@site/guide/ttw.md",
   "sourceDirName": ".",
   "slug": "/ttw",
-  "permalink": "/wastelandsurvivalguide/guide/ttw",
+  "permalink": "/guide/ttw",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "sidebar",
   "previous": {
     "title": "Mod Organizer 2",
-    "permalink": "/wastelandsurvivalguide/guide/mo2"
+    "permalink": "/guide/mo2"
   },
   "next": {
     "title": "Utilities",
-    "permalink": "/wastelandsurvivalguide/guide/utilities"
+    "permalink": "/guide/utilities"
   }
 }

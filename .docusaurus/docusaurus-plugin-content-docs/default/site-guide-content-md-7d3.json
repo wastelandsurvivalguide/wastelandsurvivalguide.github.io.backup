@@ -6,7 +6,7 @@
   "source": "@site/guide/content.md",
   "sourceDirName": ".",
   "slug": "/content",
-  "permalink": "/wastelandsurvivalguide/guide/content",
+  "permalink": "/guide/content",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "sidebar",
   "previous": {
     "title": "Gameplay",
-    "permalink": "/wastelandsurvivalguide/guide/gameplay"
+    "permalink": "/guide/gameplay"
   },
   "next": {
     "title": "Overhauls",
-    "permalink": "/wastelandsurvivalguide/guide/overhauls"
+    "permalink": "/guide/overhauls"
   }
 }

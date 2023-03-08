@@ -6,7 +6,7 @@
   "source": "@site/guide/xedit.md",
   "sourceDirName": ".",
   "slug": "/xedit",
-  "permalink": "/wastelandsurvivalguide/guide/xedit",
+  "permalink": "/guide/xedit",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "appendixSidebar",
   "previous": {
     "title": "Frequently Asked Questions",
-    "permalink": "/wastelandsurvivalguide/guide/faq"
+    "permalink": "/guide/faq"
   },
   "next": {
     "title": "The Method",
-    "permalink": "/wastelandsurvivalguide/guide/themethod"
+    "permalink": "/guide/themethod"
   }
 }

@@ -6,7 +6,7 @@
   "source": "@site/guide/mo2.md",
   "sourceDirName": ".",
   "slug": "/mo2",
-  "permalink": "/wastelandsurvivalguide/guide/mo2",
+  "permalink": "/guide/mo2",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "sidebar",
   "previous": {
     "title": "Game Setup",
-    "permalink": "/wastelandsurvivalguide/guide/setup"
+    "permalink": "/guide/setup"
   },
   "next": {
     "title": "Tale of Two Wastelands",
-    "permalink": "/wastelandsurvivalguide/guide/ttw"
+    "permalink": "/guide/ttw"
   }
 }

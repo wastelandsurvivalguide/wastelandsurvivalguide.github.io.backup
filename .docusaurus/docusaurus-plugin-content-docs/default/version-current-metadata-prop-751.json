@@ -12,73 +12,73 @@
       {
         "type": "link",
         "label": "Intro",
-        "href": "/wastelandsurvivalguide/guide/intro",
+        "href": "/guide/intro",
         "docId": "intro"
       },
       {
         "type": "link",
         "label": "Game Setup",
-        "href": "/wastelandsurvivalguide/guide/setup",
+        "href": "/guide/setup",
         "docId": "setup"
       },
       {
         "type": "link",
         "label": "Mod Organizer 2",
-        "href": "/wastelandsurvivalguide/guide/mo2",
+        "href": "/guide/mo2",
         "docId": "mo2"
       },
       {
         "type": "link",
         "label": "Tale of Two Wastelands",
-        "href": "/wastelandsurvivalguide/guide/ttw",
+        "href": "/guide/ttw",
         "docId": "ttw"
       },
       {
         "type": "link",
         "label": "Utilities",
-        "href": "/wastelandsurvivalguide/guide/utilities",
+        "href": "/guide/utilities",
         "docId": "utilities"
       },
       {
         "type": "link",
         "label": "User Interface & HUD",
-        "href": "/wastelandsurvivalguide/guide/ui",
+        "href": "/guide/ui",
         "docId": "ui"
       },
       {
         "type": "link",
         "label": "Gameplay",
-        "href": "/wastelandsurvivalguide/guide/gameplay",
+        "href": "/guide/gameplay",
         "docId": "gameplay"
       },
       {
         "type": "link",
         "label": "Content",
-        "href": "/wastelandsurvivalguide/guide/content",
+        "href": "/guide/content",
         "docId": "content"
       },
       {
         "type": "link",
         "label": "Overhauls",
-        "href": "/wastelandsurvivalguide/guide/overhauls",
+        "href": "/guide/overhauls",
         "docId": "overhauls"
       },
       {
         "type": "link",
         "label": "Visuals",
-        "href": "/wastelandsurvivalguide/guide/visuals",
+        "href": "/guide/visuals",
         "docId": "visuals"
       },
       {
         "type": "link",
         "label": "Animations",
-        "href": "/wastelandsurvivalguide/guide/animations",
+        "href": "/guide/animations",
         "docId": "animations"
       },
       {
         "type": "link",
         "label": "Final Steps",
-        "href": "/wastelandsurvivalguide/guide/finish",
+        "href": "/guide/finish",
         "docId": "finish"
       }
     ],
@@ -86,31 +86,31 @@
       {
         "type": "link",
         "label": "Frequently Asked Questions",
-        "href": "/wastelandsurvivalguide/guide/faq",
+        "href": "/guide/faq",
         "docId": "faq"
       },
       {
         "type": "link",
         "label": "xEdit Basics",
-        "href": "/wastelandsurvivalguide/guide/xedit",
+        "href": "/guide/xedit",
         "docId": "xedit"
       },
       {
         "type": "link",
         "label": "The Method",
-        "href": "/wastelandsurvivalguide/guide/themethod",
+        "href": "/guide/themethod",
         "docId": "themethod"
       },
       {
         "type": "link",
         "label": "LOD Guide",
-        "href": "/wastelandsurvivalguide/guide/lod",
+        "href": "/guide/lod",
         "docId": "lod"
       },
       {
         "type": "link",
         "label": "Dangerous Dogma",
-        "href": "/wastelandsurvivalguide/guide/dogma",
+        "href": "/guide/dogma",
         "docId": "dogma"
       }
     ]

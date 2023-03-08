@@ -1,115 +1,115 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/wastelandsurvivalguide/guide",
+      "path": "/guide",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/wastelandsurvivalguide/guide",
+          "path": "/guide",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "animations",
-              "path": "/wastelandsurvivalguide/guide/animations",
+              "path": "/guide/animations",
               "sidebar": "sidebar"
             },
             {
               "id": "appendix",
-              "path": "/wastelandsurvivalguide/guide/appendix",
+              "path": "/guide/appendix",
               "sidebar": "appendixSidebar"
             },
             {
               "id": "content",
-              "path": "/wastelandsurvivalguide/guide/content",
+              "path": "/guide/content",
               "sidebar": "sidebar"
             },
             {
               "id": "contributors",
-              "path": "/wastelandsurvivalguide/guide/contributors"
+              "path": "/guide/contributors"
             },
             {
               "id": "dogma",
-              "path": "/wastelandsurvivalguide/guide/dogma",
+              "path": "/guide/dogma",
               "sidebar": "appendixSidebar"
             },
             {
               "id": "faq",
-              "path": "/wastelandsurvivalguide/guide/faq",
+              "path": "/guide/faq",
               "sidebar": "appendixSidebar"
             },
             {
               "id": "finish",
-              "path": "/wastelandsurvivalguide/guide/finish",
+              "path": "/guide/finish",
               "sidebar": "sidebar"
             },
             {
               "id": "gameplay",
-              "path": "/wastelandsurvivalguide/guide/gameplay",
+              "path": "/guide/gameplay",
               "sidebar": "sidebar"
             },
             {
               "id": "intro",
-              "path": "/wastelandsurvivalguide/guide/intro",
+              "path": "/guide/intro",
               "sidebar": "sidebar"
             },
             {
               "id": "lod",
-              "path": "/wastelandsurvivalguide/guide/lod",
+              "path": "/guide/lod",
               "sidebar": "appendixSidebar"
             },
             {
               "id": "mo2",
-              "path": "/wastelandsurvivalguide/guide/mo2",
+              "path": "/guide/mo2",
               "sidebar": "sidebar"
             },
             {
               "id": "mods-avoid",
-              "path": "/wastelandsurvivalguide/guide/mods-avoid"
+              "path": "/guide/mods-avoid"
             },
             {
               "id": "overhauls",
-              "path": "/wastelandsurvivalguide/guide/overhauls",
+              "path": "/guide/overhauls",
               "sidebar": "sidebar"
             },
             {
               "id": "setup",
-              "path": "/wastelandsurvivalguide/guide/setup",
+              "path": "/guide/setup",
               "sidebar": "sidebar"
             },
             {
               "id": "themethod",
-              "path": "/wastelandsurvivalguide/guide/themethod",
+              "path": "/guide/themethod",
               "sidebar": "appendixSidebar"
             },
             {
               "id": "tools-avoid",
-              "path": "/wastelandsurvivalguide/guide/tools-avoid"
+              "path": "/guide/tools-avoid"
             },
             {
               "id": "ttw",
-              "path": "/wastelandsurvivalguide/guide/ttw",
+              "path": "/guide/ttw",
               "sidebar": "sidebar"
             },
             {
               "id": "ui",
-              "path": "/wastelandsurvivalguide/guide/ui",
+              "path": "/guide/ui",
               "sidebar": "sidebar"
             },
             {
               "id": "utilities",
-              "path": "/wastelandsurvivalguide/guide/utilities",
+              "path": "/guide/utilities",
               "sidebar": "sidebar"
             },
             {
               "id": "visuals",
-              "path": "/wastelandsurvivalguide/guide/visuals",
+              "path": "/guide/visuals",
               "sidebar": "sidebar"
             },
             {
               "id": "xedit",
-              "path": "/wastelandsurvivalguide/guide/xedit",
+              "path": "/guide/xedit",
               "sidebar": "appendixSidebar"
             }
           ],
@@ -117,13 +117,13 @@
           "sidebars": {
             "sidebar": {
               "link": {
-                "path": "/wastelandsurvivalguide/guide/intro",
+                "path": "/guide/intro",
                 "label": "intro"
               }
             },
             "appendixSidebar": {
               "link": {
-                "path": "/wastelandsurvivalguide/guide/faq",
+                "path": "/guide/faq",
                 "label": "faq"
               }
             }

@@ -6,7 +6,7 @@
   "source": "@site/guide/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/wastelandsurvivalguide/guide/intro",
+  "permalink": "/guide/intro",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,6 +14,6 @@
   "sidebar": "sidebar",
   "next": {
     "title": "Game Setup",
-    "permalink": "/wastelandsurvivalguide/guide/setup"
+    "permalink": "/guide/setup"
   }
 }

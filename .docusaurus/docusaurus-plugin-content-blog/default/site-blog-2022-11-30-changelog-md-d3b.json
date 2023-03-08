@@ -1,5 +1,5 @@
 {
-  "permalink": "/wastelandsurvivalguide/blog/2022/11/30/changelog",
+  "permalink": "/blog/2022/11/30/changelog",
   "source": "@site/blog/2022-11-30-changelog.md",
   "title": "Changelog - November 2022",
   "description": "---",
@@ -11,10 +11,10 @@
   "frontMatter": {},
   "prevItem": {
     "title": "Changelog - January 2023",
-    "permalink": "/wastelandsurvivalguide/blog/2023/01/30/changelog"
+    "permalink": "/blog/2023/01/30/changelog"
   },
   "nextItem": {
     "title": "Changelog - October 2022",
-    "permalink": "/wastelandsurvivalguide/blog/2022/10/30/changelog"
+    "permalink": "/blog/2022/10/30/changelog"
   }
 }

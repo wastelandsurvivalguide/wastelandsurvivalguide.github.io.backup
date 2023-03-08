@@ -6,7 +6,7 @@
   "source": "@site/guide/visuals.md",
   "sourceDirName": ".",
   "slug": "/visuals",
-  "permalink": "/wastelandsurvivalguide/guide/visuals",
+  "permalink": "/guide/visuals",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "sidebar",
   "previous": {
     "title": "Overhauls",
-    "permalink": "/wastelandsurvivalguide/guide/overhauls"
+    "permalink": "/guide/overhauls"
   },
   "next": {
     "title": "Animations",
-    "permalink": "/wastelandsurvivalguide/guide/animations"
+    "permalink": "/guide/animations"
   }
 }

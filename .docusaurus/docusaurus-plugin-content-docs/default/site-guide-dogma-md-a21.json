@@ -6,7 +6,7 @@
   "source": "@site/guide/dogma.md",
   "sourceDirName": ".",
   "slug": "/dogma",
-  "permalink": "/wastelandsurvivalguide/guide/dogma",
+  "permalink": "/guide/dogma",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,6 +14,6 @@
   "sidebar": "appendixSidebar",
   "previous": {
     "title": "LOD Guide",
-    "permalink": "/wastelandsurvivalguide/guide/lod"
+    "permalink": "/guide/lod"
   }
 }

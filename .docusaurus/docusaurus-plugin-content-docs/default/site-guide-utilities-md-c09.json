@@ -6,7 +6,7 @@
   "source": "@site/guide/utilities.md",
   "sourceDirName": ".",
   "slug": "/utilities",
-  "permalink": "/wastelandsurvivalguide/guide/utilities",
+  "permalink": "/guide/utilities",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "sidebar",
   "previous": {
     "title": "Tale of Two Wastelands",
-    "permalink": "/wastelandsurvivalguide/guide/ttw"
+    "permalink": "/guide/ttw"
   },
   "next": {
     "title": "User Interface & HUD",
-    "permalink": "/wastelandsurvivalguide/guide/ui"
+    "permalink": "/guide/ui"
   }
 }

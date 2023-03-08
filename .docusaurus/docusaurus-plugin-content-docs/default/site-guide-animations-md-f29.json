@@ -6,7 +6,7 @@
   "source": "@site/guide/animations.md",
   "sourceDirName": ".",
   "slug": "/animations",
-  "permalink": "/wastelandsurvivalguide/guide/animations",
+  "permalink": "/guide/animations",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "sidebar",
   "previous": {
     "title": "Visuals",
-    "permalink": "/wastelandsurvivalguide/guide/visuals"
+    "permalink": "/guide/visuals"
   },
   "next": {
     "title": "Final Steps",
-    "permalink": "/wastelandsurvivalguide/guide/finish"
+    "permalink": "/guide/finish"
   }
 }

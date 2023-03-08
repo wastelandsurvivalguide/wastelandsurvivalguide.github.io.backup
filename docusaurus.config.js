@@ -4,39 +4,23 @@
 const lightCodeTheme = require("prism-react-renderer/themes/nightOwlLight");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-/*
-dracula.js
-duotoneDark.js
-duotoneLight.js
-github.js
-nightOwl.js
-nightOwlLight.js
-oceanicNext.js
-okaidia.js
-palenight.js
-shadesOfPurple.js
-synthwave84.js
-ultramin.js
-vsDark.js
-vsLight.js
-*/
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: "Wasteland Survival Guide",
     tagline: "A Tale of Two Wastelands Modding Guide",
-    favicon: "img/favicon.ico",
+    favicon: "./static/img/favicon.ico",
 
     // Set the production url of your site here
-    url: "https://wastelandsurvivalguide.com",
+    url: "https://wastelandsurvivalguide.github.io",
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: "/wastelandsurvivalguide/",
+    baseUrl: "/",
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: "wastelandsurvivalguide", // Usually your GitHub org/user name.
     projectName: "wastelandsurvivalguide.github.io", // Usually your repo name.
+    deploymentBranch: "main",
     trailingSlash: false,
 
     onBrokenLinks: "throw",

@@ -6,7 +6,7 @@
   "source": "@site/guide/lod.md",
   "sourceDirName": ".",
   "slug": "/lod",
-  "permalink": "/wastelandsurvivalguide/guide/lod",
+  "permalink": "/guide/lod",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "appendixSidebar",
   "previous": {
     "title": "The Method",
-    "permalink": "/wastelandsurvivalguide/guide/themethod"
+    "permalink": "/guide/themethod"
   },
   "next": {
     "title": "Dangerous Dogma",
-    "permalink": "/wastelandsurvivalguide/guide/dogma"
+    "permalink": "/guide/dogma"
   }
 }
